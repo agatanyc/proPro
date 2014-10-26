@@ -1,0 +1,32 @@
+digraph "proPRO Design" {
+
+bgcolor="#333366:#CCCCEE";
+gradientangle=90;
+
+node [
+    style=filled,
+    fillcolor="#669999:#AACCCC",
+    gradientangle=90
+];
+
+facade [label="Data\nFaçade"];
+
+//proPRO [label=<<B>proPRO</B><BR/>Library>];
+
+DB [label="User\nData"];
+
+People -> App;
+
+App -> UI;
+App -> DB;
+App -> facade;
+
+facade -> Nutritionix;
+facade -> USDA;
+facade -> "Other Sources";
+
+
+labelloc=t;
+labeljust=l;
+label="proPro Design";
+}

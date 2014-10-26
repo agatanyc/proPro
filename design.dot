@@ -1,32 +1,48 @@
-digraph "proPRO Design" {
+digraph "proPRO Application" {
 
 bgcolor="#333366:#CCCCEE";
 gradientangle=90;
 
 node [
+    shape=box,
     style=filled,
     fillcolor="#669999:#AACCCC",
     gradientangle=90
 ];
 
-facade [label="Data\nFaçade"];
+subgraph cluster_app {
+    label="App";
 
-//proPRO [label=<<B>proPRO</B><BR/>Library>];
+    accounts [label="User Account\nData"];
+    controller [label="Controller"];
+    ui [label="User\nInterface"];
 
-DB [label="User\nData"];
+    ui -> controller;
+    controller -> accounts;
+}
 
-People -> App;
+subgraph cluster_prolib {
+    label="Nutrition (proPRO)";
 
-App -> UI;
-App -> DB;
-App -> facade;
+    nutritionixdao [label="Nutritionix\nAdapter"];
+    mockdao [label="Mock\nAdapter"];
+    appbridge [label="Application\nBridge"];
 
-facade -> Nutritionix;
-facade -> USDA;
-facade -> "Other Sources";
+    appbridge -> nutritionixdao;
+    appbridge -> mockdao;
+}
 
+subgraph cluster_sources {
+    label="Data Sources";
+
+    files [label="Dummy Data"];
+    Nutritionix;
+}
+
+controller -> appbridge;
+nutritionixdao -> Nutritionix;
+mockdao -> files;
 
 labelloc=t;
-labeljust=l;
-label="proPro Design";
+label="proPRO Design";
 }

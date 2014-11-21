@@ -2,9 +2,14 @@ import json
 from pprint import pprint
 from sys import argv
 
-def get_aspect(food, desc):
+def get_calories(food):
     for aspect in food['nutrients']:
-        if aspect['description'] == desc:
+        if aspect['description'] == 'Energy' and aspect['units'] == 'kcal':
+            return aspect['value']
+
+def get_protein(food):
+    for aspect in food['nutrients']:
+        if aspect['description'] == 'Protein':
             return aspect['value']
 
 def find_above(min_ratio):
@@ -12,37 +17,27 @@ def find_above(min_ratio):
     with open('/Users/agata/Downloads/food.json') as file:
         foods = json.load(file)
 
-    proteinval = 0
-    caloricval = 0
+    protein_val = 0
+    caloric_val = 0
 
-    proteinarray = {}
+    protein_dict = {}
     for food in foods:
-        proteinval = get_aspect(food, 'Protein')
-        caloricval = get_aspect(food, 'Energy')
-        if caloricval > 10 and proteinval / caloricval >= min_ratio:
-            key = proteinval / caloricval
-            try:
-                proteinarray[key].update(food)
-            except KeyError:
-                proteinarray.update({proteinval /caloricval : food}) 
-    return proteinarray
+        caloric_val = get_calories(food)
+        if caloric_val > 20:
+            protein_val = get_protein(food)
+            key = protein_val / caloric_val
+            if key >= min_ratio:
+                if key in protein_dict:
+                    protein_dict[key].append(food)
+                else:
+                    protein_dict[key] = [food]
 
-min_ratio = 0.2
-proteinarray = find_above(min_ratio)
-ratios = proteinarray.keys()
-sorted_ratios = sorted(ratios, reverse=True)
+    return protein_dict
 
-#s = "{:8f} {}".format(key, proteinarray[key]['description'])
-input = argv[1]
-if input in proteinarray.values():
-    print('Good choice!')
-
-#for key in sorted_ratios:
-    #print("{:8f} {}".format(key, proteinarray[key]['description']))
-
-#if __name__ == '__main__':
-    #from sys import argv
-    #found = find_above(float(argv[1]) if len(argv) > 1 else 0.2)
-    #print(len(found))
-    #for x in found:
-        #print(x['description'])
+if __name__ == '__main__':
+    min_ratio = 0.2
+    protein_dict = find_above(min_ratio)
+    ratios = protein_dict.keys()
+    sorted_ratios = sorted(ratios, reverse=True)
+    for ratio in sorted_ratios:
+        pprint(protein_dict[ratio])

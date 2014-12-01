@@ -40,4 +40,13 @@ if __name__ == '__main__':
     ratios = protein_dict.keys()
     sorted_ratios = sorted(ratios, reverse=True)
     for ratio in sorted_ratios:
-        pprint(protein_dict[ratio])
+#        pprint(protein_dict[ratio])
+        for food in protein_dict[ratio]:
+            print(food['description'])
+            for aspect in food['nutrients']:
+                if aspect['description'] == 'Protein':
+                    pprint(aspect['description'])
+                    pprint(aspect['value'])
+                    pprint(aspect['units'])
+                    pprint(' ')
+

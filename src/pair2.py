@@ -2,6 +2,12 @@ import json
 from pprint import pprint
 from sys import argv
 
+class Food:
+    def __init__(self, description, protein_val, caloric_val):
+        self.description = description
+        self.protein_val = protein_val # pro_units?
+        eslf.caloric_val = caloric_val # cal_units?
+
 def get_calories(food):
     for aspect in food['nutrients']:
         if aspect['description'] == 'Energy' and aspect['units'] == 'kcal':
@@ -45,8 +51,12 @@ if __name__ == '__main__':
             print(food['description'])
             for aspect in food['nutrients']:
                 if aspect['description'] == 'Protein':
-                    pprint(aspect['description'])
-                    pprint(aspect['value'])
-                    pprint(aspect['units'])
-                    pprint(' ')
-
+                    print(aspect['description'], end=" ")
+                    print(aspect['value'], end=" ")
+                    print(aspect['units'])
+                else:
+                    if aspect['description']=='Energy' and aspect['units']=='kcal':
+                         print(aspect['description'], end=" ")
+                         print(aspect['value'], end=" ")
+                         print(aspect['units'])
+                         print()

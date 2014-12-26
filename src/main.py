@@ -1,3 +1,5 @@
+"""This program uses data from http://ashleyw.co.uk/project/food-nutrient-database"""
+
 import json
 from pprint import pprint
 from sys import argv
@@ -5,8 +7,8 @@ from sys import argv
 class Food:
     def __init__(self, description, protein_val, caloric_val):
         self.description = description
-        self.protein_val = protein_val # pro_units?
-        eslf.caloric_val = caloric_val # cal_units?
+        self.protein_val = protein_val
+        eslf.caloric_val = caloric_val
 
 def get_calories(food):
     for aspect in food['nutrients']:

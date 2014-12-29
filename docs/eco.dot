@@ -1,0 +1,32 @@
+digraph "proPro Ecosystem" {
+
+subgraph cluster_apps {
+label="Applications"
+web [label="Web Site"];
+mob [label="Mobile App"];
+}
+
+subgraph cluster_libs {
+label="Libraries"
+pro [label="proPro"];
+flask [label="Flask"];
+kivy [label="Kivy"];
+}
+
+subgraph cluster_data {
+label="Data Sources"
+nut [label="Nutritionix"];
+usda [label="USDA"];
+}
+
+web -> pro;
+web -> flask;
+
+mob -> pro;
+mob -> kivy;
+
+pro -> nut;
+pro -> usda;
+
+
+}

@@ -1,5 +1,8 @@
 .PHONY: default
-default: eco.dot.svg
+default: eco.dot.svg glossary.md.html todo.md.html
 
-%.svg: %
+%.dot.svg: %.dot
 	dot -T svg -o $@ $<
+
+%.md.html: %.md
+	markdown > $@ $<

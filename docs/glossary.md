@@ -14,9 +14,7 @@ Turkey breast) or a *meal*.</dd>
 <dt>Protein content</dt>
 <dd>Percentage of calories from protein.</dd>
 
-<dt>Serving</dt>
-<dd>A predefined amount of some food.  The serving size of a specified food is
-typically quantified in two distinct ways: a human-friendly string (e.g., "12
-pretzels" or "2 oz."), and a mass in grams.</dd>
+<dt>Serving size</dt>
+<dd>A predefined amount of some food, in ounces.</dd>
 
 </dl>

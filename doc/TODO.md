@@ -10,14 +10,14 @@
 
 ## Functions:
 
-all_foods(filter) 
-        return seq
+    all_foods(filter)
+            return seq
 
-protein_density(food)
-        return float (g of protein/g of food)
+    protein_density(food)
+            return float (g of protein/g of food)
 
-calorie_density(food)
-        return float (cal/g of food)
+    calorie_density(food)
+            return float (cal/g of food)
 
 ## Filters:
 

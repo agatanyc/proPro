@@ -8,7 +8,7 @@ This document defines fundamental terminology and concepts necessary for effecti
 <dd>Something a person can eat.  Either a simple comestible substance (e.g.,
 Turkey breast) or a *meal*.</dd>
 
-<dt>Meal<dt>
+<dt>Meal</dt>
 <dd>Food defined as a mixture of other foods in specified proportions.</dd>
 
 <dt>Protein content</dt>

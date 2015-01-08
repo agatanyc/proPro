@@ -11,7 +11,7 @@ class Source:
         Return the number of calories in one serving of `food`; e.g., 30
         calories in one serving (i.e., 1 oz) of chicken breast.
         """
-        return self.calories_per_oz() * self.oz_per_serving()
+        return self.calories_per_oz(food) * self.oz_per_serving(food)
 
     # Abstract methods to be overridden by subclasses
 

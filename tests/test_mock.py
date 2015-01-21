@@ -31,10 +31,11 @@ class TestMockSource(unittest.TestCase):
         self.assertGreaterEqual(cal, 0)
 
     def test_oz_per_serving(self):
-        pass # TODO
+        self.assertGreater(self.source.oz_per_serving(self.chicken), 0)
 
     def test_protein_grams_per_oz(self):
-        pass # TODO
+        g = self.source.protein_grams_per_oz(self.chicken)
+        self.assertGreaterEqual(g, 0)
 
 if __name__ == '__main__':
     unittest.main()

@@ -3,6 +3,9 @@
 __version__ = '0.1.0'
 
 from . import mock
+from . import usda
+
+import os
 
 # Factory methods
 
@@ -18,4 +21,6 @@ def usda_source():
 
     Return a source of data from the USDA.
     """
-    return usda.Source()    # TODO
+    here = os.path.dirname(os.path.realpath(__file__)) # propro
+    path = os.path.join(here, 'nice')
+    return usda.Source(path)

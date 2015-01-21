@@ -1,0 +1,628 @@
+{
+   "meta" : {
+      "ref_per" : "0",
+      "langual" : [],
+      "ref_desc" : "",
+      "protein_factor" : "4.27",
+      "fndds_survey" : "",
+      "footnotes" : [],
+      "ndb_no" : 35080,
+      "fat_factor" : "9.02",
+      "nitrogen_factor" : "6.25",
+      "carb_factor" : "3.87"
+   },
+   "manufacturer" : "",
+   "nutrients" : [
+      {
+         "code" : "203",
+         "meta" : {
+            "maxval" : "",
+            "studies" : "",
+            "source_type" : "Analytical data from the literature, partial documentation",
+            "mod_year" : "2004",
+            "is_add" : "",
+            "rounded" : "2",
+            "conf" : "",
+            "data_points" : "1",
+            "std_error" : "",
+            "degrees_of_freedom" : "",
+            "mod_month" : "04",
+            "minval" : "",
+            "derivation" : "Analytical data; from the literature or  government;  incomplete documentation",
+            "lower_error" : "",
+            "upper_error" : "",
+            "imputed" : "",
+            "sources" : [
+               "D4961"
+            ],
+            "stat_comments" : ""
+         },
+         "abbr" : "PROCNT",
+         "units" : "g",
+         "name" : "Protein",
+         "value" : "21.50"
+      },
+      {
+         "meta" : {
+            "imputed" : "",
+            "sources" : [
+               "D4961"
+            ],
+            "stat_comments" : "",
+            "minval" : "",
+            "upper_error" : "",
+            "lower_error" : "",
+            "derivation" : "Analytical data; from the literature or  government;  incomplete documentation",
+            "degrees_of_freedom" : "",
+            "mod_month" : "04",
+            "studies" : "",
+            "maxval" : "",
+            "mod_year" : "2004",
+            "source_type" : "Analytical data from the literature, partial documentation",
+            "conf" : "",
+            "is_add" : "",
+            "rounded" : "2",
+            "std_error" : "",
+            "data_points" : "1"
+         },
+         "code" : "204",
+         "units" : "g",
+         "abbr" : "FAT",
+         "value" : "2.66",
+         "name" : "Total lipid (fat)"
+      },
+      {
+         "code" : "205",
+         "meta" : {
+            "stat_comments" : "",
+            "imputed" : "",
+            "sources" : [],
+            "upper_error" : "",
+            "derivation" : "Assumed zero (Insignificant amount or not naturally occurring in a food, such as fiber in meat)",
+            "lower_error" : "",
+            "minval" : "",
+            "degrees_of_freedom" : "",
+            "mod_month" : "08",
+            "conf" : "",
+            "is_add" : "",
+            "rounded" : "2",
+            "std_error" : "",
+            "data_points" : "0",
+            "studies" : "",
+            "maxval" : "",
+            "mod_year" : "2008",
+            "source_type" : "Assumed zero"
+         },
+         "abbr" : "CHOCDF",
+         "units" : "g",
+         "name" : "Carbohydrate, by difference",
+         "value" : "0.00"
+      },
+      {
+         "name" : "Ash",
+         "value" : "0.64",
+         "units" : "g",
+         "abbr" : "ASH",
+         "meta" : {
+            "degrees_of_freedom" : "",
+            "mod_month" : "04",
+            "conf" : "",
+            "is_add" : "",
+            "rounded" : "2",
+            "std_error" : "",
+            "data_points" : "0",
+            "studies" : "",
+            "maxval" : "",
+            "mod_year" : "2004",
+            "source_type" : "Calculated or imputed",
+            "stat_comments" : "",
+            "imputed" : "",
+            "sources" : [
+               "D4961"
+            ],
+            "upper_error" : "",
+            "derivation" : "Nutrient that is based on other nutrient/s; calculated by difference or summed (with or without activity factors)",
+            "lower_error" : "",
+            "minval" : ""
+         },
+         "code" : "207"
+      },
+      {
+         "meta" : {
+            "std_error" : "",
+            "data_points" : "0",
+            "conf" : "",
+            "is_add" : "",
+            "rounded" : "0",
+            "mod_year" : "2011",
+            "source_type" : "Calculated or imputed",
+            "studies" : "",
+            "maxval" : "",
+            "mod_month" : "01",
+            "degrees_of_freedom" : "",
+            "upper_error" : "",
+            "derivation" : "Nutrient that is based on other nutrient/s; calculated rather than analyzed",
+            "lower_error" : "",
+            "minval" : "",
+            "stat_comments" : "",
+            "sources" : [],
+            "imputed" : ""
+         },
+         "code" : "208",
+         "units" : "kcal",
+         "abbr" : "ENERC_KCAL",
+         "value" : "116",
+         "name" : "Energy"
+      },
+      {
+         "name" : "Water",
+         "value" : "75.00",
+         "units" : "g",
+         "abbr" : "WATER",
+         "meta" : {
+            "maxval" : "",
+            "studies" : "",
+            "source_type" : "Analytical data from the literature, partial documentation",
+            "mod_year" : "2004",
+            "is_add" : "",
+            "rounded" : "2",
+            "conf" : "",
+            "data_points" : "1",
+            "std_error" : "",
+            "degrees_of_freedom" : "",
+            "mod_month" : "04",
+            "minval" : "",
+            "derivation" : "Analytical data; from the literature or  government;  incomplete documentation",
+            "lower_error" : "",
+            "upper_error" : "",
+            "imputed" : "",
+            "sources" : [
+               "D4961"
+            ],
+            "stat_comments" : ""
+         },
+         "code" : "255"
+      },
+      {
+         "code" : "268",
+         "meta" : {
+            "mod_month" : "01",
+            "degrees_of_freedom" : "",
+            "source_type" : "Calculated or imputed",
+            "mod_year" : "2011",
+            "maxval" : "",
+            "studies" : "",
+            "data_points" : "0",
+            "std_error" : "",
+            "is_add" : "",
+            "rounded" : "0",
+            "conf" : "",
+            "sources" : [],
+            "imputed" : "",
+            "stat_comments" : "",
+            "minval" : "",
+            "lower_error" : "",
+            "derivation" : "Nutrient that is based on other nutrient/s; calculated rather than analyzed",
+            "upper_error" : ""
+         },
+         "abbr" : "ENERC_KJ",
+         "units" : "kJ",
+         "name" : "Energy",
+         "value" : "484"
+      },
+      {
+         "units" : "mg",
+         "abbr" : "CA",
+         "value" : "7",
+         "name" : "Calcium, Ca",
+         "meta" : {
+            "lower_error" : "",
+            "derivation" : "Analytical data; from the literature or  government;  incomplete documentation",
+            "upper_error" : "",
+            "minval" : "",
+            "stat_comments" : "",
+            "imputed" : "",
+            "sources" : [
+               "D4961"
+            ],
+            "is_add" : "",
+            "rounded" : "0",
+            "conf" : "",
+            "data_points" : "1",
+            "std_error" : "",
+            "maxval" : "",
+            "studies" : "",
+            "source_type" : "Analytical data from the literature, partial documentation",
+            "mod_year" : "2004",
+            "degrees_of_freedom" : "",
+            "mod_month" : "04"
+         },
+         "code" : "301"
+      },
+      {
+         "code" : "303",
+         "meta" : {
+            "source_type" : "Analytical data from the literature, partial documentation",
+            "mod_year" : "2004",
+            "maxval" : "",
+            "studies" : "",
+            "data_points" : "1",
+            "std_error" : "",
+            "is_add" : "",
+            "rounded" : "2",
+            "conf" : "",
+            "mod_month" : "04",
+            "degrees_of_freedom" : "",
+            "minval" : "",
+            "derivation" : "Analytical data; from the literature or  government;  incomplete documentation",
+            "lower_error" : "",
+            "upper_error" : "",
+            "sources" : [
+               "D4961"
+            ],
+            "imputed" : "",
+            "stat_comments" : ""
+         },
+         "value" : "2.90",
+         "name" : "Iron, Fe",
+         "units" : "mg",
+         "abbr" : "FE"
+      },
+      {
+         "value" : "0",
+         "name" : "Vitamin A, IU",
+         "units" : "IU",
+         "abbr" : "VITA_IU",
+         "code" : "318",
+         "meta" : {
+            "data_points" : "1",
+            "std_error" : "",
+            "is_add" : "",
+            "rounded" : "0",
+            "conf" : "",
+            "source_type" : "Analytical data from the literature, partial documentation",
+            "mod_year" : "2004",
+            "maxval" : "",
+            "studies" : "",
+            "mod_month" : "04",
+            "degrees_of_freedom" : "",
+            "lower_error" : "",
+            "derivation" : "Analytical data; from the literature or  government;  incomplete documentation",
+            "upper_error" : "",
+            "minval" : "",
+            "stat_comments" : "",
+            "sources" : [
+               "D4961"
+            ],
+            "imputed" : ""
+         }
+      },
+      {
+         "value" : "0",
+         "name" : "Vitamin A, RAE",
+         "abbr" : "VITA_RAE",
+         "units" : "µg",
+         "meta" : {
+            "data_points" : "0",
+            "std_error" : "",
+            "is_add" : "",
+            "rounded" : "0",
+            "conf" : "",
+            "source_type" : "Calculated or imputed",
+            "mod_year" : "2011",
+            "maxval" : "",
+            "studies" : "",
+            "mod_month" : "01",
+            "degrees_of_freedom" : "",
+            "lower_error" : "",
+            "derivation" : "Nutrient that is based on other nutrient/s; calculated rather than analyzed",
+            "upper_error" : "",
+            "minval" : "",
+            "stat_comments" : "",
+            "sources" : [],
+            "imputed" : ""
+         },
+         "code" : "320"
+      },
+      {
+         "name" : "Vitamin C, total ascorbic acid",
+         "value" : "0.0",
+         "abbr" : "VITC",
+         "units" : "mg",
+         "code" : "401",
+         "meta" : {
+            "studies" : "",
+            "maxval" : "",
+            "mod_year" : "2004",
+            "source_type" : "Analytical data from the literature, partial documentation",
+            "conf" : "",
+            "is_add" : "",
+            "rounded" : "1",
+            "std_error" : "",
+            "data_points" : "1",
+            "degrees_of_freedom" : "",
+            "mod_month" : "04",
+            "minval" : "",
+            "upper_error" : "",
+            "derivation" : "Analytical data; from the literature or  government;  incomplete documentation",
+            "lower_error" : "",
+            "imputed" : "",
+            "sources" : [
+               "D4961"
+            ],
+            "stat_comments" : ""
+         }
+      },
+      {
+         "value" : "0.200",
+         "name" : "Thiamin",
+         "abbr" : "THIA",
+         "units" : "mg",
+         "meta" : {
+            "lower_error" : "",
+            "derivation" : "Analytical data; from the literature or  government;  incomplete documentation",
+            "upper_error" : "",
+            "minval" : "",
+            "stat_comments" : "",
+            "sources" : [
+               "D4961"
+            ],
+            "imputed" : "",
+            "data_points" : "1",
+            "std_error" : "",
+            "rounded" : "3",
+            "is_add" : "",
+            "conf" : "",
+            "source_type" : "Analytical data from the literature, partial documentation",
+            "mod_year" : "2004",
+            "maxval" : "",
+            "studies" : "",
+            "mod_month" : "04",
+            "degrees_of_freedom" : ""
+         },
+         "code" : "404"
+      },
+      {
+         "code" : "405",
+         "meta" : {
+            "conf" : "",
+            "is_add" : "",
+            "rounded" : "3",
+            "std_error" : "",
+            "data_points" : "1",
+            "studies" : "",
+            "maxval" : "",
+            "mod_year" : "2004",
+            "source_type" : "Analytical data from the literature, partial documentation",
+            "degrees_of_freedom" : "",
+            "mod_month" : "04",
+            "upper_error" : "",
+            "lower_error" : "",
+            "derivation" : "Analytical data; from the literature or  government;  incomplete documentation",
+            "minval" : "",
+            "stat_comments" : "",
+            "imputed" : "",
+            "sources" : [
+               "D4961"
+            ]
+         },
+         "abbr" : "RIBF",
+         "units" : "mg",
+         "name" : "Riboflavin",
+         "value" : "0.360"
+      },
+      {
+         "value" : "6.600",
+         "name" : "Niacin",
+         "abbr" : "NIA",
+         "units" : "mg",
+         "code" : "406",
+         "meta" : {
+            "source_type" : "Analytical data from the literature, partial documentation",
+            "mod_year" : "2004",
+            "maxval" : "",
+            "studies" : "",
+            "data_points" : "1",
+            "std_error" : "",
+            "rounded" : "3",
+            "is_add" : "",
+            "conf" : "",
+            "mod_month" : "04",
+            "degrees_of_freedom" : "",
+            "minval" : "",
+            "lower_error" : "",
+            "derivation" : "Analytical data; from the literature or  government;  incomplete documentation",
+            "upper_error" : "",
+            "sources" : [
+               "D4961"
+            ],
+            "imputed" : "",
+            "stat_comments" : ""
+         }
+      },
+      {
+         "units" : "mg",
+         "abbr" : "CHOLE",
+         "name" : "Cholesterol",
+         "value" : "18",
+         "meta" : {
+            "stat_comments" : "",
+            "sources" : [
+               "D4961"
+            ],
+            "imputed" : "",
+            "upper_error" : "",
+            "lower_error" : "",
+            "derivation" : "Analytical data; from the literature or  government;  incomplete documentation",
+            "minval" : "",
+            "mod_month" : "04",
+            "degrees_of_freedom" : "",
+            "std_error" : "",
+            "data_points" : "1",
+            "conf" : "",
+            "rounded" : "0",
+            "is_add" : "",
+            "mod_year" : "2004",
+            "source_type" : "Analytical data from the literature, partial documentation",
+            "studies" : "",
+            "maxval" : ""
+         },
+         "code" : "601"
+      },
+      {
+         "name" : "Fatty acids, total saturated",
+         "value" : "0.630",
+         "units" : "g",
+         "abbr" : "FASAT",
+         "code" : "606",
+         "meta" : {
+            "sources" : [
+               "D4961"
+            ],
+            "imputed" : "",
+            "stat_comments" : "",
+            "minval" : "",
+            "upper_error" : "",
+            "derivation" : "Analytical data; from the literature or  government;  incomplete documentation",
+            "lower_error" : "",
+            "mod_month" : "04",
+            "degrees_of_freedom" : "",
+            "mod_year" : "2004",
+            "source_type" : "Analytical data from the literature, partial documentation",
+            "studies" : "",
+            "maxval" : "",
+            "std_error" : "",
+            "data_points" : "1",
+            "conf" : "",
+            "is_add" : "",
+            "rounded" : "3"
+         }
+      },
+      {
+         "abbr" : "F18D2",
+         "units" : "g",
+         "name" : "18:2 undifferentiated",
+         "value" : "0.180",
+         "meta" : {
+            "stat_comments" : "",
+            "sources" : [
+               "D4961"
+            ],
+            "imputed" : "",
+            "upper_error" : "",
+            "lower_error" : "",
+            "derivation" : "Analytical data; from the literature or  government;  incomplete documentation",
+            "minval" : "",
+            "mod_month" : "01",
+            "degrees_of_freedom" : "",
+            "std_error" : "",
+            "data_points" : "0",
+            "conf" : "",
+            "is_add" : "",
+            "rounded" : "3",
+            "mod_year" : "2008",
+            "source_type" : "Analytical data from the literature, partial documentation",
+            "studies" : "",
+            "maxval" : ""
+         },
+         "code" : "618"
+      },
+      {
+         "code" : "619",
+         "meta" : {
+            "degrees_of_freedom" : "",
+            "mod_month" : "01",
+            "is_add" : "",
+            "rounded" : "3",
+            "conf" : "",
+            "data_points" : "0",
+            "std_error" : "",
+            "maxval" : "",
+            "studies" : "",
+            "source_type" : "Analytical data from the literature, partial documentation",
+            "mod_year" : "2008",
+            "stat_comments" : "",
+            "imputed" : "",
+            "sources" : [
+               "D4961"
+            ],
+            "derivation" : "Analytical data; from the literature or  government;  incomplete documentation",
+            "lower_error" : "",
+            "upper_error" : "",
+            "minval" : ""
+         },
+         "value" : "0.050",
+         "name" : "18:3 undifferentiated",
+         "abbr" : "F18D3",
+         "units" : "g"
+      },
+      {
+         "units" : "g",
+         "abbr" : "FAMS",
+         "value" : "0.340",
+         "name" : "Fatty acids, total monounsaturated",
+         "code" : "645",
+         "meta" : {
+            "mod_month" : "04",
+            "degrees_of_freedom" : "",
+            "mod_year" : "2004",
+            "source_type" : "Analytical data from the literature, partial documentation",
+            "studies" : "",
+            "maxval" : "",
+            "std_error" : "",
+            "data_points" : "1",
+            "conf" : "",
+            "is_add" : "",
+            "rounded" : "3",
+            "sources" : [
+               "D4961"
+            ],
+            "imputed" : "",
+            "stat_comments" : "",
+            "minval" : "",
+            "upper_error" : "",
+            "lower_error" : "",
+            "derivation" : "Analytical data; from the literature or  government;  incomplete documentation"
+         }
+      },
+      {
+         "code" : "646",
+         "meta" : {
+            "minval" : "",
+            "lower_error" : "",
+            "derivation" : "Analytical data; from the literature or  government;  incomplete documentation",
+            "upper_error" : "",
+            "imputed" : "",
+            "sources" : [
+               "D4961"
+            ],
+            "stat_comments" : "",
+            "maxval" : "",
+            "studies" : "",
+            "source_type" : "Analytical data from the literature, partial documentation",
+            "mod_year" : "2004",
+            "rounded" : "3",
+            "is_add" : "",
+            "conf" : "",
+            "data_points" : "1",
+            "std_error" : "",
+            "degrees_of_freedom" : "",
+            "mod_month" : "04"
+         },
+         "value" : "0.350",
+         "name" : "Fatty acids, total polyunsaturated",
+         "abbr" : "FAPU",
+         "units" : "g"
+      }
+   ],
+   "group" : "American Indian/Alaska Native Foods",
+   "portions" : [],
+   "name" : {
+      "common" : [
+         "sitka deer",
+         " venison"
+      ],
+      "long" : "Deer (venison), sitka, raw (Alaska Native)",
+      "sci" : "Odocoileus spp"
+   }
+}

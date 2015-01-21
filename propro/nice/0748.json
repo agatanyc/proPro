@@ -1,0 +1,1835 @@
+{
+   "portions" : [
+      {
+         "unit" : "tbsp (1 NLEA serving)",
+         "g" : "14.0",
+         "amt" : "1"
+      }
+   ],
+   "name" : {
+      "sci" : "",
+      "long" : "Margarine, margarine-like vegetable oil spread, 67-70% fat, tub",
+      "common" : []
+   },
+   "group" : "Fats and Oils",
+   "meta" : {
+      "fndds_survey" : "",
+      "langual" : [],
+      "ndb_no" : 4683,
+      "nitrogen_factor" : "",
+      "fat_factor" : "8.84",
+      "protein_factor" : "4.27",
+      "ref_per" : "0",
+      "ref_desc" : "",
+      "footnotes" : [],
+      "carb_factor" : "3.87"
+   },
+   "nutrients" : [
+      {
+         "name" : "Protein",
+         "code" : "203",
+         "meta" : {
+            "lower_error" : "-0.020",
+            "minval" : "0.00",
+            "sources" : [
+               "S3558"
+            ],
+            "is_add" : "",
+            "maxval" : "0.25",
+            "upper_error" : "0.162",
+            "source_type" : "Analytical or derived from analytical",
+            "imputed" : "",
+            "derivation" : "Analytical data",
+            "rounded" : "2",
+            "std_error" : "0.037",
+            "conf" : "",
+            "stat_comments" : "2, 3",
+            "mod_month" : "03",
+            "studies" : "1",
+            "data_points" : "7",
+            "degrees_of_freedom" : "6",
+            "mod_year" : "2007"
+         },
+         "units" : "g",
+         "abbr" : "PROCNT",
+         "value" : "0.07"
+      },
+      {
+         "code" : "204",
+         "name" : "Total lipid (fat)",
+         "abbr" : "FAT",
+         "value" : "68.29",
+         "meta" : {
+            "maxval" : "70.66",
+            "is_add" : "",
+            "sources" : [
+               "S3558"
+            ],
+            "minval" : "65.74",
+            "lower_error" : "66.446",
+            "imputed" : "",
+            "source_type" : "Analytical or derived from analytical",
+            "upper_error" : "70.137",
+            "rounded" : "2",
+            "std_error" : "0.754",
+            "derivation" : "Analytical data",
+            "mod_year" : "2007",
+            "data_points" : "7",
+            "degrees_of_freedom" : "6",
+            "studies" : "1",
+            "stat_comments" : "2, 3",
+            "mod_month" : "03",
+            "conf" : ""
+         },
+         "units" : "g"
+      },
+      {
+         "name" : "Carbohydrate, by difference",
+         "code" : "205",
+         "meta" : {
+            "upper_error" : "",
+            "source_type" : "Calculated or imputed",
+            "imputed" : "",
+            "is_add" : "",
+            "lower_error" : "",
+            "sources" : [],
+            "minval" : "",
+            "maxval" : "",
+            "studies" : "",
+            "conf" : "",
+            "stat_comments" : "",
+            "mod_month" : "03",
+            "degrees_of_freedom" : "",
+            "data_points" : "0",
+            "mod_year" : "2007",
+            "derivation" : "Nutrient that is based on other nutrient/s; calculated rather than analyzed",
+            "std_error" : "",
+            "rounded" : "2"
+         },
+         "units" : "g",
+         "abbr" : "CHOCDF",
+         "value" : "0.59"
+      },
+      {
+         "value" : "1.53",
+         "abbr" : "ASH",
+         "units" : "g",
+         "meta" : {
+            "derivation" : "Analytical data",
+            "rounded" : "2",
+            "std_error" : "0.103",
+            "conf" : "",
+            "mod_month" : "03",
+            "stat_comments" : "2, 3",
+            "studies" : "1",
+            "data_points" : "7",
+            "degrees_of_freedom" : "6",
+            "mod_year" : "2007",
+            "lower_error" : "1.282",
+            "minval" : "1.07",
+            "sources" : [
+               "S3558"
+            ],
+            "is_add" : "",
+            "maxval" : "1.79",
+            "upper_error" : "1.786",
+            "source_type" : "Analytical or derived from analytical",
+            "imputed" : ""
+         },
+         "code" : "207",
+         "name" : "Ash"
+      },
+      {
+         "name" : "Energy",
+         "code" : "208",
+         "units" : "kcal",
+         "meta" : {
+            "mod_year" : "2007",
+            "degrees_of_freedom" : "",
+            "data_points" : "0",
+            "studies" : "",
+            "stat_comments" : "",
+            "mod_month" : "03",
+            "conf" : "",
+            "std_error" : "",
+            "rounded" : "0",
+            "derivation" : "Nutrient that is based on other nutrient/s; calculated rather than analyzed",
+            "imputed" : "",
+            "upper_error" : "",
+            "source_type" : "Calculated or imputed",
+            "maxval" : "",
+            "is_add" : "",
+            "minval" : "",
+            "sources" : [],
+            "lower_error" : ""
+         },
+         "value" : "606",
+         "abbr" : "ENERC_KCAL"
+      },
+      {
+         "name" : "Water",
+         "code" : "255",
+         "meta" : {
+            "degrees_of_freedom" : "6",
+            "data_points" : "7",
+            "mod_year" : "2007",
+            "studies" : "1",
+            "conf" : "",
+            "mod_month" : "03",
+            "stat_comments" : "2, 3",
+            "rounded" : "2",
+            "std_error" : "0.638",
+            "derivation" : "Analytical data",
+            "imputed" : "",
+            "upper_error" : "31.078",
+            "source_type" : "Analytical or derived from analytical",
+            "maxval" : "31.56",
+            "is_add" : "",
+            "lower_error" : "27.957",
+            "minval" : "27.42",
+            "sources" : [
+               "S3558"
+            ]
+         },
+         "units" : "g",
+         "abbr" : "WATER",
+         "value" : "29.52"
+      },
+      {
+         "units" : "kJ",
+         "meta" : {
+            "imputed" : "",
+            "upper_error" : "",
+            "source_type" : "Calculated or imputed",
+            "maxval" : "",
+            "is_add" : "",
+            "lower_error" : "",
+            "minval" : "",
+            "sources" : [],
+            "degrees_of_freedom" : "",
+            "data_points" : "0",
+            "mod_year" : "2007",
+            "studies" : "",
+            "conf" : "",
+            "mod_month" : "03",
+            "stat_comments" : "",
+            "rounded" : "0",
+            "std_error" : "",
+            "derivation" : "Nutrient that is based on other nutrient/s; calculated rather than analyzed"
+         },
+         "value" : "2537",
+         "abbr" : "ENERC_KJ",
+         "name" : "Energy",
+         "code" : "268"
+      },
+      {
+         "units" : "mg",
+         "meta" : {
+            "derivation" : "Aggregated data involving combinations of data with different source codes when at least one code is not 1, 12, or 6.",
+            "std_error" : "",
+            "rounded" : "0",
+            "conf" : "",
+            "mod_month" : "03",
+            "stat_comments" : "2",
+            "studies" : "1",
+            "data_points" : "5",
+            "degrees_of_freedom" : "",
+            "mod_year" : "2007",
+            "lower_error" : "",
+            "sources" : [],
+            "minval" : "393",
+            "is_add" : "",
+            "maxval" : "643",
+            "source_type" : "Aggregated data involving comb. of codes other then 1,12 or6",
+            "upper_error" : "",
+            "imputed" : ""
+         },
+         "abbr" : "NA",
+         "value" : "536",
+         "code" : "307",
+         "name" : "Sodium, Na"
+      },
+      {
+         "abbr" : "VITA_IU",
+         "value" : "3571",
+         "meta" : {
+            "rounded" : "0",
+            "std_error" : "",
+            "derivation" : "Aggregated data involving combinations of data with different source codes when at least one code is not 1, 12, or 6.",
+            "mod_year" : "2007",
+            "data_points" : "5",
+            "degrees_of_freedom" : "",
+            "mod_month" : "03",
+            "stat_comments" : "2",
+            "conf" : "",
+            "studies" : "1",
+            "maxval" : "3571",
+            "minval" : "3571",
+            "sources" : [],
+            "lower_error" : "",
+            "is_add" : "",
+            "imputed" : "",
+            "source_type" : "Aggregated data involving comb. of codes other then 1,12 or6",
+            "upper_error" : ""
+         },
+         "units" : "IU",
+         "name" : "Vitamin A, IU",
+         "code" : "318"
+      },
+      {
+         "code" : "323",
+         "name" : "Vitamin E (alpha-tocopherol)",
+         "meta" : {
+            "is_add" : "",
+            "lower_error" : "",
+            "sources" : [
+               "S3558"
+            ],
+            "minval" : "6.27",
+            "maxval" : "19.73",
+            "upper_error" : "",
+            "source_type" : "Analytical or derived from analytical",
+            "imputed" : "",
+            "derivation" : "Analytical data",
+            "rounded" : "2",
+            "std_error" : "",
+            "studies" : "1",
+            "conf" : "",
+            "stat_comments" : "",
+            "mod_month" : "03",
+            "data_points" : "2",
+            "degrees_of_freedom" : "1",
+            "mod_year" : "2007"
+         },
+         "units" : "mg",
+         "value" : "13.00",
+         "abbr" : "TOCPHA"
+      },
+      {
+         "abbr" : "TOCPHB",
+         "value" : "0.26",
+         "meta" : {
+            "upper_error" : "",
+            "source_type" : "Analytical or derived from analytical",
+            "imputed" : "",
+            "sources" : [
+               "S3558"
+            ],
+            "minval" : "0.16",
+            "lower_error" : "",
+            "is_add" : "",
+            "maxval" : "0.36",
+            "stat_comments" : "",
+            "mod_month" : "03",
+            "conf" : "",
+            "studies" : "1",
+            "mod_year" : "2007",
+            "degrees_of_freedom" : "1",
+            "data_points" : "2",
+            "derivation" : "Analytical data",
+            "rounded" : "2",
+            "std_error" : ""
+         },
+         "units" : "mg",
+         "name" : "Tocopherol, beta",
+         "code" : "341"
+      },
+      {
+         "meta" : {
+            "maxval" : "43.86",
+            "is_add" : "",
+            "lower_error" : "",
+            "sources" : [
+               "S3558"
+            ],
+            "minval" : "14.64",
+            "imputed" : "",
+            "source_type" : "Analytical or derived from analytical",
+            "upper_error" : "",
+            "rounded" : "2",
+            "std_error" : "",
+            "derivation" : "Analytical data",
+            "degrees_of_freedom" : "1",
+            "data_points" : "2",
+            "mod_year" : "2007",
+            "studies" : "1",
+            "conf" : "",
+            "mod_month" : "03",
+            "stat_comments" : ""
+         },
+         "units" : "mg",
+         "value" : "29.25",
+         "abbr" : "TOCPHG",
+         "name" : "Tocopherol, gamma",
+         "code" : "342"
+      },
+      {
+         "code" : "343",
+         "name" : "Tocopherol, delta",
+         "abbr" : "TOCPHD",
+         "value" : "9.33",
+         "units" : "mg",
+         "meta" : {
+            "rounded" : "2",
+            "std_error" : "",
+            "derivation" : "Analytical data",
+            "data_points" : "2",
+            "degrees_of_freedom" : "1",
+            "mod_year" : "2007",
+            "studies" : "1",
+            "conf" : "",
+            "stat_comments" : "",
+            "mod_month" : "03",
+            "maxval" : "15.48",
+            "is_add" : "",
+            "lower_error" : "",
+            "sources" : [
+               "S3558"
+            ],
+            "minval" : "3.19",
+            "imputed" : "",
+            "source_type" : "Analytical or derived from analytical",
+            "upper_error" : ""
+         }
+      },
+      {
+         "code" : "605",
+         "name" : "Fatty acids, total trans",
+         "value" : "3.265",
+         "abbr" : "FATRN",
+         "meta" : {
+            "source_type" : "Calculated or imputed",
+            "upper_error" : "",
+            "imputed" : "",
+            "sources" : [],
+            "minval" : "",
+            "lower_error" : "",
+            "is_add" : "",
+            "maxval" : "",
+            "stat_comments" : "",
+            "mod_month" : "03",
+            "conf" : "",
+            "studies" : "",
+            "mod_year" : "2007",
+            "degrees_of_freedom" : "",
+            "data_points" : "0",
+            "derivation" : "Nutrient that is based on other nutrient/s; calculated rather than analyzed",
+            "std_error" : "",
+            "rounded" : "3"
+         },
+         "units" : "g"
+      },
+      {
+         "name" : "Fatty acids, total saturated",
+         "code" : "606",
+         "value" : "16.688",
+         "abbr" : "FASAT",
+         "units" : "g",
+         "meta" : {
+            "std_error" : "",
+            "rounded" : "3",
+            "derivation" : "Nutrient that is based on other nutrient/s; calculated rather than analyzed",
+            "mod_year" : "2007",
+            "data_points" : "0",
+            "degrees_of_freedom" : "",
+            "studies" : "",
+            "stat_comments" : "",
+            "mod_month" : "03",
+            "conf" : "",
+            "maxval" : "",
+            "is_add" : "",
+            "sources" : [],
+            "minval" : "",
+            "lower_error" : "",
+            "imputed" : "",
+            "source_type" : "Calculated or imputed",
+            "upper_error" : ""
+         }
+      },
+      {
+         "name" : "4:0",
+         "code" : "607",
+         "meta" : {
+            "imputed" : "",
+            "source_type" : "Analytical or derived from analytical",
+            "upper_error" : "",
+            "maxval" : "0.000",
+            "is_add" : "",
+            "lower_error" : "",
+            "sources" : [
+               "S3558"
+            ],
+            "minval" : "0.000",
+            "degrees_of_freedom" : "",
+            "data_points" : "7",
+            "mod_year" : "2007",
+            "studies" : "1",
+            "conf" : "",
+            "stat_comments" : "1, 2, 3",
+            "mod_month" : "03",
+            "rounded" : "3",
+            "std_error" : "0.000",
+            "derivation" : "Analytical data"
+         },
+         "units" : "g",
+         "abbr" : "F4D0",
+         "value" : "0.000"
+      },
+      {
+         "meta" : {
+            "maxval" : "0.000",
+            "sources" : [
+               "S3558"
+            ],
+            "minval" : "0.000",
+            "lower_error" : "",
+            "is_add" : "",
+            "imputed" : "",
+            "upper_error" : "",
+            "source_type" : "Analytical or derived from analytical",
+            "std_error" : "0.000",
+            "rounded" : "3",
+            "derivation" : "Analytical data",
+            "mod_year" : "2007",
+            "degrees_of_freedom" : "",
+            "data_points" : "7",
+            "mod_month" : "03",
+            "stat_comments" : "1, 2, 3",
+            "conf" : "",
+            "studies" : "1"
+         },
+         "units" : "g",
+         "abbr" : "F6D0",
+         "value" : "0.000",
+         "name" : "6:0",
+         "code" : "608"
+      },
+      {
+         "code" : "609",
+         "name" : "8:0",
+         "units" : "g",
+         "meta" : {
+            "imputed" : "",
+            "upper_error" : "0.024",
+            "source_type" : "Analytical or derived from analytical",
+            "maxval" : "0.033",
+            "minval" : "0.005",
+            "sources" : [
+               "S3558"
+            ],
+            "lower_error" : "0.009",
+            "is_add" : "",
+            "mod_year" : "2007",
+            "data_points" : "7",
+            "degrees_of_freedom" : "6",
+            "stat_comments" : "2, 3",
+            "mod_month" : "03",
+            "conf" : "",
+            "studies" : "1",
+            "rounded" : "3",
+            "std_error" : "0.003",
+            "derivation" : "Analytical data"
+         },
+         "value" : "0.016",
+         "abbr" : "F8D0"
+      },
+      {
+         "meta" : {
+            "imputed" : "",
+            "source_type" : "Analytical or derived from analytical",
+            "upper_error" : "0.092",
+            "maxval" : "0.099",
+            "is_add" : "",
+            "lower_error" : "0.072",
+            "minval" : "0.069",
+            "sources" : [
+               "S3558"
+            ],
+            "degrees_of_freedom" : "6",
+            "data_points" : "7",
+            "mod_year" : "2007",
+            "studies" : "1",
+            "conf" : "",
+            "mod_month" : "03",
+            "stat_comments" : "2, 3",
+            "std_error" : "0.004",
+            "rounded" : "3",
+            "derivation" : "Analytical data"
+         },
+         "units" : "g",
+         "abbr" : "F10D0",
+         "value" : "0.082",
+         "name" : "10:0",
+         "code" : "610"
+      },
+      {
+         "value" : "0.064",
+         "abbr" : "F12D0",
+         "meta" : {
+            "maxval" : "0.114",
+            "sources" : [
+               "S3558"
+            ],
+            "minval" : "0.006",
+            "lower_error" : "0.015",
+            "is_add" : "",
+            "imputed" : "",
+            "source_type" : "Analytical or derived from analytical",
+            "upper_error" : "0.112",
+            "std_error" : "0.020",
+            "rounded" : "3",
+            "derivation" : "Analytical data",
+            "mod_year" : "2007",
+            "data_points" : "7",
+            "degrees_of_freedom" : "6",
+            "mod_month" : "03",
+            "stat_comments" : "2, 3",
+            "conf" : "",
+            "studies" : "1"
+         },
+         "units" : "g",
+         "name" : "12:0",
+         "code" : "611"
+      },
+      {
+         "code" : "612",
+         "name" : "14:0",
+         "units" : "g",
+         "meta" : {
+            "std_error" : "0.063",
+            "rounded" : "3",
+            "derivation" : "Analytical data",
+            "mod_year" : "2007",
+            "data_points" : "7",
+            "degrees_of_freedom" : "6",
+            "stat_comments" : "2, 3",
+            "mod_month" : "03",
+            "conf" : "",
+            "studies" : "1",
+            "maxval" : "0.385",
+            "sources" : [
+               "S3558"
+            ],
+            "minval" : "0.050",
+            "lower_error" : "0.082",
+            "is_add" : "",
+            "imputed" : "",
+            "source_type" : "Analytical or derived from analytical",
+            "upper_error" : "0.392"
+         },
+         "value" : "0.237",
+         "abbr" : "F14D0"
+      },
+      {
+         "units" : "g",
+         "meta" : {
+            "imputed" : "",
+            "source_type" : "Analytical or derived from analytical",
+            "upper_error" : "16.753",
+            "maxval" : "16.818",
+            "sources" : [
+               "S3558"
+            ],
+            "minval" : "6.990",
+            "lower_error" : "7.782",
+            "is_add" : "",
+            "mod_year" : "2007",
+            "degrees_of_freedom" : "6",
+            "data_points" : "7",
+            "mod_month" : "03",
+            "stat_comments" : "2, 3",
+            "conf" : "",
+            "studies" : "1",
+            "std_error" : "1.833",
+            "rounded" : "3",
+            "derivation" : "Analytical data"
+         },
+         "abbr" : "F16D0",
+         "value" : "12.268",
+         "name" : "16:0",
+         "code" : "613"
+      },
+      {
+         "meta" : {
+            "conf" : "",
+            "mod_month" : "03",
+            "stat_comments" : "2, 3",
+            "studies" : "1",
+            "data_points" : "7",
+            "degrees_of_freedom" : "6",
+            "mod_year" : "2007",
+            "derivation" : "Analytical data",
+            "std_error" : "0.427",
+            "rounded" : "3",
+            "source_type" : "Analytical or derived from analytical",
+            "upper_error" : "4.503",
+            "imputed" : "",
+            "lower_error" : "2.412",
+            "sources" : [
+               "S3558"
+            ],
+            "minval" : "2.489",
+            "is_add" : "",
+            "maxval" : "5.008"
+         },
+         "units" : "g",
+         "abbr" : "F18D0",
+         "value" : "3.458",
+         "code" : "614",
+         "name" : "18:0"
+      },
+      {
+         "code" : "615",
+         "name" : "20:0",
+         "abbr" : "F20D0",
+         "value" : "0.246",
+         "meta" : {
+            "studies" : "1",
+            "mod_month" : "03",
+            "stat_comments" : "2, 3",
+            "conf" : "",
+            "mod_year" : "2007",
+            "degrees_of_freedom" : "6",
+            "data_points" : "7",
+            "derivation" : "Analytical data",
+            "rounded" : "3",
+            "std_error" : "0.008",
+            "upper_error" : "0.266",
+            "source_type" : "Analytical or derived from analytical",
+            "imputed" : "",
+            "is_add" : "",
+            "minval" : "0.217",
+            "sources" : [
+               "S3558"
+            ],
+            "lower_error" : "0.226",
+            "maxval" : "0.269"
+         },
+         "units" : "g"
+      },
+      {
+         "units" : "g",
+         "meta" : {
+            "mod_year" : "2007",
+            "degrees_of_freedom" : "6",
+            "data_points" : "7",
+            "studies" : "1",
+            "stat_comments" : "2, 3",
+            "mod_month" : "03",
+            "conf" : "",
+            "std_error" : "0.481",
+            "rounded" : "3",
+            "derivation" : "Analytical data; derived by summation of components with source code 1 or 7",
+            "imputed" : "",
+            "source_type" : "Analytical or derived from analytical",
+            "upper_error" : "25.476",
+            "maxval" : "26.210",
+            "is_add" : "",
+            "sources" : [
+               "S3558"
+            ],
+            "minval" : "22.930",
+            "lower_error" : "23.121"
+         },
+         "abbr" : "F18D1",
+         "value" : "24.299",
+         "code" : "617",
+         "name" : "18:1 undifferentiated"
+      },
+      {
+         "name" : "18:2 undifferentiated",
+         "code" : "618",
+         "units" : "g",
+         "meta" : {
+            "degrees_of_freedom" : "6",
+            "data_points" : "7",
+            "mod_year" : "2007",
+            "conf" : "",
+            "stat_comments" : "2, 3",
+            "mod_month" : "03",
+            "studies" : "1",
+            "rounded" : "3",
+            "std_error" : "2.228",
+            "derivation" : "Analytical data; derived by summation of components with source code 1 or 7",
+            "imputed" : "",
+            "upper_error" : "26.273",
+            "source_type" : "Analytical or derived from analytical",
+            "maxval" : "27.182",
+            "lower_error" : "15.367",
+            "sources" : [
+               "S3558"
+            ],
+            "minval" : "15.385",
+            "is_add" : ""
+         },
+         "abbr" : "F18D2",
+         "value" : "20.820"
+      },
+      {
+         "name" : "18:3 undifferentiated",
+         "code" : "619",
+         "units" : "g",
+         "meta" : {
+            "stat_comments" : "2, 3",
+            "mod_month" : "03",
+            "conf" : "",
+            "studies" : "1",
+            "mod_year" : "2007",
+            "data_points" : "7",
+            "degrees_of_freedom" : "6",
+            "derivation" : "Analytical data; derived by summation of components with source code 1 or 7",
+            "std_error" : "0.242",
+            "rounded" : "3",
+            "source_type" : "Analytical or derived from analytical",
+            "upper_error" : "3.531",
+            "imputed" : "",
+            "sources" : [
+               "S3558"
+            ],
+            "minval" : "2.326",
+            "lower_error" : "2.347",
+            "is_add" : "",
+            "maxval" : "3.816"
+         },
+         "abbr" : "F18D3",
+         "value" : "2.939"
+      },
+      {
+         "value" : "0.000",
+         "abbr" : "F20D4",
+         "units" : "g",
+         "meta" : {
+            "maxval" : "0.000",
+            "is_add" : "",
+            "lower_error" : "",
+            "minval" : "0.000",
+            "sources" : [
+               "S3558"
+            ],
+            "imputed" : "",
+            "upper_error" : "",
+            "source_type" : "Analytical or derived from analytical",
+            "std_error" : "0.000",
+            "rounded" : "3",
+            "derivation" : "Analytical data",
+            "data_points" : "7",
+            "degrees_of_freedom" : "",
+            "mod_year" : "2007",
+            "studies" : "1",
+            "conf" : "",
+            "stat_comments" : "1, 2, 3",
+            "mod_month" : "03"
+         },
+         "name" : "20:4 undifferentiated",
+         "code" : "620"
+      },
+      {
+         "name" : "22:6 n-3 (DHA)",
+         "code" : "621",
+         "value" : "0.000",
+         "abbr" : "F22D6",
+         "units" : "g",
+         "meta" : {
+            "derivation" : "Analytical data",
+            "rounded" : "3",
+            "std_error" : "0.000",
+            "studies" : "1",
+            "conf" : "",
+            "stat_comments" : "1, 2, 3",
+            "mod_month" : "03",
+            "degrees_of_freedom" : "",
+            "data_points" : "6",
+            "mod_year" : "2007",
+            "is_add" : "",
+            "lower_error" : "",
+            "sources" : [
+               "S3558"
+            ],
+            "minval" : "0.000",
+            "maxval" : "0.000",
+            "source_type" : "Analytical or derived from analytical",
+            "upper_error" : "",
+            "imputed" : ""
+         }
+      },
+      {
+         "name" : "22:0",
+         "code" : "624",
+         "meta" : {
+            "rounded" : "3",
+            "std_error" : "0.019",
+            "derivation" : "Analytical data",
+            "mod_year" : "2007",
+            "degrees_of_freedom" : "6",
+            "data_points" : "7",
+            "studies" : "1",
+            "mod_month" : "03",
+            "stat_comments" : "2, 3",
+            "conf" : "",
+            "maxval" : "0.230",
+            "is_add" : "",
+            "sources" : [
+               "S3558"
+            ],
+            "minval" : "0.126",
+            "lower_error" : "0.121",
+            "imputed" : "",
+            "source_type" : "Analytical or derived from analytical",
+            "upper_error" : "0.216"
+         },
+         "units" : "g",
+         "abbr" : "F22D0",
+         "value" : "0.169"
+      },
+      {
+         "abbr" : "F14D1",
+         "value" : "0.000",
+         "units" : "g",
+         "meta" : {
+            "data_points" : "7",
+            "degrees_of_freedom" : "",
+            "mod_year" : "2007",
+            "studies" : "1",
+            "conf" : "",
+            "stat_comments" : "1, 2, 3",
+            "mod_month" : "03",
+            "rounded" : "3",
+            "std_error" : "0.000",
+            "derivation" : "Analytical data",
+            "imputed" : "",
+            "upper_error" : "",
+            "source_type" : "Analytical or derived from analytical",
+            "maxval" : "0.000",
+            "is_add" : "",
+            "lower_error" : "",
+            "sources" : [
+               "S3558"
+            ],
+            "minval" : "0.000"
+         },
+         "name" : "14:1",
+         "code" : "625"
+      },
+      {
+         "code" : "626",
+         "name" : "16:1 undifferentiated",
+         "abbr" : "F16D1",
+         "value" : "0.078",
+         "meta" : {
+            "derivation" : "Analytical data; derived by summation of components with source code 1 or 7",
+            "std_error" : "0.009",
+            "rounded" : "3",
+            "conf" : "",
+            "stat_comments" : "2, 3",
+            "mod_month" : "03",
+            "studies" : "1",
+            "degrees_of_freedom" : "6",
+            "data_points" : "7",
+            "mod_year" : "2007",
+            "lower_error" : "0.055",
+            "sources" : [
+               "S3558"
+            ],
+            "minval" : "0.050",
+            "is_add" : "",
+            "maxval" : "0.100",
+            "source_type" : "Analytical or derived from analytical",
+            "upper_error" : "0.101",
+            "imputed" : ""
+         },
+         "units" : "g"
+      },
+      {
+         "code" : "627",
+         "name" : "18:4",
+         "meta" : {
+            "derivation" : "Analytical data",
+            "std_error" : "0.000",
+            "rounded" : "3",
+            "studies" : "1",
+            "mod_month" : "03",
+            "stat_comments" : "1, 2, 3",
+            "conf" : "",
+            "mod_year" : "2007",
+            "data_points" : "7",
+            "degrees_of_freedom" : "",
+            "is_add" : "",
+            "sources" : [
+               "S3558"
+            ],
+            "minval" : "0.000",
+            "lower_error" : "",
+            "maxval" : "0.000",
+            "source_type" : "Analytical or derived from analytical",
+            "upper_error" : "",
+            "imputed" : ""
+         },
+         "units" : "g",
+         "abbr" : "F18D4",
+         "value" : "0.000"
+      },
+      {
+         "name" : "20:1",
+         "code" : "628",
+         "abbr" : "F20D1",
+         "value" : "0.340",
+         "meta" : {
+            "upper_error" : "0.427",
+            "source_type" : "Analytical or derived from analytical",
+            "imputed" : "",
+            "minval" : "0.191",
+            "sources" : [
+               "S3558"
+            ],
+            "lower_error" : "0.253",
+            "is_add" : "",
+            "maxval" : "0.436",
+            "stat_comments" : "2, 3",
+            "mod_month" : "03",
+            "conf" : "",
+            "studies" : "1",
+            "mod_year" : "2007",
+            "data_points" : "7",
+            "degrees_of_freedom" : "6",
+            "derivation" : "Analytical data",
+            "rounded" : "3",
+            "std_error" : "0.036"
+         },
+         "units" : "g"
+      },
+      {
+         "name" : "20:5 n-3 (EPA)",
+         "code" : "629",
+         "units" : "g",
+         "meta" : {
+            "rounded" : "3",
+            "std_error" : "0.000",
+            "derivation" : "Analytical data",
+            "data_points" : "7",
+            "degrees_of_freedom" : "",
+            "mod_year" : "2007",
+            "studies" : "1",
+            "conf" : "",
+            "stat_comments" : "1, 2, 3",
+            "mod_month" : "03",
+            "maxval" : "0.000",
+            "is_add" : "",
+            "lower_error" : "",
+            "minval" : "0.000",
+            "sources" : [
+               "S3558"
+            ],
+            "imputed" : "",
+            "upper_error" : "",
+            "source_type" : "Analytical or derived from analytical"
+         },
+         "value" : "0.000",
+         "abbr" : "F20D5"
+      },
+      {
+         "value" : "0.003",
+         "abbr" : "F22D1",
+         "units" : "g",
+         "meta" : {
+            "std_error" : "0.001",
+            "rounded" : "3",
+            "derivation" : "Analytical data; derived by summation of components with source code 1 or 7",
+            "degrees_of_freedom" : "6",
+            "data_points" : "7",
+            "mod_year" : "2007",
+            "studies" : "1",
+            "conf" : "",
+            "mod_month" : "03",
+            "stat_comments" : "2, 3",
+            "maxval" : "0.008",
+            "is_add" : "",
+            "lower_error" : "-0.001",
+            "minval" : "0.000",
+            "sources" : [
+               "S3558"
+            ],
+            "imputed" : "",
+            "upper_error" : "0.006",
+            "source_type" : "Analytical or derived from analytical"
+         },
+         "code" : "630",
+         "name" : "22:1 undifferentiated"
+      },
+      {
+         "value" : "0.004",
+         "abbr" : "F22D5",
+         "units" : "g",
+         "meta" : {
+            "rounded" : "3",
+            "std_error" : "0.002",
+            "derivation" : "Analytical data",
+            "data_points" : "7",
+            "degrees_of_freedom" : "6",
+            "mod_year" : "2007",
+            "conf" : "",
+            "mod_month" : "03",
+            "stat_comments" : "1, 2, 3",
+            "studies" : "1",
+            "maxval" : "0.009",
+            "lower_error" : "0.000",
+            "minval" : "0.000",
+            "sources" : [
+               "S3558"
+            ],
+            "is_add" : "",
+            "imputed" : "",
+            "source_type" : "Analytical or derived from analytical",
+            "upper_error" : "0.008"
+         },
+         "name" : "22:5 n-3 (DPA)",
+         "code" : "631"
+      },
+      {
+         "name" : "Fatty acids, total monounsaturated",
+         "code" : "645",
+         "meta" : {
+            "maxval" : "",
+            "lower_error" : "",
+            "minval" : "",
+            "sources" : [],
+            "is_add" : "",
+            "imputed" : "",
+            "upper_error" : "",
+            "source_type" : "Calculated or imputed",
+            "std_error" : "",
+            "rounded" : "3",
+            "derivation" : "Nutrient that is based on other nutrient/s; calculated rather than analyzed",
+            "data_points" : "0",
+            "degrees_of_freedom" : "",
+            "mod_year" : "2007",
+            "conf" : "",
+            "stat_comments" : "",
+            "mod_month" : "03",
+            "studies" : ""
+         },
+         "units" : "g",
+         "value" : "24.748",
+         "abbr" : "FAMS"
+      },
+      {
+         "name" : "Fatty acids, total polyunsaturated",
+         "code" : "646",
+         "abbr" : "FAPU",
+         "value" : "23.794",
+         "units" : "g",
+         "meta" : {
+            "rounded" : "3",
+            "std_error" : "",
+            "derivation" : "Nutrient that is based on other nutrient/s; calculated rather than analyzed",
+            "degrees_of_freedom" : "",
+            "data_points" : "0",
+            "mod_year" : "2007",
+            "conf" : "",
+            "mod_month" : "03",
+            "stat_comments" : "",
+            "studies" : "",
+            "maxval" : "",
+            "lower_error" : "",
+            "minval" : "",
+            "sources" : [],
+            "is_add" : "",
+            "imputed" : "",
+            "upper_error" : "",
+            "source_type" : "Calculated or imputed"
+         }
+      },
+      {
+         "name" : "15:0",
+         "code" : "652",
+         "meta" : {
+            "derivation" : "Analytical data",
+            "std_error" : "0.002",
+            "rounded" : "3",
+            "stat_comments" : "2, 3",
+            "mod_month" : "03",
+            "conf" : "",
+            "studies" : "1",
+            "mod_year" : "2007",
+            "data_points" : "7",
+            "degrees_of_freedom" : "6",
+            "minval" : "0.012",
+            "sources" : [
+               "S3558"
+            ],
+            "lower_error" : "0.014",
+            "is_add" : "",
+            "maxval" : "0.023",
+            "source_type" : "Analytical or derived from analytical",
+            "upper_error" : "0.023",
+            "imputed" : ""
+         },
+         "units" : "g",
+         "value" : "0.018",
+         "abbr" : "F15D0"
+      },
+      {
+         "value" : "0.060",
+         "abbr" : "F17D0",
+         "meta" : {
+            "minval" : "0.054",
+            "sources" : [
+               "S3558"
+            ],
+            "lower_error" : "0.054",
+            "is_add" : "",
+            "maxval" : "0.069",
+            "upper_error" : "0.066",
+            "source_type" : "Analytical or derived from analytical",
+            "imputed" : "",
+            "derivation" : "Analytical data",
+            "rounded" : "3",
+            "std_error" : "0.002",
+            "stat_comments" : "2, 3",
+            "mod_month" : "03",
+            "conf" : "",
+            "studies" : "1",
+            "mod_year" : "2007",
+            "degrees_of_freedom" : "6",
+            "data_points" : "7"
+         },
+         "units" : "g",
+         "code" : "653",
+         "name" : "17:0"
+      },
+      {
+         "value" : "0.071",
+         "abbr" : "F24D0",
+         "meta" : {
+            "data_points" : "7",
+            "degrees_of_freedom" : "6",
+            "mod_year" : "2007",
+            "conf" : "",
+            "mod_month" : "03",
+            "stat_comments" : "2, 3",
+            "studies" : "1",
+            "std_error" : "0.003",
+            "rounded" : "3",
+            "derivation" : "Analytical data",
+            "imputed" : "",
+            "upper_error" : "0.078",
+            "source_type" : "Analytical or derived from analytical",
+            "maxval" : "0.082",
+            "lower_error" : "0.065",
+            "sources" : [
+               "S3558"
+            ],
+            "minval" : "0.064",
+            "is_add" : ""
+         },
+         "units" : "g",
+         "name" : "24:0",
+         "code" : "654"
+      },
+      {
+         "value" : "0.000",
+         "abbr" : "F16D1T",
+         "units" : "g",
+         "meta" : {
+            "degrees_of_freedom" : "",
+            "data_points" : "7",
+            "mod_year" : "2007",
+            "studies" : "1",
+            "conf" : "",
+            "mod_month" : "03",
+            "stat_comments" : "1, 2, 3",
+            "rounded" : "3",
+            "std_error" : "0.000",
+            "derivation" : "Analytical data",
+            "imputed" : "",
+            "source_type" : "Analytical or derived from analytical",
+            "upper_error" : "",
+            "maxval" : "0.000",
+            "is_add" : "",
+            "lower_error" : "",
+            "minval" : "0.000",
+            "sources" : [
+               "S3558"
+            ]
+         },
+         "name" : "16:1 t",
+         "code" : "662"
+      },
+      {
+         "name" : "18:1 t",
+         "code" : "663",
+         "units" : "g",
+         "meta" : {
+            "imputed" : "",
+            "upper_error" : "6.180",
+            "source_type" : "Analytical or derived from analytical",
+            "maxval" : "7.029",
+            "is_add" : "",
+            "lower_error" : "-0.352",
+            "sources" : [
+               "S3558"
+            ],
+            "minval" : "0.092",
+            "data_points" : "7",
+            "degrees_of_freedom" : "6",
+            "mod_year" : "2007",
+            "studies" : "1",
+            "conf" : "",
+            "stat_comments" : "2, 3",
+            "mod_month" : "03",
+            "rounded" : "3",
+            "std_error" : "1.335",
+            "derivation" : "Analytical data"
+         },
+         "value" : "2.914",
+         "abbr" : "F18D1T"
+      },
+      {
+         "units" : "g",
+         "meta" : {
+            "is_add" : "",
+            "lower_error" : "",
+            "sources" : [
+               "S3558"
+            ],
+            "minval" : "0.000",
+            "maxval" : "0.000",
+            "upper_error" : "",
+            "source_type" : "Analytical or derived from analytical",
+            "imputed" : "",
+            "derivation" : "Analytical data",
+            "std_error" : "0.000",
+            "rounded" : "3",
+            "studies" : "1",
+            "conf" : "",
+            "stat_comments" : "1, 2, 3",
+            "mod_month" : "03",
+            "degrees_of_freedom" : "",
+            "data_points" : "7",
+            "mod_year" : "2007"
+         },
+         "value" : "0.000",
+         "abbr" : "",
+         "name" : "22:1 t",
+         "code" : "664"
+      },
+      {
+         "code" : "665",
+         "name" : "18:2 t not further defined",
+         "abbr" : "",
+         "value" : "0.351",
+         "units" : "g",
+         "meta" : {
+            "derivation" : "Analytical data",
+            "rounded" : "3",
+            "std_error" : "0.035",
+            "conf" : "",
+            "stat_comments" : "2, 3",
+            "mod_month" : "03",
+            "studies" : "1",
+            "degrees_of_freedom" : "6",
+            "data_points" : "7",
+            "mod_year" : "2007",
+            "lower_error" : "0.266",
+            "sources" : [
+               "S3558"
+            ],
+            "minval" : "0.278",
+            "is_add" : "",
+            "maxval" : "0.523",
+            "upper_error" : "0.435",
+            "source_type" : "Analytical or derived from analytical",
+            "imputed" : ""
+         }
+      },
+      {
+         "value" : "0.037",
+         "abbr" : "F18D2CLA",
+         "units" : "g",
+         "meta" : {
+            "maxval" : "0.049",
+            "minval" : "0.025",
+            "sources" : [
+               "S3558"
+            ],
+            "lower_error" : "0.031",
+            "is_add" : "",
+            "imputed" : "",
+            "source_type" : "Analytical or derived from analytical",
+            "upper_error" : "0.044",
+            "std_error" : "0.003",
+            "rounded" : "3",
+            "derivation" : "Analytical data",
+            "mod_year" : "2007",
+            "degrees_of_freedom" : "6",
+            "data_points" : "7",
+            "stat_comments" : "2, 3",
+            "mod_month" : "03",
+            "conf" : "",
+            "studies" : "1"
+         },
+         "name" : "18:2 CLAs",
+         "code" : "670"
+      },
+      {
+         "name" : "24:1 c",
+         "code" : "671",
+         "meta" : {
+            "source_type" : "Analytical or derived from analytical",
+            "upper_error" : "",
+            "imputed" : "",
+            "is_add" : "",
+            "lower_error" : "",
+            "minval" : "0.000",
+            "sources" : [
+               "S3558"
+            ],
+            "maxval" : "0.000",
+            "studies" : "1",
+            "conf" : "",
+            "stat_comments" : "1, 2, 3",
+            "mod_month" : "03",
+            "degrees_of_freedom" : "",
+            "data_points" : "7",
+            "mod_year" : "2007",
+            "derivation" : "Analytical data",
+            "std_error" : "0.000",
+            "rounded" : "3"
+         },
+         "units" : "g",
+         "value" : "0.000",
+         "abbr" : "F24D1C"
+      },
+      {
+         "meta" : {
+            "is_add" : "",
+            "minval" : "0.015",
+            "sources" : [
+               "S3558"
+            ],
+            "lower_error" : "0.015",
+            "maxval" : "0.020",
+            "upper_error" : "0.019",
+            "source_type" : "Analytical or derived from analytical",
+            "imputed" : "",
+            "derivation" : "Analytical data",
+            "rounded" : "3",
+            "std_error" : "0.001",
+            "studies" : "1",
+            "stat_comments" : "2, 3",
+            "mod_month" : "03",
+            "conf" : "",
+            "mod_year" : "2007",
+            "data_points" : "7",
+            "degrees_of_freedom" : "6"
+         },
+         "units" : "g",
+         "value" : "0.017",
+         "abbr" : "F20D2CN6",
+         "name" : "20:2 n-6 c,c",
+         "code" : "672"
+      },
+      {
+         "abbr" : "F16D1C",
+         "value" : "0.078",
+         "units" : "g",
+         "meta" : {
+            "derivation" : "Analytical data",
+            "rounded" : "3",
+            "std_error" : "0.009",
+            "stat_comments" : "2, 3",
+            "mod_month" : "03",
+            "conf" : "",
+            "studies" : "1",
+            "mod_year" : "2007",
+            "degrees_of_freedom" : "6",
+            "data_points" : "7",
+            "sources" : [
+               "S3558"
+            ],
+            "minval" : "0.050",
+            "lower_error" : "0.055",
+            "is_add" : "",
+            "maxval" : "0.100",
+            "upper_error" : "0.101",
+            "source_type" : "Analytical or derived from analytical",
+            "imputed" : ""
+         },
+         "code" : "673",
+         "name" : "16:1 c"
+      },
+      {
+         "code" : "674",
+         "name" : "18:1 c",
+         "units" : "g",
+         "meta" : {
+            "studies" : "1",
+            "mod_month" : "03",
+            "stat_comments" : "2, 3",
+            "conf" : "",
+            "mod_year" : "2007",
+            "data_points" : "7",
+            "degrees_of_freedom" : "6",
+            "derivation" : "Analytical data",
+            "rounded" : "3",
+            "std_error" : "1.777",
+            "upper_error" : "25.731",
+            "source_type" : "Analytical or derived from analytical",
+            "imputed" : "",
+            "is_add" : "",
+            "sources" : [
+               "S3558"
+            ],
+            "minval" : "16.000",
+            "lower_error" : "17.038",
+            "maxval" : "26.108"
+         },
+         "value" : "21.385",
+         "abbr" : "F18D1C"
+      },
+      {
+         "code" : "675",
+         "name" : "18:2 n-6 c,c",
+         "units" : "g",
+         "meta" : {
+            "studies" : "1",
+            "conf" : "",
+            "mod_month" : "03",
+            "stat_comments" : "2, 3",
+            "data_points" : "7",
+            "degrees_of_freedom" : "6",
+            "mod_year" : "2007",
+            "derivation" : "Analytical data",
+            "std_error" : "2.202",
+            "rounded" : "3",
+            "source_type" : "Analytical or derived from analytical",
+            "upper_error" : "25.820",
+            "imputed" : "",
+            "is_add" : "",
+            "lower_error" : "15.044",
+            "sources" : [
+               "S3558"
+            ],
+            "minval" : "15.051",
+            "maxval" : "26.830"
+         },
+         "abbr" : "F18D2CN6",
+         "value" : "20.432"
+      },
+      {
+         "name" : "22:1 c",
+         "code" : "676",
+         "value" : "0.003",
+         "abbr" : "",
+         "units" : "g",
+         "meta" : {
+            "rounded" : "3",
+            "std_error" : "0.001",
+            "derivation" : "Analytical data",
+            "mod_year" : "2007",
+            "data_points" : "7",
+            "degrees_of_freedom" : "6",
+            "mod_month" : "03",
+            "stat_comments" : "1, 2, 3",
+            "conf" : "",
+            "studies" : "1",
+            "maxval" : "0.008",
+            "sources" : [
+               "S3558"
+            ],
+            "minval" : "0.000",
+            "lower_error" : "-0.001",
+            "is_add" : "",
+            "imputed" : "",
+            "upper_error" : "0.006",
+            "source_type" : "Analytical or derived from analytical"
+         }
+      },
+      {
+         "code" : "685",
+         "name" : "18:3 n-6 c,c,c",
+         "units" : "g",
+         "meta" : {
+            "sources" : [
+               "S3558"
+            ],
+            "minval" : "0.000",
+            "lower_error" : "0.005",
+            "is_add" : "",
+            "maxval" : "0.024",
+            "source_type" : "Analytical or derived from analytical",
+            "upper_error" : "0.023",
+            "imputed" : "",
+            "derivation" : "Analytical data",
+            "rounded" : "3",
+            "std_error" : "0.004",
+            "mod_month" : "03",
+            "stat_comments" : "1, 2, 3",
+            "conf" : "",
+            "studies" : "1",
+            "mod_year" : "2007",
+            "degrees_of_freedom" : "6",
+            "data_points" : "7"
+         },
+         "abbr" : "F18D3CN6",
+         "value" : "0.014"
+      },
+      {
+         "name" : "17:1",
+         "code" : "687",
+         "value" : "0.029",
+         "abbr" : "F17D1",
+         "meta" : {
+            "maxval" : "0.031",
+            "lower_error" : "0.027",
+            "minval" : "0.026",
+            "sources" : [
+               "S3558"
+            ],
+            "is_add" : "",
+            "imputed" : "",
+            "source_type" : "Analytical or derived from analytical",
+            "upper_error" : "0.031",
+            "rounded" : "3",
+            "std_error" : "0.001",
+            "derivation" : "Analytical data",
+            "data_points" : "7",
+            "degrees_of_freedom" : "6",
+            "mod_year" : "2007",
+            "conf" : "",
+            "mod_month" : "03",
+            "stat_comments" : "2, 3",
+            "studies" : "1"
+         },
+         "units" : "g"
+      },
+      {
+         "units" : "g",
+         "meta" : {
+            "std_error" : "0.002",
+            "rounded" : "3",
+            "derivation" : "Analytical data; derived by summation of components with source code 1 or 7",
+            "degrees_of_freedom" : "6",
+            "data_points" : "7",
+            "mod_year" : "2007",
+            "studies" : "1",
+            "conf" : "",
+            "mod_month" : "03",
+            "stat_comments" : "2, 3",
+            "maxval" : "0.020",
+            "is_add" : "",
+            "lower_error" : "0.010",
+            "minval" : "0.010",
+            "sources" : [
+               "S3558"
+            ],
+            "imputed" : "",
+            "upper_error" : "0.017",
+            "source_type" : "Analytical or derived from analytical"
+         },
+         "value" : "0.014",
+         "abbr" : "F20D3",
+         "code" : "689",
+         "name" : "20:3 undifferentiated"
+      },
+      {
+         "meta" : {
+            "sources" : [],
+            "minval" : "",
+            "lower_error" : "",
+            "is_add" : "",
+            "maxval" : "",
+            "upper_error" : "",
+            "source_type" : "Calculated or imputed",
+            "imputed" : "",
+            "derivation" : "Nutrient that is based on other nutrient/s; calculated rather than analyzed",
+            "std_error" : "",
+            "rounded" : "3",
+            "stat_comments" : "",
+            "mod_month" : "03",
+            "conf" : "",
+            "studies" : "",
+            "mod_year" : "2007",
+            "degrees_of_freedom" : "",
+            "data_points" : "0"
+         },
+         "units" : "g",
+         "abbr" : "FATRNM",
+         "value" : "2.914",
+         "code" : "693",
+         "name" : "Fatty acids, total trans-monoenoic"
+      },
+      {
+         "value" : "0.351",
+         "abbr" : "FATRNP",
+         "meta" : {
+            "mod_year" : "2007",
+            "data_points" : "0",
+            "degrees_of_freedom" : "",
+            "studies" : "",
+            "mod_month" : "03",
+            "stat_comments" : "",
+            "conf" : "",
+            "rounded" : "3",
+            "std_error" : "",
+            "derivation" : "Nutrient that is based on other nutrient/s; calculated rather than analyzed",
+            "imputed" : "",
+            "source_type" : "Calculated or imputed",
+            "upper_error" : "",
+            "maxval" : "",
+            "is_add" : "",
+            "minval" : "",
+            "sources" : [],
+            "lower_error" : ""
+         },
+         "units" : "g",
+         "name" : "Fatty acids, total trans-polyenoic",
+         "code" : "695"
+      },
+      {
+         "abbr" : "F15D1",
+         "value" : "0.000",
+         "meta" : {
+            "is_add" : "",
+            "lower_error" : "",
+            "sources" : [
+               "S3558"
+            ],
+            "minval" : "0.000",
+            "maxval" : "0.000",
+            "source_type" : "Analytical or derived from analytical",
+            "upper_error" : "",
+            "imputed" : "",
+            "derivation" : "Analytical data",
+            "std_error" : "0.000",
+            "rounded" : "3",
+            "studies" : "1",
+            "conf" : "",
+            "stat_comments" : "1, 2, 3",
+            "mod_month" : "03",
+            "data_points" : "7",
+            "degrees_of_freedom" : "",
+            "mod_year" : "2007"
+         },
+         "units" : "g",
+         "name" : "15:1",
+         "code" : "697"
+      },
+      {
+         "abbr" : "F18D3CN3",
+         "value" : "2.925",
+         "meta" : {
+            "imputed" : "",
+            "upper_error" : "3.525",
+            "source_type" : "Analytical or derived from analytical",
+            "maxval" : "3.816",
+            "lower_error" : "2.325",
+            "sources" : [
+               "S3558"
+            ],
+            "minval" : "2.302",
+            "is_add" : "",
+            "data_points" : "7",
+            "degrees_of_freedom" : "6",
+            "mod_year" : "2007",
+            "conf" : "",
+            "stat_comments" : "2, 3",
+            "mod_month" : "03",
+            "studies" : "1",
+            "rounded" : "3",
+            "std_error" : "0.245",
+            "derivation" : "Analytical data"
+         },
+         "units" : "g",
+         "name" : "18:3 n-3 c,c,c (ALA)",
+         "code" : "851"
+      },
+      {
+         "name" : "20:3 n-3",
+         "code" : "852",
+         "units" : "g",
+         "meta" : {
+            "imputed" : "",
+            "source_type" : "Analytical or derived from analytical",
+            "upper_error" : "",
+            "maxval" : "0.000",
+            "minval" : "0.000",
+            "sources" : [
+               "S3558"
+            ],
+            "lower_error" : "",
+            "is_add" : "",
+            "mod_year" : "2007",
+            "degrees_of_freedom" : "",
+            "data_points" : "7",
+            "stat_comments" : "1, 2, 3",
+            "mod_month" : "03",
+            "conf" : "",
+            "studies" : "1",
+            "rounded" : "3",
+            "std_error" : "0.000",
+            "derivation" : "Analytical data"
+         },
+         "abbr" : "F20D3N3",
+         "value" : "0.000"
+      },
+      {
+         "code" : "853",
+         "name" : "20:3 n-6",
+         "value" : "0.014",
+         "abbr" : "F20D3N6",
+         "meta" : {
+            "maxval" : "0.020",
+            "is_add" : "",
+            "lower_error" : "0.010",
+            "sources" : [
+               "S3558"
+            ],
+            "minval" : "0.010",
+            "imputed" : "",
+            "upper_error" : "0.017",
+            "source_type" : "Analytical or derived from analytical",
+            "rounded" : "3",
+            "std_error" : "0.002",
+            "derivation" : "Analytical data",
+            "degrees_of_freedom" : "6",
+            "data_points" : "7",
+            "mod_year" : "2007",
+            "studies" : "1",
+            "conf" : "",
+            "stat_comments" : "2, 3",
+            "mod_month" : "03"
+         },
+         "units" : "g"
+      },
+      {
+         "code" : "858",
+         "name" : "22:4",
+         "value" : "0.000",
+         "abbr" : "F22D4",
+         "meta" : {
+            "sources" : [
+               "S3558"
+            ],
+            "minval" : "0.000",
+            "lower_error" : "",
+            "is_add" : "",
+            "maxval" : "0.000",
+            "source_type" : "Analytical or derived from analytical",
+            "upper_error" : "",
+            "imputed" : "",
+            "derivation" : "Analytical data",
+            "rounded" : "3",
+            "std_error" : "0.000",
+            "mod_month" : "03",
+            "stat_comments" : "1, 2, 3",
+            "conf" : "",
+            "studies" : "1",
+            "mod_year" : "2007",
+            "degrees_of_freedom" : "",
+            "data_points" : "7"
+         },
+         "units" : "g"
+      }
+   ],
+   "manufacturer" : ""
+}

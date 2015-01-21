@@ -1,0 +1,575 @@
+{
+   "manufacturer" : "H.J. Heinz, Co.",
+   "meta" : {
+      "ref_desc" : "",
+      "ndb_no" : 18640,
+      "protein_factor" : "",
+      "carb_factor" : "",
+      "fndds_survey" : "",
+      "fat_factor" : "",
+      "nitrogen_factor" : "6.25",
+      "footnotes" : [],
+      "langual" : [],
+      "ref_per" : "0"
+   },
+   "group" : "Baked Products",
+   "nutrients" : [
+      {
+         "code" : "203",
+         "name" : "Protein",
+         "units" : "g",
+         "value" : "4.40",
+         "abbr" : "PROCNT",
+         "meta" : {
+            "imputed" : "",
+            "source_type" : "Manufacturer's analytical; partial documentation",
+            "mod_month" : "12",
+            "std_error" : "",
+            "stat_comments" : "",
+            "data_points" : "1",
+            "minval" : "",
+            "degrees_of_freedom" : "",
+            "studies" : "",
+            "lower_error" : "",
+            "maxval" : "",
+            "conf" : "",
+            "rounded" : "2",
+            "upper_error" : "",
+            "mod_year" : "2005",
+            "sources" : [
+               "S3765"
+            ],
+            "derivation" : "Manufacturer supplied(industry or trade association); Analytical data, incomplete documentation",
+            "is_add" : ""
+         }
+      },
+      {
+         "code" : "204",
+         "name" : "Total lipid (fat)",
+         "units" : "g",
+         "value" : "6.90",
+         "abbr" : "FAT",
+         "meta" : {
+            "conf" : "",
+            "rounded" : "2",
+            "upper_error" : "",
+            "mod_year" : "2005",
+            "sources" : [
+               "S3765"
+            ],
+            "derivation" : "Manufacturer supplied(industry or trade association); Analytical data, incomplete documentation",
+            "is_add" : "",
+            "source_type" : "Manufacturer's analytical; partial documentation",
+            "imputed" : "",
+            "mod_month" : "12",
+            "std_error" : "",
+            "stat_comments" : "",
+            "data_points" : "1",
+            "minval" : "",
+            "degrees_of_freedom" : "",
+            "studies" : "",
+            "lower_error" : "",
+            "maxval" : ""
+         }
+      },
+      {
+         "name" : "Carbohydrate, by difference",
+         "code" : "205",
+         "abbr" : "CHOCDF",
+         "value" : "40.30",
+         "meta" : {
+            "source_type" : "Calculated or imputed",
+            "imputed" : "",
+            "mod_month" : "12",
+            "std_error" : "",
+            "stat_comments" : "",
+            "data_points" : "0",
+            "minval" : "",
+            "degrees_of_freedom" : "",
+            "studies" : "",
+            "maxval" : "",
+            "lower_error" : "",
+            "conf" : "",
+            "rounded" : "2",
+            "upper_error" : "",
+            "mod_year" : "2005",
+            "sources" : [],
+            "derivation" : "Nutrient that is based on other nutrient/s; calculated rather than analyzed",
+            "is_add" : ""
+         },
+         "units" : "g"
+      },
+      {
+         "name" : "Ash",
+         "code" : "207",
+         "meta" : {
+            "rounded" : "2",
+            "upper_error" : "",
+            "conf" : "",
+            "derivation" : "Manufacturer supplied(industry or trade association); Analytical data, incomplete documentation",
+            "is_add" : "",
+            "mod_year" : "2005",
+            "sources" : [
+               "S3765"
+            ],
+            "data_points" : "1",
+            "imputed" : "",
+            "source_type" : "Manufacturer's analytical; partial documentation",
+            "mod_month" : "12",
+            "std_error" : "",
+            "stat_comments" : "",
+            "studies" : "",
+            "lower_error" : "",
+            "maxval" : "",
+            "minval" : "",
+            "degrees_of_freedom" : ""
+         },
+         "abbr" : "ASH",
+         "value" : "1.30",
+         "units" : "g"
+      },
+      {
+         "name" : "Energy",
+         "code" : "208",
+         "abbr" : "ENERC_KCAL",
+         "value" : "241",
+         "meta" : {
+            "mod_year" : "2005",
+            "sources" : [],
+            "derivation" : "Nutrient that is based on other nutrient/s; calculated rather than analyzed",
+            "is_add" : "",
+            "conf" : "",
+            "rounded" : "0",
+            "upper_error" : "",
+            "minval" : "",
+            "degrees_of_freedom" : "",
+            "studies" : "",
+            "lower_error" : "",
+            "maxval" : "",
+            "source_type" : "Calculated or imputed",
+            "imputed" : "",
+            "mod_month" : "12",
+            "std_error" : "",
+            "stat_comments" : "",
+            "data_points" : "0"
+         },
+         "units" : "kcal"
+      },
+      {
+         "value" : "47.30",
+         "abbr" : "WATER",
+         "meta" : {
+            "std_error" : "",
+            "stat_comments" : "",
+            "imputed" : "",
+            "source_type" : "Calculated by manufacturer, not adjusted or rounded for NLEA",
+            "mod_month" : "12",
+            "data_points" : "1",
+            "degrees_of_freedom" : "",
+            "minval" : "",
+            "lower_error" : "",
+            "maxval" : "",
+            "studies" : "",
+            "conf" : "",
+            "rounded" : "2",
+            "upper_error" : "",
+            "mod_year" : "2005",
+            "sources" : [
+               "S3765"
+            ],
+            "is_add" : "",
+            "derivation" : "Manufacturer supplied; Calculated by manufacturer or unknown if analytical or calculated"
+         },
+         "units" : "g",
+         "name" : "Water",
+         "code" : "255"
+      },
+      {
+         "code" : "268",
+         "name" : "Energy",
+         "units" : "kJ",
+         "value" : "1008",
+         "abbr" : "ENERC_KJ",
+         "meta" : {
+            "studies" : "",
+            "lower_error" : "",
+            "maxval" : "",
+            "minval" : "",
+            "degrees_of_freedom" : "",
+            "data_points" : "0",
+            "imputed" : "",
+            "source_type" : "Calculated or imputed",
+            "mod_month" : "12",
+            "std_error" : "",
+            "stat_comments" : "",
+            "derivation" : "Nutrient that is based on other nutrient/s; calculated rather than analyzed",
+            "is_add" : "",
+            "mod_year" : "2005",
+            "sources" : [],
+            "rounded" : "0",
+            "upper_error" : "",
+            "conf" : ""
+         }
+      },
+      {
+         "name" : "Sugars, total",
+         "code" : "269",
+         "abbr" : "SUGAR",
+         "meta" : {
+            "derivation" : "Manufacturer supplied(industry or trade association); Analytical data, incomplete documentation",
+            "is_add" : "",
+            "mod_year" : "2005",
+            "sources" : [
+               "S3765"
+            ],
+            "rounded" : "2",
+            "upper_error" : "",
+            "conf" : "",
+            "studies" : "",
+            "maxval" : "",
+            "lower_error" : "",
+            "minval" : "",
+            "degrees_of_freedom" : "",
+            "data_points" : "1",
+            "source_type" : "Manufacturer's analytical; partial documentation",
+            "imputed" : "",
+            "mod_month" : "12",
+            "std_error" : "",
+            "stat_comments" : ""
+         },
+         "value" : "16.80",
+         "units" : "g"
+      },
+      {
+         "meta" : {
+            "is_add" : "",
+            "derivation" : "Manufacturer supplied(industry or trade association); Analytical data, incomplete documentation",
+            "sources" : [
+               "S3765"
+            ],
+            "mod_year" : "2005",
+            "upper_error" : "",
+            "rounded" : "1",
+            "conf" : "",
+            "lower_error" : "",
+            "maxval" : "",
+            "studies" : "",
+            "degrees_of_freedom" : "",
+            "minval" : "",
+            "data_points" : "1",
+            "stat_comments" : "",
+            "std_error" : "",
+            "mod_month" : "12",
+            "source_type" : "Manufacturer's analytical; partial documentation",
+            "imputed" : ""
+         },
+         "abbr" : "FIBTG",
+         "value" : "2.1",
+         "units" : "g",
+         "name" : "Fiber, total dietary",
+         "code" : "291"
+      },
+      {
+         "units" : "mg",
+         "value" : "48",
+         "abbr" : "CA",
+         "meta" : {
+            "imputed" : "",
+            "source_type" : "Manufacturer's analytical; partial documentation",
+            "mod_month" : "12",
+            "std_error" : "",
+            "stat_comments" : "",
+            "data_points" : "1",
+            "minval" : "",
+            "degrees_of_freedom" : "",
+            "studies" : "",
+            "lower_error" : "",
+            "maxval" : "",
+            "conf" : "",
+            "rounded" : "0",
+            "upper_error" : "",
+            "mod_year" : "2005",
+            "sources" : [
+               "S3765"
+            ],
+            "derivation" : "Manufacturer supplied(industry or trade association); Analytical data, incomplete documentation",
+            "is_add" : ""
+         },
+         "code" : "301",
+         "name" : "Calcium, Ca"
+      },
+      {
+         "units" : "mg",
+         "abbr" : "FE",
+         "value" : "0.70",
+         "meta" : {
+            "lower_error" : "",
+            "maxval" : "",
+            "studies" : "",
+            "degrees_of_freedom" : "",
+            "minval" : "",
+            "data_points" : "1",
+            "stat_comments" : "",
+            "std_error" : "",
+            "mod_month" : "12",
+            "imputed" : "",
+            "source_type" : "Manufacturer's analytical; partial documentation",
+            "is_add" : "",
+            "derivation" : "Manufacturer supplied(industry or trade association); Analytical data, incomplete documentation",
+            "sources" : [
+               "S3765"
+            ],
+            "mod_year" : "2005",
+            "upper_error" : "",
+            "rounded" : "2",
+            "conf" : ""
+         },
+         "code" : "303",
+         "name" : "Iron, Fe"
+      },
+      {
+         "code" : "307",
+         "name" : "Sodium, Na",
+         "units" : "mg",
+         "value" : "300",
+         "abbr" : "NA",
+         "meta" : {
+            "derivation" : "Manufacturer supplied(industry or trade association); Analytical data, incomplete documentation",
+            "is_add" : "",
+            "mod_year" : "2005",
+            "sources" : [
+               "S3765"
+            ],
+            "rounded" : "0",
+            "upper_error" : "",
+            "conf" : "",
+            "studies" : "",
+            "maxval" : "",
+            "lower_error" : "",
+            "minval" : "",
+            "degrees_of_freedom" : "",
+            "data_points" : "1",
+            "imputed" : "",
+            "source_type" : "Manufacturer's analytical; partial documentation",
+            "mod_month" : "12",
+            "std_error" : "",
+            "stat_comments" : ""
+         }
+      },
+      {
+         "units" : "IU",
+         "meta" : {
+            "mod_year" : "2005",
+            "sources" : [
+               "S3765"
+            ],
+            "is_add" : "",
+            "derivation" : "Manufacturer supplied(industry or trade association); Analytical data, incomplete documentation",
+            "conf" : "",
+            "rounded" : "0",
+            "upper_error" : "",
+            "degrees_of_freedom" : "",
+            "minval" : "",
+            "maxval" : "",
+            "lower_error" : "",
+            "studies" : "",
+            "std_error" : "",
+            "stat_comments" : "",
+            "source_type" : "Manufacturer's analytical; partial documentation",
+            "imputed" : "",
+            "mod_month" : "12",
+            "data_points" : "1"
+         },
+         "abbr" : "VITA_IU",
+         "value" : "75",
+         "code" : "318",
+         "name" : "Vitamin A, IU"
+      },
+      {
+         "abbr" : "VITC",
+         "meta" : {
+            "rounded" : "1",
+            "upper_error" : "",
+            "conf" : "",
+            "derivation" : "Manufacturer supplied(industry or trade association); Analytical data, incomplete documentation",
+            "is_add" : "",
+            "mod_year" : "2005",
+            "sources" : [
+               "S3765"
+            ],
+            "data_points" : "1",
+            "imputed" : "",
+            "source_type" : "Manufacturer's analytical; partial documentation",
+            "mod_month" : "12",
+            "std_error" : "",
+            "stat_comments" : "",
+            "studies" : "",
+            "lower_error" : "",
+            "maxval" : "",
+            "minval" : "",
+            "degrees_of_freedom" : ""
+         },
+         "value" : "0.0",
+         "units" : "mg",
+         "name" : "Vitamin C, total ascorbic acid",
+         "code" : "401"
+      },
+      {
+         "code" : "601",
+         "name" : "Cholesterol",
+         "units" : "mg",
+         "abbr" : "CHOLE",
+         "value" : "47",
+         "meta" : {
+            "stat_comments" : "",
+            "std_error" : "",
+            "mod_month" : "12",
+            "imputed" : "",
+            "source_type" : "Manufacturer's analytical; partial documentation",
+            "data_points" : "1",
+            "degrees_of_freedom" : "",
+            "minval" : "",
+            "lower_error" : "",
+            "maxval" : "",
+            "studies" : "",
+            "conf" : "",
+            "upper_error" : "",
+            "rounded" : "0",
+            "sources" : [
+               "S3765"
+            ],
+            "mod_year" : "2005",
+            "is_add" : "",
+            "derivation" : "Manufacturer supplied(industry or trade association); Analytical data, incomplete documentation"
+         }
+      },
+      {
+         "code" : "605",
+         "name" : "Fatty acids, total trans",
+         "units" : "g",
+         "abbr" : "FATRN",
+         "value" : "0.200",
+         "meta" : {
+            "rounded" : "3",
+            "upper_error" : "",
+            "conf" : "",
+            "is_add" : "",
+            "derivation" : "Manufacturer supplied(industry or trade association); Analytical data, incomplete documentation",
+            "mod_year" : "2005",
+            "sources" : [
+               "S3765"
+            ],
+            "data_points" : "1",
+            "std_error" : "",
+            "stat_comments" : "",
+            "imputed" : "",
+            "source_type" : "Manufacturer's analytical; partial documentation",
+            "mod_month" : "12",
+            "maxval" : "",
+            "lower_error" : "",
+            "studies" : "",
+            "degrees_of_freedom" : "",
+            "minval" : ""
+         }
+      },
+      {
+         "abbr" : "FASAT",
+         "meta" : {
+            "sources" : [
+               "S3765"
+            ],
+            "mod_year" : "2005",
+            "is_add" : "",
+            "derivation" : "Manufacturer supplied(industry or trade association); Analytical data, incomplete documentation",
+            "conf" : "",
+            "upper_error" : "",
+            "rounded" : "3",
+            "degrees_of_freedom" : "",
+            "minval" : "",
+            "lower_error" : "",
+            "maxval" : "",
+            "studies" : "",
+            "stat_comments" : "",
+            "std_error" : "",
+            "mod_month" : "12",
+            "source_type" : "Manufacturer's analytical; partial documentation",
+            "imputed" : "",
+            "data_points" : "1"
+         },
+         "value" : "1.400",
+         "units" : "g",
+         "name" : "Fatty acids, total saturated",
+         "code" : "606"
+      },
+      {
+         "meta" : {
+            "rounded" : "3",
+            "upper_error" : "",
+            "conf" : "",
+            "derivation" : "Manufacturer supplied(industry or trade association); Analytical data, incomplete documentation",
+            "is_add" : "",
+            "mod_year" : "2005",
+            "sources" : [
+               "S3765"
+            ],
+            "data_points" : "1",
+            "source_type" : "Manufacturer's analytical; partial documentation",
+            "imputed" : "",
+            "mod_month" : "12",
+            "std_error" : "",
+            "stat_comments" : "",
+            "studies" : "",
+            "lower_error" : "",
+            "maxval" : "",
+            "minval" : "",
+            "degrees_of_freedom" : ""
+         },
+         "abbr" : "FAMS",
+         "value" : "2.000",
+         "units" : "g",
+         "name" : "Fatty acids, total monounsaturated",
+         "code" : "645"
+      },
+      {
+         "code" : "646",
+         "name" : "Fatty acids, total polyunsaturated",
+         "units" : "g",
+         "meta" : {
+            "lower_error" : "",
+            "maxval" : "",
+            "studies" : "",
+            "degrees_of_freedom" : "",
+            "minval" : "",
+            "data_points" : "1",
+            "stat_comments" : "",
+            "std_error" : "",
+            "mod_month" : "12",
+            "imputed" : "",
+            "source_type" : "Manufacturer's analytical; partial documentation",
+            "is_add" : "",
+            "derivation" : "Manufacturer supplied(industry or trade association); Analytical data, incomplete documentation",
+            "sources" : [
+               "S3765"
+            ],
+            "mod_year" : "2005",
+            "upper_error" : "",
+            "rounded" : "3",
+            "conf" : ""
+         },
+         "abbr" : "FAPU",
+         "value" : "2.900"
+      }
+   ],
+   "portions" : [
+      {
+         "unit" : "eclair, frozen",
+         "g" : "59",
+         "amt" : "1"
+      }
+   ],
+   "name" : {
+      "long" : "HEINZ, WEIGHT WATCHER, Chocolate Eclair, frozen",
+      "sci" : "",
+      "common" : []
+   }
+}

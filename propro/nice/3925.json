@@ -1,0 +1,2731 @@
+{
+   "group" : "Beef Products",
+   "meta" : {
+      "carb_factor" : "3.87",
+      "nitrogen_factor" : "6.25",
+      "fndds_survey" : "",
+      "ref_desc" : "Bone and connective tissue",
+      "fat_factor" : "9.02",
+      "protein_factor" : "4.27",
+      "ndb_no" : 13805,
+      "ref_per" : "1",
+      "footnotes" : [],
+      "langual" : [
+         {
+            "description" : "MEAT OR MEAT PRODUCT (FROM MAMMAL) (US CFR)",
+            "code" : "A0150"
+         },
+         {
+            "description" : "1300 BEEF PRODUCTS (USDA SR)",
+            "code" : "A1283"
+         },
+         {
+            "code" : "C0269",
+            "description" : "SKELETAL MEAT PART, WITHOUT BONE AND SKIN, WITH SEPARABLE FAT"
+         },
+         {
+            "description" : "WHOLE, NATURAL SHAPE",
+            "code" : "E0150"
+         },
+         {
+            "code" : "F0003",
+            "description" : "NOT HEAT-TREATED"
+         },
+         {
+            "description" : "COOKING METHOD NOT APPLICABLE",
+            "code" : "G0003"
+         },
+         {
+            "code" : "H0003",
+            "description" : "NO TREATMENT APPLIED"
+         },
+         {
+            "code" : "J0001",
+            "description" : "PRESERVATION METHOD NOT KNOWN"
+         },
+         {
+            "description" : "NO PACKING MEDIUM USED",
+            "code" : "K0003"
+         },
+         {
+            "code" : "M0001",
+            "description" : "CONTAINER OR WRAPPING NOT KNOWN"
+         },
+         {
+            "description" : "FOOD CONTACT SURFACE NOT KNOWN",
+            "code" : "N0001"
+         },
+         {
+            "description" : "HUMAN FOOD, NO AGE SPECIFICATION",
+            "code" : "P0024"
+         },
+         {
+            "code" : "R0001",
+            "description" : "GEOGRAPHIC PLACE OR REGION NOT KNOWN"
+         },
+         {
+            "description" : "GRADE OF MEAT, MIXTURE",
+            "code" : "Z0053"
+         },
+         {
+            "code" : "Z0252",
+            "description" : "EXTERNAL FAT TRIMMED TO 1/8 INCH"
+         }
+      ]
+   },
+   "nutrients" : [
+      {
+         "units" : "g",
+         "value" : "17.94",
+         "name" : "Protein",
+         "code" : "203",
+         "meta" : {
+            "data_points" : "20",
+            "mod_month" : "04",
+            "degrees_of_freedom" : "",
+            "stat_comments" : "",
+            "minval" : "",
+            "source_type" : "Analytical or derived from analytical",
+            "rounded" : "2",
+            "mod_year" : "2003",
+            "imputed" : "",
+            "upper_error" : "",
+            "derivation" : "Based on physical composition; Derived from analytical data; Known physical composition",
+            "std_error" : "0.386",
+            "sources" : [
+               "S2"
+            ],
+            "lower_error" : "",
+            "conf" : "",
+            "is_add" : "",
+            "maxval" : "",
+            "studies" : ""
+         },
+         "abbr" : "PROCNT"
+      },
+      {
+         "code" : "204",
+         "name" : "Total lipid (fat)",
+         "meta" : {
+            "minval" : "",
+            "degrees_of_freedom" : "",
+            "stat_comments" : "",
+            "data_points" : "20",
+            "mod_month" : "04",
+            "lower_error" : "",
+            "conf" : "",
+            "is_add" : "",
+            "maxval" : "",
+            "studies" : "",
+            "rounded" : "2",
+            "mod_year" : "2003",
+            "source_type" : "Analytical or derived from analytical",
+            "sources" : [
+               "S2"
+            ],
+            "upper_error" : "",
+            "imputed" : "",
+            "derivation" : "Based on physical composition; Derived from analytical data; Known physical composition",
+            "std_error" : "1.329"
+         },
+         "abbr" : "FAT",
+         "value" : "22.18",
+         "units" : "g"
+      },
+      {
+         "abbr" : "CHOCDF",
+         "meta" : {
+            "mod_month" : "12",
+            "data_points" : "0",
+            "stat_comments" : "",
+            "degrees_of_freedom" : "",
+            "minval" : "",
+            "derivation" : "Assumed zero (Insignificant amount or not naturally occurring in a food, such as fiber in meat)",
+            "std_error" : "",
+            "upper_error" : "",
+            "imputed" : "",
+            "sources" : [],
+            "source_type" : "Assumed zero",
+            "mod_year" : "1995",
+            "rounded" : "2",
+            "maxval" : "",
+            "studies" : "",
+            "lower_error" : "",
+            "conf" : "",
+            "is_add" : ""
+         },
+         "name" : "Carbohydrate, by difference",
+         "code" : "205",
+         "units" : "g",
+         "value" : "0.00"
+      },
+      {
+         "units" : "g",
+         "value" : "0.81",
+         "abbr" : "ASH",
+         "meta" : {
+            "data_points" : "20",
+            "mod_month" : "04",
+            "degrees_of_freedom" : "",
+            "stat_comments" : "",
+            "minval" : "",
+            "imputed" : "",
+            "upper_error" : "",
+            "std_error" : "0.021",
+            "derivation" : "Based on physical composition; Derived from analytical data; Known physical composition",
+            "sources" : [
+               "S2"
+            ],
+            "source_type" : "Analytical or derived from analytical",
+            "rounded" : "2",
+            "mod_year" : "2003",
+            "lower_error" : "",
+            "is_add" : "",
+            "conf" : "",
+            "maxval" : "",
+            "studies" : ""
+         },
+         "name" : "Ash",
+         "code" : "207"
+      },
+      {
+         "value" : "277",
+         "units" : "kcal",
+         "code" : "208",
+         "name" : "Energy",
+         "meta" : {
+            "degrees_of_freedom" : "",
+            "stat_comments" : "",
+            "minval" : "",
+            "data_points" : "0",
+            "mod_month" : "07",
+            "conf" : "",
+            "lower_error" : "",
+            "is_add" : "",
+            "maxval" : "",
+            "studies" : "",
+            "source_type" : "Calculated or imputed",
+            "rounded" : "0",
+            "mod_year" : "2010",
+            "upper_error" : "",
+            "imputed" : "",
+            "std_error" : "",
+            "derivation" : "Nutrient that is based on other nutrient/s; calculated rather than analyzed",
+            "sources" : []
+         },
+         "abbr" : "ENERC_KCAL"
+      },
+      {
+         "code" : "221",
+         "name" : "Alcohol, ethyl",
+         "meta" : {
+            "rounded" : "1",
+            "mod_year" : "2003",
+            "source_type" : "Assumed zero",
+            "sources" : [],
+            "upper_error" : "",
+            "imputed" : "",
+            "derivation" : "Assumed zero (Insignificant amount or not naturally occurring in a food, such as fiber in meat)",
+            "std_error" : "",
+            "conf" : "",
+            "lower_error" : "",
+            "is_add" : "",
+            "studies" : "",
+            "maxval" : "",
+            "data_points" : "0",
+            "mod_month" : "04",
+            "minval" : "",
+            "degrees_of_freedom" : "",
+            "stat_comments" : ""
+         },
+         "abbr" : "ALC",
+         "value" : "0.0",
+         "units" : "g"
+      },
+      {
+         "value" : "59.07",
+         "units" : "g",
+         "abbr" : "WATER",
+         "meta" : {
+            "studies" : "",
+            "maxval" : "",
+            "conf" : "",
+            "lower_error" : "",
+            "is_add" : "",
+            "mod_year" : "2003",
+            "rounded" : "2",
+            "source_type" : "Analytical or derived from analytical",
+            "sources" : [
+               "S2"
+            ],
+            "derivation" : "Based on physical composition; Derived from analytical data; Known physical composition",
+            "std_error" : "1.006",
+            "imputed" : "",
+            "upper_error" : "",
+            "minval" : "",
+            "stat_comments" : "",
+            "degrees_of_freedom" : "",
+            "mod_month" : "04",
+            "data_points" : "20"
+         },
+         "code" : "255",
+         "name" : "Water"
+      },
+      {
+         "value" : "0",
+         "units" : "mg",
+         "meta" : {
+            "source_type" : "Assumed zero",
+            "rounded" : "0",
+            "mod_year" : "2003",
+            "imputed" : "",
+            "upper_error" : "",
+            "std_error" : "",
+            "derivation" : "Assumed zero (Insignificant amount or not naturally occurring in a food, such as fiber in meat)",
+            "sources" : [],
+            "conf" : "",
+            "lower_error" : "",
+            "is_add" : "",
+            "maxval" : "",
+            "studies" : "",
+            "data_points" : "0",
+            "mod_month" : "04",
+            "degrees_of_freedom" : "",
+            "stat_comments" : "",
+            "minval" : ""
+         },
+         "abbr" : "CAFFN",
+         "code" : "262",
+         "name" : "Caffeine"
+      },
+      {
+         "units" : "mg",
+         "value" : "0",
+         "abbr" : "THEBRN",
+         "meta" : {
+            "data_points" : "0",
+            "mod_month" : "04",
+            "minval" : "",
+            "degrees_of_freedom" : "",
+            "stat_comments" : "",
+            "sources" : [],
+            "imputed" : "",
+            "upper_error" : "",
+            "derivation" : "Assumed zero (Insignificant amount or not naturally occurring in a food, such as fiber in meat)",
+            "std_error" : "",
+            "rounded" : "0",
+            "mod_year" : "2003",
+            "source_type" : "Assumed zero",
+            "lower_error" : "",
+            "conf" : "",
+            "is_add" : "",
+            "studies" : "",
+            "maxval" : ""
+         },
+         "name" : "Theobromine",
+         "code" : "263"
+      },
+      {
+         "name" : "Energy",
+         "code" : "268",
+         "meta" : {
+            "data_points" : "0",
+            "mod_month" : "07",
+            "degrees_of_freedom" : "",
+            "stat_comments" : "",
+            "minval" : "",
+            "upper_error" : "",
+            "imputed" : "",
+            "derivation" : "Nutrient that is based on other nutrient/s; calculated rather than analyzed",
+            "std_error" : "",
+            "sources" : [],
+            "source_type" : "Calculated or imputed",
+            "rounded" : "0",
+            "mod_year" : "2010",
+            "conf" : "",
+            "lower_error" : "",
+            "is_add" : "",
+            "maxval" : "",
+            "studies" : ""
+         },
+         "abbr" : "ENERC_KJ",
+         "units" : "kJ",
+         "value" : "1158"
+      },
+      {
+         "abbr" : "SUGAR",
+         "meta" : {
+            "studies" : "",
+            "maxval" : "",
+            "lower_error" : "",
+            "conf" : "",
+            "is_add" : "",
+            "sources" : [],
+            "std_error" : "",
+            "derivation" : "Assumed zero (Insignificant amount or not naturally occurring in a food, such as fiber in meat)",
+            "imputed" : "",
+            "upper_error" : "",
+            "mod_year" : "2003",
+            "rounded" : "2",
+            "source_type" : "Assumed zero",
+            "minval" : "",
+            "stat_comments" : "",
+            "degrees_of_freedom" : "",
+            "mod_month" : "04",
+            "data_points" : "0"
+         },
+         "name" : "Sugars, total",
+         "code" : "269",
+         "units" : "g",
+         "value" : "0.00"
+      },
+      {
+         "units" : "g",
+         "value" : "0.0",
+         "name" : "Fiber, total dietary",
+         "code" : "291",
+         "meta" : {
+            "data_points" : "0",
+            "mod_month" : "12",
+            "minval" : "",
+            "degrees_of_freedom" : "",
+            "stat_comments" : "",
+            "rounded" : "1",
+            "mod_year" : "1995",
+            "source_type" : "Assumed zero",
+            "sources" : [],
+            "upper_error" : "",
+            "imputed" : "",
+            "derivation" : "Assumed zero (Insignificant amount or not naturally occurring in a food, such as fiber in meat)",
+            "std_error" : "",
+            "lower_error" : "",
+            "is_add" : "",
+            "conf" : "",
+            "studies" : "",
+            "maxval" : ""
+         },
+         "abbr" : "FIBTG"
+      },
+      {
+         "units" : "mg",
+         "value" : "16",
+         "name" : "Calcium, Ca",
+         "code" : "301",
+         "abbr" : "CA",
+         "meta" : {
+            "minval" : "",
+            "stat_comments" : "",
+            "degrees_of_freedom" : "",
+            "mod_month" : "04",
+            "data_points" : "0",
+            "maxval" : "",
+            "studies" : "",
+            "lower_error" : "",
+            "conf" : "",
+            "is_add" : "",
+            "sources" : [
+               "S2"
+            ],
+            "std_error" : "",
+            "derivation" : "Based on another form of the food or similar food; Concentration adjustment; Non-fat solids; Retention factors not used",
+            "upper_error" : "",
+            "imputed" : "",
+            "mod_year" : "2003",
+            "rounded" : "0",
+            "source_type" : "Calculated or imputed"
+         }
+      },
+      {
+         "units" : "mg",
+         "value" : "1.59",
+         "abbr" : "FE",
+         "meta" : {
+            "mod_month" : "04",
+            "data_points" : "0",
+            "minval" : "",
+            "stat_comments" : "",
+            "degrees_of_freedom" : "",
+            "sources" : [
+               "S2"
+            ],
+            "derivation" : "Based on another form of the food or similar food; Concentration adjustment; Non-fat solids; Retention factors not used",
+            "std_error" : "",
+            "upper_error" : "",
+            "imputed" : "",
+            "mod_year" : "2003",
+            "rounded" : "2",
+            "source_type" : "Calculated or imputed",
+            "studies" : "",
+            "maxval" : "",
+            "conf" : "",
+            "lower_error" : "",
+            "is_add" : ""
+         },
+         "name" : "Iron, Fe",
+         "code" : "303"
+      },
+      {
+         "units" : "mg",
+         "value" : "18",
+         "name" : "Magnesium, Mg",
+         "code" : "304",
+         "abbr" : "MG",
+         "meta" : {
+            "studies" : "",
+            "maxval" : "",
+            "conf" : "",
+            "lower_error" : "",
+            "is_add" : "",
+            "sources" : [
+               "S2"
+            ],
+            "derivation" : "Based on another form of the food or similar food; Concentration adjustment; Non-fat solids; Retention factors not used",
+            "std_error" : "",
+            "upper_error" : "",
+            "imputed" : "",
+            "mod_year" : "2003",
+            "rounded" : "0",
+            "source_type" : "Calculated or imputed",
+            "minval" : "",
+            "stat_comments" : "",
+            "degrees_of_freedom" : "",
+            "mod_month" : "04",
+            "data_points" : "0"
+         }
+      },
+      {
+         "units" : "mg",
+         "value" : "165",
+         "name" : "Phosphorus, P",
+         "code" : "305",
+         "meta" : {
+            "studies" : "",
+            "maxval" : "",
+            "conf" : "",
+            "lower_error" : "",
+            "is_add" : "",
+            "derivation" : "Based on another form of the food or similar food; Concentration adjustment; Non-fat solids; Retention factors not used",
+            "std_error" : "",
+            "imputed" : "",
+            "upper_error" : "",
+            "sources" : [
+               "S2"
+            ],
+            "source_type" : "Calculated or imputed",
+            "mod_year" : "2003",
+            "rounded" : "0",
+            "stat_comments" : "",
+            "degrees_of_freedom" : "",
+            "minval" : "",
+            "mod_month" : "04",
+            "data_points" : "0"
+         },
+         "abbr" : "P"
+      },
+      {
+         "value" : "276",
+         "units" : "mg",
+         "code" : "306",
+         "name" : "Potassium, K",
+         "abbr" : "K",
+         "meta" : {
+            "sources" : [
+               "S2"
+            ],
+            "derivation" : "Based on another form of the food or similar food; Concentration adjustment; Non-fat solids; Retention factors not used",
+            "std_error" : "",
+            "imputed" : "",
+            "upper_error" : "",
+            "mod_year" : "2003",
+            "rounded" : "0",
+            "source_type" : "Calculated or imputed",
+            "studies" : "",
+            "maxval" : "",
+            "lower_error" : "",
+            "is_add" : "",
+            "conf" : "",
+            "mod_month" : "04",
+            "data_points" : "0",
+            "minval" : "",
+            "stat_comments" : "",
+            "degrees_of_freedom" : ""
+         }
+      },
+      {
+         "value" : "59",
+         "units" : "mg",
+         "meta" : {
+            "minval" : "",
+            "degrees_of_freedom" : "",
+            "stat_comments" : "",
+            "data_points" : "0",
+            "mod_month" : "04",
+            "lower_error" : "",
+            "conf" : "",
+            "is_add" : "",
+            "maxval" : "",
+            "studies" : "",
+            "rounded" : "0",
+            "mod_year" : "2003",
+            "source_type" : "Calculated or imputed",
+            "sources" : [
+               "S2"
+            ],
+            "imputed" : "",
+            "upper_error" : "",
+            "std_error" : "",
+            "derivation" : "Based on another form of the food or similar food; Concentration adjustment; Non-fat solids; Retention factors not used"
+         },
+         "abbr" : "NA",
+         "code" : "307",
+         "name" : "Sodium, Na"
+      },
+      {
+         "value" : "4.32",
+         "units" : "mg",
+         "abbr" : "ZN",
+         "meta" : {
+            "mod_month" : "04",
+            "data_points" : "0",
+            "minval" : "",
+            "stat_comments" : "",
+            "degrees_of_freedom" : "",
+            "mod_year" : "2003",
+            "rounded" : "2",
+            "source_type" : "Calculated or imputed",
+            "sources" : [
+               "S2"
+            ],
+            "std_error" : "",
+            "derivation" : "Based on another form of the food or similar food; Concentration adjustment; Non-fat solids; Retention factors not used",
+            "upper_error" : "",
+            "imputed" : "",
+            "maxval" : "",
+            "studies" : "",
+            "lower_error" : "",
+            "conf" : "",
+            "is_add" : ""
+         },
+         "code" : "309",
+         "name" : "Zinc, Zn"
+      },
+      {
+         "value" : "0.077",
+         "units" : "mg",
+         "abbr" : "CU",
+         "meta" : {
+            "stat_comments" : "",
+            "degrees_of_freedom" : "",
+            "minval" : "",
+            "mod_month" : "04",
+            "data_points" : "0",
+            "maxval" : "",
+            "studies" : "",
+            "is_add" : "",
+            "lower_error" : "",
+            "conf" : "",
+            "source_type" : "Calculated or imputed",
+            "mod_year" : "2003",
+            "rounded" : "3",
+            "std_error" : "",
+            "derivation" : "Based on another form of the food or similar food; Concentration adjustment; Non-fat solids; Retention factors not used",
+            "imputed" : "",
+            "upper_error" : "",
+            "sources" : [
+               "S2"
+            ]
+         },
+         "code" : "312",
+         "name" : "Copper, Cu"
+      },
+      {
+         "abbr" : "MN",
+         "meta" : {
+            "lower_error" : "",
+            "conf" : "",
+            "is_add" : "",
+            "maxval" : "",
+            "studies" : "",
+            "rounded" : "3",
+            "mod_year" : "2003",
+            "source_type" : "Calculated or imputed",
+            "sources" : [
+               "S2"
+            ],
+            "imputed" : "",
+            "upper_error" : "",
+            "derivation" : "Based on another form of the food or similar food; Concentration adjustment; Non-fat solids; Retention factors not used",
+            "std_error" : "",
+            "minval" : "",
+            "degrees_of_freedom" : "",
+            "stat_comments" : "",
+            "data_points" : "0",
+            "mod_month" : "04"
+         },
+         "name" : "Manganese, Mn",
+         "code" : "315",
+         "units" : "mg",
+         "value" : "0.011"
+      },
+      {
+         "meta" : {
+            "data_points" : "0",
+            "mod_month" : "04",
+            "degrees_of_freedom" : "",
+            "stat_comments" : "",
+            "minval" : "",
+            "imputed" : "",
+            "upper_error" : "",
+            "std_error" : "",
+            "derivation" : "Based on another form of the food or similar food; Concentration adjustment; Non-fat solids; Retention factors not used",
+            "sources" : [
+               "S2"
+            ],
+            "source_type" : "Calculated or imputed",
+            "rounded" : "1",
+            "mod_year" : "2003",
+            "conf" : "",
+            "lower_error" : "",
+            "is_add" : "",
+            "maxval" : "",
+            "studies" : ""
+         },
+         "abbr" : "SE",
+         "name" : "Selenium, Se",
+         "code" : "317",
+         "units" : "µg",
+         "value" : "19.4"
+      },
+      {
+         "units" : "IU",
+         "value" : "0",
+         "name" : "Vitamin A, IU",
+         "code" : "318",
+         "meta" : {
+            "data_points" : "0",
+            "mod_month" : "04",
+            "minval" : "",
+            "degrees_of_freedom" : "",
+            "stat_comments" : "",
+            "sources" : [],
+            "upper_error" : "",
+            "imputed" : "",
+            "derivation" : "Analytical data; derived by summation of components with source code 1 or 7",
+            "std_error" : "",
+            "rounded" : "0",
+            "mod_year" : "2003",
+            "source_type" : "Analytical or derived from analytical",
+            "is_add" : "",
+            "lower_error" : "",
+            "conf" : "",
+            "maxval" : "",
+            "studies" : ""
+         },
+         "abbr" : "VITA_IU"
+      },
+      {
+         "name" : "Retinol",
+         "code" : "319",
+         "meta" : {
+            "minval" : "",
+            "degrees_of_freedom" : "",
+            "stat_comments" : "",
+            "data_points" : "0",
+            "mod_month" : "04",
+            "lower_error" : "",
+            "conf" : "",
+            "is_add" : "",
+            "studies" : "",
+            "maxval" : "",
+            "sources" : [],
+            "upper_error" : "",
+            "imputed" : "",
+            "std_error" : "",
+            "derivation" : "Assumed zero (Insignificant amount or not naturally occurring in a food, such as fiber in meat)",
+            "rounded" : "0",
+            "mod_year" : "2003",
+            "source_type" : "Assumed zero"
+         },
+         "abbr" : "RETOL",
+         "units" : "µg",
+         "value" : "0"
+      },
+      {
+         "units" : "µg",
+         "value" : "0",
+         "meta" : {
+            "stat_comments" : "",
+            "degrees_of_freedom" : "",
+            "minval" : "",
+            "mod_month" : "04",
+            "data_points" : "0",
+            "studies" : "",
+            "maxval" : "",
+            "lower_error" : "",
+            "is_add" : "",
+            "conf" : "",
+            "derivation" : "Analytical data; derived by summation of components with source code 1 or 7",
+            "std_error" : "",
+            "upper_error" : "",
+            "imputed" : "",
+            "sources" : [],
+            "source_type" : "Analytical or derived from analytical",
+            "mod_year" : "2008",
+            "rounded" : "0"
+         },
+         "abbr" : "VITA_RAE",
+         "name" : "Vitamin A, RAE",
+         "code" : "320"
+      },
+      {
+         "name" : "Carotene, beta",
+         "code" : "321",
+         "meta" : {
+            "mod_month" : "04",
+            "data_points" : "0",
+            "minval" : "",
+            "stat_comments" : "",
+            "degrees_of_freedom" : "",
+            "sources" : [],
+            "std_error" : "",
+            "derivation" : "Assumed zero (Insignificant amount or not naturally occurring in a food, such as fiber in meat)",
+            "imputed" : "",
+            "upper_error" : "",
+            "mod_year" : "2003",
+            "rounded" : "0",
+            "source_type" : "Assumed zero",
+            "studies" : "",
+            "maxval" : "",
+            "lower_error" : "",
+            "is_add" : "",
+            "conf" : ""
+         },
+         "abbr" : "CARTB",
+         "units" : "µg",
+         "value" : "0"
+      },
+      {
+         "units" : "µg",
+         "value" : "0",
+         "name" : "Carotene, alpha",
+         "code" : "322",
+         "meta" : {
+            "studies" : "",
+            "maxval" : "",
+            "conf" : "",
+            "lower_error" : "",
+            "is_add" : "",
+            "sources" : [],
+            "derivation" : "Assumed zero (Insignificant amount or not naturally occurring in a food, such as fiber in meat)",
+            "std_error" : "",
+            "imputed" : "",
+            "upper_error" : "",
+            "mod_year" : "2003",
+            "rounded" : "0",
+            "source_type" : "Assumed zero",
+            "minval" : "",
+            "stat_comments" : "",
+            "degrees_of_freedom" : "",
+            "mod_month" : "04",
+            "data_points" : "0"
+         },
+         "abbr" : "CARTA"
+      },
+      {
+         "code" : "323",
+         "name" : "Vitamin E (alpha-tocopherol)",
+         "abbr" : "TOCPHA",
+         "meta" : {
+            "studies" : "",
+            "maxval" : "",
+            "conf" : "",
+            "lower_error" : "",
+            "is_add" : "",
+            "sources" : [
+               "S2"
+            ],
+            "derivation" : "Based on another form of the food or similar food; Concentration adjustment; Solids; Retention factors not used",
+            "std_error" : "",
+            "imputed" : "",
+            "upper_error" : "",
+            "mod_year" : "2003",
+            "rounded" : "2",
+            "source_type" : "Calculated or imputed",
+            "minval" : "",
+            "stat_comments" : "",
+            "degrees_of_freedom" : "",
+            "mod_month" : "04",
+            "data_points" : "0"
+         },
+         "value" : "0.44",
+         "units" : "mg"
+      },
+      {
+         "units" : "µg",
+         "value" : "0",
+         "abbr" : "CRYPX",
+         "meta" : {
+            "upper_error" : "",
+            "imputed" : "",
+            "std_error" : "",
+            "derivation" : "Assumed zero (Insignificant amount or not naturally occurring in a food, such as fiber in meat)",
+            "sources" : [],
+            "source_type" : "Assumed zero",
+            "rounded" : "0",
+            "mod_year" : "2003",
+            "conf" : "",
+            "lower_error" : "",
+            "is_add" : "",
+            "maxval" : "",
+            "studies" : "",
+            "data_points" : "0",
+            "mod_month" : "04",
+            "degrees_of_freedom" : "",
+            "stat_comments" : "",
+            "minval" : ""
+         },
+         "name" : "Cryptoxanthin, beta",
+         "code" : "334"
+      },
+      {
+         "units" : "µg",
+         "value" : "0",
+         "meta" : {
+            "data_points" : "0",
+            "mod_month" : "04",
+            "degrees_of_freedom" : "",
+            "stat_comments" : "",
+            "minval" : "",
+            "source_type" : "Assumed zero",
+            "rounded" : "0",
+            "mod_year" : "2003",
+            "upper_error" : "",
+            "imputed" : "",
+            "derivation" : "Assumed zero (Insignificant amount or not naturally occurring in a food, such as fiber in meat)",
+            "std_error" : "",
+            "sources" : [],
+            "lower_error" : "",
+            "conf" : "",
+            "is_add" : "",
+            "maxval" : "",
+            "studies" : ""
+         },
+         "abbr" : "LYCPN",
+         "name" : "Lycopene",
+         "code" : "337"
+      },
+      {
+         "code" : "338",
+         "name" : "Lutein + zeaxanthin",
+         "meta" : {
+            "data_points" : "0",
+            "mod_month" : "04",
+            "minval" : "",
+            "degrees_of_freedom" : "",
+            "stat_comments" : "",
+            "rounded" : "0",
+            "mod_year" : "2003",
+            "source_type" : "Assumed zero",
+            "sources" : [],
+            "imputed" : "",
+            "upper_error" : "",
+            "std_error" : "",
+            "derivation" : "Assumed zero (Insignificant amount or not naturally occurring in a food, such as fiber in meat)",
+            "lower_error" : "",
+            "is_add" : "",
+            "conf" : "",
+            "studies" : "",
+            "maxval" : ""
+         },
+         "abbr" : "LUT+ZEA",
+         "value" : "0",
+         "units" : "µg"
+      },
+      {
+         "units" : "mg",
+         "value" : "0.00",
+         "name" : "Tocopherol, beta",
+         "code" : "341",
+         "abbr" : "TOCPHB",
+         "meta" : {
+            "data_points" : "0",
+            "mod_month" : "04",
+            "minval" : "",
+            "degrees_of_freedom" : "",
+            "stat_comments" : "",
+            "sources" : [
+               "S2"
+            ],
+            "upper_error" : "",
+            "imputed" : "",
+            "std_error" : "",
+            "derivation" : "Based on physical composition; Derived from analytical data; Known physical composition",
+            "rounded" : "2",
+            "mod_year" : "2003",
+            "source_type" : "Analytical or derived from analytical",
+            "conf" : "",
+            "lower_error" : "",
+            "is_add" : "",
+            "studies" : "",
+            "maxval" : ""
+         }
+      },
+      {
+         "abbr" : "TOCPHG",
+         "meta" : {
+            "std_error" : "",
+            "derivation" : "Based on physical composition; Derived from analytical data; Known physical composition",
+            "imputed" : "",
+            "upper_error" : "",
+            "sources" : [
+               "S2"
+            ],
+            "source_type" : "Analytical or derived from analytical",
+            "mod_year" : "2003",
+            "rounded" : "2",
+            "maxval" : "",
+            "studies" : "",
+            "lower_error" : "",
+            "conf" : "",
+            "is_add" : "",
+            "mod_month" : "04",
+            "data_points" : "0",
+            "stat_comments" : "",
+            "degrees_of_freedom" : "",
+            "minval" : ""
+         },
+         "code" : "342",
+         "name" : "Tocopherol, gamma",
+         "value" : "0.00",
+         "units" : "mg"
+      },
+      {
+         "value" : "0.00",
+         "units" : "mg",
+         "abbr" : "TOCPHD",
+         "meta" : {
+            "data_points" : "0",
+            "mod_month" : "04",
+            "degrees_of_freedom" : "",
+            "stat_comments" : "",
+            "minval" : "",
+            "source_type" : "Analytical or derived from analytical",
+            "rounded" : "2",
+            "mod_year" : "2003",
+            "upper_error" : "",
+            "imputed" : "",
+            "derivation" : "Based on physical composition; Derived from analytical data; Known physical composition",
+            "std_error" : "",
+            "sources" : [
+               "S2"
+            ],
+            "conf" : "",
+            "lower_error" : "",
+            "is_add" : "",
+            "maxval" : "",
+            "studies" : ""
+         },
+         "code" : "343",
+         "name" : "Tocopherol, delta"
+      },
+      {
+         "name" : "Vitamin C, total ascorbic acid",
+         "code" : "401",
+         "meta" : {
+            "sources" : [],
+            "upper_error" : "",
+            "imputed" : "",
+            "std_error" : "",
+            "derivation" : "Assumed zero (Insignificant amount or not naturally occurring in a food, such as fiber in meat)",
+            "rounded" : "1",
+            "mod_year" : "1995",
+            "source_type" : "Assumed zero",
+            "lower_error" : "",
+            "is_add" : "",
+            "conf" : "",
+            "studies" : "",
+            "maxval" : "",
+            "data_points" : "0",
+            "mod_month" : "12",
+            "minval" : "",
+            "degrees_of_freedom" : "",
+            "stat_comments" : ""
+         },
+         "abbr" : "VITC",
+         "units" : "mg",
+         "value" : "0.0"
+      },
+      {
+         "abbr" : "THIA",
+         "meta" : {
+            "minval" : "",
+            "stat_comments" : "",
+            "degrees_of_freedom" : "",
+            "mod_month" : "04",
+            "data_points" : "0",
+            "maxval" : "",
+            "studies" : "",
+            "conf" : "",
+            "lower_error" : "",
+            "is_add" : "",
+            "sources" : [
+               "S2"
+            ],
+            "std_error" : "",
+            "derivation" : "Based on another form of the food or similar food; Concentration adjustment; Protein; Retention factors not used",
+            "imputed" : "",
+            "upper_error" : "",
+            "mod_year" : "2003",
+            "rounded" : "3",
+            "source_type" : "Calculated or imputed"
+         },
+         "code" : "404",
+         "name" : "Thiamin",
+         "value" : "0.065",
+         "units" : "mg"
+      },
+      {
+         "name" : "Riboflavin",
+         "code" : "405",
+         "meta" : {
+            "data_points" : "0",
+            "mod_month" : "04",
+            "degrees_of_freedom" : "",
+            "stat_comments" : "",
+            "minval" : "",
+            "imputed" : "",
+            "upper_error" : "",
+            "std_error" : "",
+            "derivation" : "Based on another form of the food or similar food; Concentration adjustment; Protein; Retention factors not used",
+            "sources" : [
+               "S2"
+            ],
+            "source_type" : "Calculated or imputed",
+            "rounded" : "3",
+            "mod_year" : "2003",
+            "lower_error" : "",
+            "is_add" : "",
+            "conf" : "",
+            "maxval" : "",
+            "studies" : ""
+         },
+         "abbr" : "RIBF",
+         "units" : "mg",
+         "value" : "0.130"
+      },
+      {
+         "code" : "406",
+         "name" : "Niacin",
+         "abbr" : "NIA",
+         "meta" : {
+            "degrees_of_freedom" : "",
+            "stat_comments" : "",
+            "minval" : "",
+            "data_points" : "0",
+            "mod_month" : "04",
+            "lower_error" : "",
+            "conf" : "",
+            "is_add" : "",
+            "studies" : "",
+            "maxval" : "",
+            "imputed" : "",
+            "upper_error" : "",
+            "derivation" : "Based on another form of the food or similar food; Concentration adjustment; Protein; Retention factors not used",
+            "std_error" : "",
+            "sources" : [
+               "S2"
+            ],
+            "source_type" : "Calculated or imputed",
+            "rounded" : "3",
+            "mod_year" : "2003"
+         },
+         "value" : "4.041",
+         "units" : "mg"
+      },
+      {
+         "code" : "410",
+         "name" : "Pantothenic acid",
+         "meta" : {
+            "mod_month" : "04",
+            "data_points" : "0",
+            "minval" : "",
+            "stat_comments" : "",
+            "degrees_of_freedom" : "",
+            "sources" : [
+               "S2"
+            ],
+            "std_error" : "",
+            "derivation" : "Based on physical composition; Derived from analytical data; Known physical composition",
+            "imputed" : "",
+            "upper_error" : "",
+            "mod_year" : "2003",
+            "rounded" : "3",
+            "source_type" : "Analytical or derived from analytical",
+            "studies" : "",
+            "maxval" : "",
+            "conf" : "",
+            "lower_error" : "",
+            "is_add" : ""
+         },
+         "abbr" : "PANTAC",
+         "value" : "0.516",
+         "units" : "mg"
+      },
+      {
+         "code" : "415",
+         "name" : "Vitamin B-6",
+         "meta" : {
+            "rounded" : "3",
+            "mod_year" : "2003",
+            "source_type" : "Calculated or imputed",
+            "sources" : [
+               "S2"
+            ],
+            "upper_error" : "",
+            "imputed" : "",
+            "std_error" : "",
+            "derivation" : "Based on another form of the food or similar food; Concentration adjustment; Protein; Retention factors not used",
+            "lower_error" : "",
+            "conf" : "",
+            "is_add" : "",
+            "maxval" : "",
+            "studies" : "",
+            "data_points" : "0",
+            "mod_month" : "04",
+            "minval" : "",
+            "degrees_of_freedom" : "",
+            "stat_comments" : ""
+         },
+         "abbr" : "VITB6A",
+         "value" : "0.425",
+         "units" : "mg"
+      },
+      {
+         "units" : "µg",
+         "value" : "10",
+         "abbr" : "FOL",
+         "meta" : {
+            "mod_month" : "04",
+            "data_points" : "0",
+            "minval" : "",
+            "stat_comments" : "",
+            "degrees_of_freedom" : "",
+            "mod_year" : "2003",
+            "rounded" : "0",
+            "source_type" : "Analytical or derived from analytical",
+            "sources" : [
+               "S2"
+            ],
+            "std_error" : "",
+            "derivation" : "Based on physical composition; Derived from analytical data; Known physical composition",
+            "imputed" : "",
+            "upper_error" : "",
+            "maxval" : "",
+            "studies" : "",
+            "conf" : "",
+            "lower_error" : "",
+            "is_add" : ""
+         },
+         "name" : "Folate, total",
+         "code" : "417"
+      },
+      {
+         "units" : "µg",
+         "value" : "1.54",
+         "meta" : {
+            "data_points" : "0",
+            "mod_month" : "04",
+            "degrees_of_freedom" : "",
+            "stat_comments" : "",
+            "minval" : "",
+            "imputed" : "",
+            "upper_error" : "",
+            "derivation" : "Based on another form of the food or similar food; Concentration adjustment; Protein; Retention factors not used",
+            "std_error" : "",
+            "sources" : [
+               "S2"
+            ],
+            "source_type" : "Calculated or imputed",
+            "rounded" : "2",
+            "mod_year" : "2003",
+            "lower_error" : "",
+            "is_add" : "",
+            "conf" : "",
+            "maxval" : "",
+            "studies" : ""
+         },
+         "abbr" : "VITB12",
+         "name" : "Vitamin B-12",
+         "code" : "418"
+      },
+      {
+         "name" : "Choline, total",
+         "code" : "421",
+         "meta" : {
+            "source_type" : "Calculated or imputed",
+            "mod_year" : "2008",
+            "rounded" : "1",
+            "std_error" : "",
+            "derivation" : "Based on another form of the food or similar food; Concentration adjustment; Protein; Retention factors not used",
+            "imputed" : "",
+            "upper_error" : "",
+            "sources" : [],
+            "studies" : "",
+            "maxval" : "",
+            "lower_error" : "",
+            "is_add" : "",
+            "conf" : "",
+            "mod_month" : "01",
+            "data_points" : "0",
+            "stat_comments" : "",
+            "degrees_of_freedom" : "",
+            "minval" : ""
+         },
+         "abbr" : "CHOLN",
+         "units" : "mg",
+         "value" : "74.9"
+      },
+      {
+         "code" : "430",
+         "name" : "Vitamin K (phylloquinone)",
+         "meta" : {
+            "data_points" : "0",
+            "mod_month" : "04",
+            "minval" : "",
+            "degrees_of_freedom" : "",
+            "stat_comments" : "",
+            "rounded" : "1",
+            "mod_year" : "2003",
+            "source_type" : "Calculated or imputed",
+            "sources" : [
+               "S2"
+            ],
+            "upper_error" : "",
+            "imputed" : "",
+            "derivation" : "Based on another form of the food or similar food; Concentration adjustment; Solids; Retention factors not used",
+            "std_error" : "",
+            "lower_error" : "",
+            "is_add" : "",
+            "conf" : "",
+            "studies" : "",
+            "maxval" : ""
+         },
+         "abbr" : "VITK1",
+         "value" : "1.7",
+         "units" : "µg"
+      },
+      {
+         "units" : "µg",
+         "value" : "0",
+         "meta" : {
+            "rounded" : "0",
+            "mod_year" : "2001",
+            "source_type" : "Assumed zero",
+            "sources" : [],
+            "upper_error" : "",
+            "imputed" : "",
+            "derivation" : "Assumed zero (Insignificant amount or not naturally occurring in a food, such as fiber in meat)",
+            "std_error" : "",
+            "lower_error" : "",
+            "conf" : "",
+            "is_add" : "",
+            "studies" : "",
+            "maxval" : "",
+            "data_points" : "0",
+            "mod_month" : "01",
+            "minval" : "",
+            "degrees_of_freedom" : "",
+            "stat_comments" : ""
+         },
+         "abbr" : "FOLAC",
+         "name" : "Folic acid",
+         "code" : "431"
+      },
+      {
+         "units" : "µg",
+         "value" : "10",
+         "abbr" : "FOLFD",
+         "meta" : {
+            "data_points" : "0",
+            "mod_month" : "07",
+            "degrees_of_freedom" : "",
+            "stat_comments" : "",
+            "minval" : "",
+            "upper_error" : "",
+            "imputed" : "",
+            "std_error" : "",
+            "derivation" : "Based on physical composition; Derived from analytical data; Known physical composition",
+            "sources" : [],
+            "source_type" : "Analytical or derived from analytical",
+            "rounded" : "0",
+            "mod_year" : "2010",
+            "conf" : "",
+            "lower_error" : "",
+            "is_add" : "",
+            "maxval" : "",
+            "studies" : ""
+         },
+         "name" : "Folate, food",
+         "code" : "432"
+      },
+      {
+         "name" : "Folate, DFE",
+         "code" : "435",
+         "abbr" : "FOLDFE",
+         "meta" : {
+            "derivation" : "Nutrient that is based on other nutrient/s; calculated rather than analyzed",
+            "std_error" : "",
+            "imputed" : "",
+            "upper_error" : "",
+            "sources" : [],
+            "source_type" : "Calculated or imputed",
+            "mod_year" : "2010",
+            "rounded" : "0",
+            "studies" : "",
+            "maxval" : "",
+            "is_add" : "",
+            "lower_error" : "",
+            "conf" : "",
+            "mod_month" : "07",
+            "data_points" : "0",
+            "stat_comments" : "",
+            "degrees_of_freedom" : "",
+            "minval" : ""
+         },
+         "units" : "µg",
+         "value" : "10"
+      },
+      {
+         "abbr" : "BETN",
+         "meta" : {
+            "maxval" : "",
+            "studies" : "",
+            "lower_error" : "",
+            "conf" : "",
+            "is_add" : "",
+            "source_type" : "Calculated or imputed",
+            "mod_year" : "2008",
+            "rounded" : "1",
+            "derivation" : "Based on another form of the food or similar food; Concentration adjustment; Protein; Retention factors not used",
+            "std_error" : "",
+            "upper_error" : "",
+            "imputed" : "",
+            "sources" : [],
+            "stat_comments" : "",
+            "degrees_of_freedom" : "",
+            "minval" : "",
+            "mod_month" : "01",
+            "data_points" : "0"
+         },
+         "code" : "454",
+         "name" : "Betaine",
+         "value" : "11.0",
+         "units" : "mg"
+      },
+      {
+         "units" : "g",
+         "value" : "0.127",
+         "name" : "Tryptophan",
+         "code" : "501",
+         "abbr" : "TRP_G",
+         "meta" : {
+            "data_points" : "0",
+            "mod_month" : "04",
+            "degrees_of_freedom" : "",
+            "stat_comments" : "",
+            "minval" : "",
+            "source_type" : "Calculated or imputed",
+            "rounded" : "3",
+            "mod_year" : "2003",
+            "upper_error" : "",
+            "imputed" : "",
+            "derivation" : "Nutrient that is based on other nutrient/s; value used directly, ex. Nut.#204 from Nut.#298",
+            "std_error" : "",
+            "sources" : [
+               "S14",
+               "S2"
+            ],
+            "is_add" : "",
+            "lower_error" : "",
+            "conf" : "",
+            "studies" : "",
+            "maxval" : ""
+         }
+      },
+      {
+         "value" : "0.769",
+         "units" : "g",
+         "meta" : {
+            "data_points" : "0",
+            "mod_month" : "04",
+            "minval" : "",
+            "degrees_of_freedom" : "",
+            "stat_comments" : "",
+            "sources" : [
+               "S14",
+               "S2"
+            ],
+            "upper_error" : "",
+            "imputed" : "",
+            "std_error" : "",
+            "derivation" : "Nutrient that is based on other nutrient/s; value used directly, ex. Nut.#204 from Nut.#298",
+            "rounded" : "3",
+            "mod_year" : "2003",
+            "source_type" : "Calculated or imputed",
+            "conf" : "",
+            "lower_error" : "",
+            "is_add" : "",
+            "studies" : "",
+            "maxval" : ""
+         },
+         "abbr" : "THR_G",
+         "code" : "502",
+         "name" : "Threonine"
+      },
+      {
+         "units" : "g",
+         "value" : "0.876",
+         "meta" : {
+            "data_points" : "0",
+            "mod_month" : "04",
+            "minval" : "",
+            "degrees_of_freedom" : "",
+            "stat_comments" : "",
+            "sources" : [
+               "S14",
+               "S2"
+            ],
+            "imputed" : "",
+            "upper_error" : "",
+            "std_error" : "",
+            "derivation" : "Nutrient that is based on other nutrient/s; value used directly, ex. Nut.#204 from Nut.#298",
+            "rounded" : "3",
+            "mod_year" : "2003",
+            "source_type" : "Calculated or imputed",
+            "lower_error" : "",
+            "is_add" : "",
+            "conf" : "",
+            "studies" : "",
+            "maxval" : ""
+         },
+         "abbr" : "ILE_G",
+         "name" : "Isoleucine",
+         "code" : "503"
+      },
+      {
+         "abbr" : "LEU_G",
+         "meta" : {
+            "studies" : "",
+            "maxval" : "",
+            "lower_error" : "",
+            "conf" : "",
+            "is_add" : "",
+            "std_error" : "",
+            "derivation" : "Nutrient that is based on other nutrient/s; value used directly, ex. Nut.#204 from Nut.#298",
+            "imputed" : "",
+            "upper_error" : "",
+            "sources" : [
+               "S14",
+               "S2"
+            ],
+            "source_type" : "Calculated or imputed",
+            "mod_year" : "2003",
+            "rounded" : "3",
+            "stat_comments" : "",
+            "degrees_of_freedom" : "",
+            "minval" : "",
+            "mod_month" : "04",
+            "data_points" : "0"
+         },
+         "code" : "504",
+         "name" : "Leucine",
+         "value" : "1.531",
+         "units" : "g"
+      },
+      {
+         "value" : "1.627",
+         "units" : "g",
+         "code" : "505",
+         "name" : "Lysine",
+         "abbr" : "LYS_G",
+         "meta" : {
+            "source_type" : "Calculated or imputed",
+            "rounded" : "3",
+            "mod_year" : "2003",
+            "imputed" : "",
+            "upper_error" : "",
+            "std_error" : "",
+            "derivation" : "Nutrient that is based on other nutrient/s; value used directly, ex. Nut.#204 from Nut.#298",
+            "sources" : [
+               "S2",
+               "S14"
+            ],
+            "conf" : "",
+            "lower_error" : "",
+            "is_add" : "",
+            "studies" : "",
+            "maxval" : "",
+            "data_points" : "0",
+            "mod_month" : "04",
+            "degrees_of_freedom" : "",
+            "stat_comments" : "",
+            "minval" : ""
+         }
+      },
+      {
+         "value" : "0.501",
+         "units" : "g",
+         "code" : "506",
+         "name" : "Methionine",
+         "abbr" : "MET_G",
+         "meta" : {
+            "lower_error" : "",
+            "conf" : "",
+            "is_add" : "",
+            "studies" : "",
+            "maxval" : "",
+            "sources" : [
+               "S2",
+               "S14"
+            ],
+            "imputed" : "",
+            "upper_error" : "",
+            "derivation" : "Nutrient that is based on other nutrient/s; value used directly, ex. Nut.#204 from Nut.#298",
+            "std_error" : "",
+            "rounded" : "3",
+            "mod_year" : "2003",
+            "source_type" : "Calculated or imputed",
+            "minval" : "",
+            "degrees_of_freedom" : "",
+            "stat_comments" : "",
+            "data_points" : "0",
+            "mod_month" : "04"
+         }
+      },
+      {
+         "units" : "g",
+         "value" : "0.248",
+         "meta" : {
+            "imputed" : "",
+            "upper_error" : "",
+            "derivation" : "Nutrient that is based on other nutrient/s; value used directly, ex. Nut.#204 from Nut.#298",
+            "std_error" : "",
+            "sources" : [
+               "S14",
+               "S2"
+            ],
+            "source_type" : "Calculated or imputed",
+            "rounded" : "3",
+            "mod_year" : "2003",
+            "lower_error" : "",
+            "conf" : "",
+            "is_add" : "",
+            "studies" : "",
+            "maxval" : "",
+            "data_points" : "0",
+            "mod_month" : "04",
+            "degrees_of_freedom" : "",
+            "stat_comments" : "",
+            "minval" : ""
+         },
+         "abbr" : "CYS_G",
+         "name" : "Cystine",
+         "code" : "507"
+      },
+      {
+         "code" : "508",
+         "name" : "Phenylalanine",
+         "meta" : {
+            "rounded" : "3",
+            "mod_year" : "2003",
+            "source_type" : "Calculated or imputed",
+            "sources" : [
+               "S2",
+               "S14"
+            ],
+            "upper_error" : "",
+            "imputed" : "",
+            "derivation" : "Nutrient that is based on other nutrient/s; value used directly, ex. Nut.#204 from Nut.#298",
+            "std_error" : "",
+            "conf" : "",
+            "lower_error" : "",
+            "is_add" : "",
+            "maxval" : "",
+            "studies" : "",
+            "data_points" : "0",
+            "mod_month" : "04",
+            "minval" : "",
+            "degrees_of_freedom" : "",
+            "stat_comments" : ""
+         },
+         "abbr" : "PHE_G",
+         "value" : "0.760",
+         "units" : "g"
+      },
+      {
+         "value" : "0.613",
+         "units" : "g",
+         "abbr" : "TYR_G",
+         "meta" : {
+            "maxval" : "",
+            "studies" : "",
+            "lower_error" : "",
+            "conf" : "",
+            "is_add" : "",
+            "source_type" : "Calculated or imputed",
+            "mod_year" : "2003",
+            "rounded" : "3",
+            "derivation" : "Nutrient that is based on other nutrient/s; value used directly, ex. Nut.#204 from Nut.#298",
+            "std_error" : "",
+            "imputed" : "",
+            "upper_error" : "",
+            "sources" : [
+               "S2",
+               "S14"
+            ],
+            "stat_comments" : "",
+            "degrees_of_freedom" : "",
+            "minval" : "",
+            "mod_month" : "04",
+            "data_points" : "0"
+         },
+         "code" : "509",
+         "name" : "Tyrosine"
+      },
+      {
+         "value" : "0.955",
+         "units" : "g",
+         "abbr" : "VAL_G",
+         "meta" : {
+            "minval" : "",
+            "stat_comments" : "",
+            "degrees_of_freedom" : "",
+            "mod_month" : "04",
+            "data_points" : "0",
+            "studies" : "",
+            "maxval" : "",
+            "lower_error" : "",
+            "conf" : "",
+            "is_add" : "",
+            "sources" : [
+               "S2",
+               "S14"
+            ],
+            "derivation" : "Nutrient that is based on other nutrient/s; value used directly, ex. Nut.#204 from Nut.#298",
+            "std_error" : "",
+            "upper_error" : "",
+            "imputed" : "",
+            "mod_year" : "2003",
+            "rounded" : "3",
+            "source_type" : "Calculated or imputed"
+         },
+         "code" : "510",
+         "name" : "Valine"
+      },
+      {
+         "meta" : {
+            "stat_comments" : "",
+            "degrees_of_freedom" : "",
+            "minval" : "",
+            "mod_month" : "04",
+            "data_points" : "0",
+            "studies" : "",
+            "maxval" : "",
+            "lower_error" : "",
+            "conf" : "",
+            "is_add" : "",
+            "source_type" : "Calculated or imputed",
+            "mod_year" : "2003",
+            "rounded" : "3",
+            "std_error" : "",
+            "derivation" : "Nutrient that is based on other nutrient/s; value used directly, ex. Nut.#204 from Nut.#298",
+            "imputed" : "",
+            "upper_error" : "",
+            "sources" : [
+               "S14",
+               "S2"
+            ]
+         },
+         "abbr" : "ARG_G",
+         "code" : "511",
+         "name" : "Arginine",
+         "value" : "1.245",
+         "units" : "g"
+      },
+      {
+         "name" : "Histidine",
+         "code" : "512",
+         "meta" : {
+            "minval" : "",
+            "degrees_of_freedom" : "",
+            "stat_comments" : "",
+            "data_points" : "0",
+            "mod_month" : "04",
+            "conf" : "",
+            "lower_error" : "",
+            "is_add" : "",
+            "maxval" : "",
+            "studies" : "",
+            "sources" : [
+               "S14",
+               "S2"
+            ],
+            "upper_error" : "",
+            "imputed" : "",
+            "derivation" : "Nutrient that is based on other nutrient/s; value used directly, ex. Nut.#204 from Nut.#298",
+            "std_error" : "",
+            "rounded" : "3",
+            "mod_year" : "2003",
+            "source_type" : "Calculated or imputed"
+         },
+         "abbr" : "HISTN_G",
+         "units" : "g",
+         "value" : "0.614"
+      },
+      {
+         "meta" : {
+            "conf" : "",
+            "lower_error" : "",
+            "is_add" : "",
+            "studies" : "",
+            "maxval" : "",
+            "rounded" : "3",
+            "mod_year" : "2003",
+            "source_type" : "Calculated or imputed",
+            "sources" : [
+               "S2",
+               "S14"
+            ],
+            "upper_error" : "",
+            "imputed" : "",
+            "derivation" : "Nutrient that is based on other nutrient/s; value used directly, ex. Nut.#204 from Nut.#298",
+            "std_error" : "",
+            "minval" : "",
+            "degrees_of_freedom" : "",
+            "stat_comments" : "",
+            "data_points" : "0",
+            "mod_month" : "04"
+         },
+         "abbr" : "ALA_G",
+         "code" : "513",
+         "name" : "Alanine",
+         "value" : "1.170",
+         "units" : "g"
+      },
+      {
+         "meta" : {
+            "source_type" : "Calculated or imputed",
+            "rounded" : "3",
+            "mod_year" : "2003",
+            "upper_error" : "",
+            "imputed" : "",
+            "derivation" : "Nutrient that is based on other nutrient/s; value used directly, ex. Nut.#204 from Nut.#298",
+            "std_error" : "",
+            "sources" : [
+               "S14",
+               "S2"
+            ],
+            "lower_error" : "",
+            "conf" : "",
+            "is_add" : "",
+            "maxval" : "",
+            "studies" : "",
+            "data_points" : "0",
+            "mod_month" : "04",
+            "degrees_of_freedom" : "",
+            "stat_comments" : "",
+            "minval" : ""
+         },
+         "abbr" : "ASP_G",
+         "name" : "Aspartic acid",
+         "code" : "514",
+         "units" : "g",
+         "value" : "1.753"
+      },
+      {
+         "name" : "Glutamic acid",
+         "code" : "515",
+         "abbr" : "GLU_G",
+         "meta" : {
+            "degrees_of_freedom" : "",
+            "stat_comments" : "",
+            "minval" : "",
+            "data_points" : "0",
+            "mod_month" : "04",
+            "lower_error" : "",
+            "conf" : "",
+            "is_add" : "",
+            "studies" : "",
+            "maxval" : "",
+            "source_type" : "Calculated or imputed",
+            "rounded" : "3",
+            "mod_year" : "2003",
+            "imputed" : "",
+            "upper_error" : "",
+            "std_error" : "",
+            "derivation" : "Nutrient that is based on other nutrient/s; value used directly, ex. Nut.#204 from Nut.#298",
+            "sources" : [
+               "S14",
+               "S2"
+            ]
+         },
+         "units" : "g",
+         "value" : "2.890"
+      },
+      {
+         "units" : "g",
+         "value" : "1.172",
+         "meta" : {
+            "studies" : "",
+            "maxval" : "",
+            "lower_error" : "",
+            "conf" : "",
+            "is_add" : "",
+            "mod_year" : "2003",
+            "rounded" : "3",
+            "source_type" : "Calculated or imputed",
+            "sources" : [
+               "S2",
+               "S14"
+            ],
+            "std_error" : "",
+            "derivation" : "Nutrient that is based on other nutrient/s; value used directly, ex. Nut.#204 from Nut.#298",
+            "imputed" : "",
+            "upper_error" : "",
+            "minval" : "",
+            "stat_comments" : "",
+            "degrees_of_freedom" : "",
+            "mod_month" : "04",
+            "data_points" : "0"
+         },
+         "abbr" : "GLY_G",
+         "name" : "Glycine",
+         "code" : "516"
+      },
+      {
+         "units" : "g",
+         "value" : "0.918",
+         "name" : "Proline",
+         "code" : "517",
+         "abbr" : "PRO_G",
+         "meta" : {
+            "mod_month" : "04",
+            "data_points" : "0",
+            "minval" : "",
+            "stat_comments" : "",
+            "degrees_of_freedom" : "",
+            "mod_year" : "2003",
+            "rounded" : "3",
+            "source_type" : "Calculated or imputed",
+            "sources" : [
+               "S14",
+               "S2"
+            ],
+            "std_error" : "",
+            "derivation" : "Nutrient that is based on other nutrient/s; value used directly, ex. Nut.#204 from Nut.#298",
+            "upper_error" : "",
+            "imputed" : "",
+            "maxval" : "",
+            "studies" : "",
+            "lower_error" : "",
+            "is_add" : "",
+            "conf" : ""
+         }
+      },
+      {
+         "name" : "Serine",
+         "code" : "518",
+         "meta" : {
+            "rounded" : "3",
+            "mod_year" : "2003",
+            "source_type" : "Calculated or imputed",
+            "sources" : [
+               "S2",
+               "S14"
+            ],
+            "imputed" : "",
+            "upper_error" : "",
+            "derivation" : "Nutrient that is based on other nutrient/s; value used directly, ex. Nut.#204 from Nut.#298",
+            "std_error" : "",
+            "is_add" : "",
+            "lower_error" : "",
+            "conf" : "",
+            "studies" : "",
+            "maxval" : "",
+            "data_points" : "0",
+            "mod_month" : "04",
+            "minval" : "",
+            "degrees_of_freedom" : "",
+            "stat_comments" : ""
+         },
+         "abbr" : "SER_G",
+         "units" : "g",
+         "value" : "0.758"
+      },
+      {
+         "code" : "521",
+         "name" : "Hydroxyproline",
+         "abbr" : "HYP",
+         "meta" : {
+            "minval" : "",
+            "degrees_of_freedom" : "",
+            "stat_comments" : "",
+            "data_points" : "0",
+            "mod_month" : "01",
+            "lower_error" : "",
+            "is_add" : "",
+            "conf" : "",
+            "maxval" : "",
+            "studies" : "",
+            "rounded" : "3",
+            "mod_year" : "2008",
+            "source_type" : "Calculated or imputed",
+            "sources" : [],
+            "imputed" : "",
+            "upper_error" : "",
+            "std_error" : "",
+            "derivation" : "Based on another form of the food or similar food; Concentration adjustment; Protein; Retention factors not used"
+         },
+         "value" : "0.202",
+         "units" : "g"
+      },
+      {
+         "abbr" : "",
+         "meta" : {
+            "rounded" : "2",
+            "mod_year" : "2008",
+            "source_type" : "Assumed zero",
+            "sources" : [],
+            "upper_error" : "",
+            "imputed" : "",
+            "derivation" : "Assumed zero (Insignificant amount or not naturally occurring in a food, such as fiber in meat)",
+            "std_error" : "",
+            "conf" : "",
+            "lower_error" : "",
+            "is_add" : "",
+            "studies" : "",
+            "maxval" : "",
+            "data_points" : "0",
+            "mod_month" : "04",
+            "minval" : "",
+            "degrees_of_freedom" : "",
+            "stat_comments" : ""
+         },
+         "code" : "573",
+         "name" : "Vitamin E, added",
+         "value" : "0.00",
+         "units" : "mg"
+      },
+      {
+         "name" : "Vitamin B-12, added",
+         "code" : "578",
+         "meta" : {
+            "mod_month" : "04",
+            "data_points" : "0",
+            "minval" : "",
+            "stat_comments" : "",
+            "degrees_of_freedom" : "",
+            "sources" : [],
+            "derivation" : "Assumed zero (Insignificant amount or not naturally occurring in a food, such as fiber in meat)",
+            "std_error" : "",
+            "imputed" : "",
+            "upper_error" : "",
+            "mod_year" : "2008",
+            "rounded" : "2",
+            "source_type" : "Assumed zero",
+            "maxval" : "",
+            "studies" : "",
+            "is_add" : "",
+            "lower_error" : "",
+            "conf" : ""
+         },
+         "abbr" : "",
+         "units" : "µg",
+         "value" : "0.00"
+      },
+      {
+         "abbr" : "CHOLE",
+         "meta" : {
+            "imputed" : "13904",
+            "upper_error" : "",
+            "std_error" : "",
+            "derivation" : "Based on another form of the food or similar food; Concentration adjustment; Solids; Retention factors not used",
+            "sources" : [],
+            "source_type" : "Calculated or imputed",
+            "rounded" : "0",
+            "mod_year" : "2010",
+            "lower_error" : "",
+            "conf" : "",
+            "is_add" : "",
+            "studies" : "",
+            "maxval" : "",
+            "data_points" : "0",
+            "mod_month" : "07",
+            "degrees_of_freedom" : "",
+            "stat_comments" : "",
+            "minval" : ""
+         },
+         "name" : "Cholesterol",
+         "code" : "601",
+         "units" : "mg",
+         "value" : "92"
+      },
+      {
+         "meta" : {
+            "minval" : "",
+            "stat_comments" : "",
+            "degrees_of_freedom" : "",
+            "mod_month" : "07",
+            "data_points" : "0",
+            "studies" : "",
+            "maxval" : "",
+            "conf" : "",
+            "lower_error" : "",
+            "is_add" : "",
+            "mod_year" : "2010",
+            "rounded" : "3",
+            "source_type" : "Calculated or imputed",
+            "sources" : [],
+            "derivation" : "Nutrient that is based on other nutrient/s; calculated rather than analyzed",
+            "std_error" : "",
+            "imputed" : "",
+            "upper_error" : ""
+         },
+         "abbr" : "FASAT",
+         "name" : "Fatty acids, total saturated",
+         "code" : "606",
+         "units" : "g",
+         "value" : "8.951"
+      },
+      {
+         "units" : "g",
+         "value" : "0.000",
+         "name" : "4:0",
+         "code" : "607",
+         "abbr" : "F4D0",
+         "meta" : {
+            "degrees_of_freedom" : "",
+            "stat_comments" : "",
+            "minval" : "",
+            "data_points" : "0",
+            "mod_month" : "04",
+            "is_add" : "",
+            "lower_error" : "",
+            "conf" : "",
+            "maxval" : "",
+            "studies" : "",
+            "source_type" : "Calculated or imputed",
+            "rounded" : "3",
+            "mod_year" : "2003",
+            "imputed" : "",
+            "upper_error" : "",
+            "derivation" : "Based on another form of the food or similar food; Concentration adjustment; Fat; Retention factors not used",
+            "std_error" : "",
+            "sources" : [
+               "S2"
+            ]
+         }
+      },
+      {
+         "value" : "0.000",
+         "units" : "g",
+         "code" : "608",
+         "name" : "6:0",
+         "abbr" : "F6D0",
+         "meta" : {
+            "data_points" : "0",
+            "mod_month" : "04",
+            "minval" : "",
+            "degrees_of_freedom" : "",
+            "stat_comments" : "",
+            "sources" : [
+               "S2"
+            ],
+            "upper_error" : "",
+            "imputed" : "",
+            "std_error" : "",
+            "derivation" : "Based on another form of the food or similar food; Concentration adjustment; Fat; Retention factors not used",
+            "rounded" : "3",
+            "mod_year" : "2003",
+            "source_type" : "Calculated or imputed",
+            "lower_error" : "",
+            "conf" : "",
+            "is_add" : "",
+            "maxval" : "",
+            "studies" : ""
+         }
+      },
+      {
+         "meta" : {
+            "minval" : "",
+            "degrees_of_freedom" : "",
+            "stat_comments" : "",
+            "data_points" : "0",
+            "mod_month" : "04",
+            "is_add" : "",
+            "lower_error" : "",
+            "conf" : "",
+            "studies" : "",
+            "maxval" : "",
+            "sources" : [
+               "S2"
+            ],
+            "imputed" : "",
+            "upper_error" : "",
+            "derivation" : "Based on another form of the food or similar food; Concentration adjustment; Fat; Retention factors not used",
+            "std_error" : "",
+            "rounded" : "3",
+            "mod_year" : "2003",
+            "source_type" : "Calculated or imputed"
+         },
+         "abbr" : "F8D0",
+         "name" : "8:0",
+         "code" : "609",
+         "units" : "g",
+         "value" : "0.000"
+      },
+      {
+         "value" : "0.071",
+         "units" : "g",
+         "code" : "610",
+         "name" : "10:0",
+         "meta" : {
+            "derivation" : "Based on another form of the food or similar food; Concentration adjustment; Fat; Retention factors not used",
+            "std_error" : "",
+            "imputed" : "",
+            "upper_error" : "",
+            "sources" : [
+               "S2"
+            ],
+            "source_type" : "Calculated or imputed",
+            "mod_year" : "2003",
+            "rounded" : "3",
+            "studies" : "",
+            "maxval" : "",
+            "conf" : "",
+            "lower_error" : "",
+            "is_add" : "",
+            "mod_month" : "04",
+            "data_points" : "0",
+            "stat_comments" : "",
+            "degrees_of_freedom" : "",
+            "minval" : ""
+         },
+         "abbr" : "F10D0"
+      },
+      {
+         "code" : "611",
+         "name" : "12:0",
+         "abbr" : "F12D0",
+         "meta" : {
+            "stat_comments" : "",
+            "degrees_of_freedom" : "",
+            "minval" : "",
+            "mod_month" : "04",
+            "data_points" : "0",
+            "maxval" : "",
+            "studies" : "",
+            "lower_error" : "",
+            "conf" : "",
+            "is_add" : "",
+            "source_type" : "Calculated or imputed",
+            "mod_year" : "2003",
+            "rounded" : "3",
+            "derivation" : "Based on another form of the food or similar food; Concentration adjustment; Fat; Retention factors not used",
+            "std_error" : "",
+            "upper_error" : "",
+            "imputed" : "",
+            "sources" : [
+               "S2"
+            ]
+         },
+         "value" : "0.048",
+         "units" : "g"
+      },
+      {
+         "value" : "0.701",
+         "units" : "g",
+         "abbr" : "F14D0",
+         "meta" : {
+            "mod_month" : "04",
+            "data_points" : "0",
+            "stat_comments" : "",
+            "degrees_of_freedom" : "",
+            "minval" : "",
+            "source_type" : "Calculated or imputed",
+            "mod_year" : "2003",
+            "rounded" : "3",
+            "std_error" : "",
+            "derivation" : "Based on another form of the food or similar food; Concentration adjustment; Fat; Retention factors not used",
+            "upper_error" : "",
+            "imputed" : "",
+            "sources" : [
+               "S2"
+            ],
+            "maxval" : "",
+            "studies" : "",
+            "lower_error" : "",
+            "conf" : "",
+            "is_add" : ""
+         },
+         "code" : "612",
+         "name" : "14:0"
+      },
+      {
+         "units" : "g",
+         "value" : "5.389",
+         "name" : "16:0",
+         "code" : "613",
+         "meta" : {
+            "minval" : "",
+            "stat_comments" : "",
+            "degrees_of_freedom" : "",
+            "mod_month" : "04",
+            "data_points" : "0",
+            "maxval" : "",
+            "studies" : "",
+            "lower_error" : "",
+            "conf" : "",
+            "is_add" : "",
+            "mod_year" : "2003",
+            "rounded" : "3",
+            "source_type" : "Calculated or imputed",
+            "sources" : [
+               "S2"
+            ],
+            "derivation" : "Based on another form of the food or similar food; Concentration adjustment; Fat; Retention factors not used",
+            "std_error" : "",
+            "imputed" : "",
+            "upper_error" : ""
+         },
+         "abbr" : "F16D0"
+      },
+      {
+         "name" : "18:0",
+         "code" : "614",
+         "abbr" : "F18D0",
+         "meta" : {
+            "degrees_of_freedom" : "",
+            "stat_comments" : "",
+            "minval" : "",
+            "data_points" : "0",
+            "mod_month" : "04",
+            "lower_error" : "",
+            "conf" : "",
+            "is_add" : "",
+            "studies" : "",
+            "maxval" : "",
+            "source_type" : "Calculated or imputed",
+            "rounded" : "3",
+            "mod_year" : "2003",
+            "imputed" : "",
+            "upper_error" : "",
+            "derivation" : "Based on another form of the food or similar food; Concentration adjustment; Fat; Retention factors not used",
+            "std_error" : "",
+            "sources" : [
+               "S2"
+            ]
+         },
+         "units" : "g",
+         "value" : "2.742"
+      },
+      {
+         "units" : "g",
+         "value" : "8.385",
+         "name" : "18:1 undifferentiated",
+         "code" : "617",
+         "abbr" : "F18D1",
+         "meta" : {
+            "mod_month" : "04",
+            "data_points" : "0",
+            "minval" : "",
+            "stat_comments" : "",
+            "degrees_of_freedom" : "",
+            "mod_year" : "2003",
+            "rounded" : "3",
+            "source_type" : "Calculated or imputed",
+            "sources" : [
+               "S2"
+            ],
+            "std_error" : "",
+            "derivation" : "Based on another form of the food or similar food; Concentration adjustment; Fat; Retention factors not used",
+            "upper_error" : "",
+            "imputed" : "",
+            "maxval" : "",
+            "studies" : "",
+            "lower_error" : "",
+            "conf" : "",
+            "is_add" : ""
+         }
+      },
+      {
+         "value" : "0.543",
+         "units" : "g",
+         "code" : "618",
+         "name" : "18:2 undifferentiated",
+         "meta" : {
+            "mod_month" : "04",
+            "data_points" : "0",
+            "stat_comments" : "",
+            "degrees_of_freedom" : "",
+            "minval" : "",
+            "source_type" : "Calculated or imputed",
+            "mod_year" : "2003",
+            "rounded" : "3",
+            "derivation" : "Based on another form of the food or similar food; Concentration adjustment; Fat; Retention factors not used",
+            "std_error" : "",
+            "imputed" : "",
+            "upper_error" : "",
+            "sources" : [
+               "S2"
+            ],
+            "studies" : "",
+            "maxval" : "",
+            "lower_error" : "",
+            "conf" : "",
+            "is_add" : ""
+         },
+         "abbr" : "F18D2"
+      },
+      {
+         "abbr" : "F18D3",
+         "meta" : {
+            "minval" : "",
+            "stat_comments" : "",
+            "degrees_of_freedom" : "",
+            "mod_month" : "04",
+            "data_points" : "0",
+            "studies" : "",
+            "maxval" : "",
+            "conf" : "",
+            "lower_error" : "",
+            "is_add" : "",
+            "sources" : [
+               "S2"
+            ],
+            "derivation" : "Based on another form of the food or similar food; Concentration adjustment; Fat; Retention factors not used",
+            "std_error" : "",
+            "upper_error" : "",
+            "imputed" : "",
+            "mod_year" : "2003",
+            "rounded" : "3",
+            "source_type" : "Calculated or imputed"
+         },
+         "code" : "619",
+         "name" : "18:3 undifferentiated",
+         "value" : "0.265",
+         "units" : "g"
+      },
+      {
+         "units" : "g",
+         "value" : "0.036",
+         "name" : "20:4 undifferentiated",
+         "code" : "620",
+         "meta" : {
+            "source_type" : "Calculated or imputed",
+            "mod_year" : "2003",
+            "rounded" : "3",
+            "derivation" : "Based on another form of the food or similar food; Concentration adjustment; Fat; Retention factors not used",
+            "std_error" : "",
+            "upper_error" : "",
+            "imputed" : "",
+            "sources" : [
+               "S2"
+            ],
+            "studies" : "",
+            "maxval" : "",
+            "conf" : "",
+            "lower_error" : "",
+            "is_add" : "",
+            "mod_month" : "04",
+            "data_points" : "0",
+            "stat_comments" : "",
+            "degrees_of_freedom" : "",
+            "minval" : ""
+         },
+         "abbr" : "F20D4"
+      },
+      {
+         "meta" : {
+            "stat_comments" : "",
+            "degrees_of_freedom" : "",
+            "minval" : "",
+            "mod_month" : "04",
+            "data_points" : "0",
+            "maxval" : "",
+            "studies" : "",
+            "conf" : "",
+            "lower_error" : "",
+            "is_add" : "",
+            "derivation" : "Based on another form of the food or similar food; Concentration adjustment; Fat; Retention factors not used",
+            "std_error" : "",
+            "upper_error" : "",
+            "imputed" : "",
+            "sources" : [
+               "S2"
+            ],
+            "source_type" : "Calculated or imputed",
+            "mod_year" : "2003",
+            "rounded" : "3"
+         },
+         "abbr" : "F22D6",
+         "code" : "621",
+         "name" : "22:6 n-3 (DHA)",
+         "value" : "0.000",
+         "units" : "g"
+      },
+      {
+         "code" : "626",
+         "name" : "16:1 undifferentiated",
+         "meta" : {
+            "maxval" : "",
+            "studies" : "",
+            "lower_error" : "",
+            "conf" : "",
+            "is_add" : "",
+            "source_type" : "Calculated or imputed",
+            "mod_year" : "2003",
+            "rounded" : "3",
+            "derivation" : "Based on another form of the food or similar food; Concentration adjustment; Fat; Retention factors not used",
+            "std_error" : "",
+            "imputed" : "",
+            "upper_error" : "",
+            "sources" : [
+               "S2"
+            ],
+            "stat_comments" : "",
+            "degrees_of_freedom" : "",
+            "minval" : "",
+            "mod_month" : "04",
+            "data_points" : "0"
+         },
+         "abbr" : "F16D1",
+         "value" : "1.082",
+         "units" : "g"
+      },
+      {
+         "meta" : {
+            "data_points" : "0",
+            "mod_month" : "04",
+            "degrees_of_freedom" : "",
+            "stat_comments" : "",
+            "minval" : "",
+            "upper_error" : "",
+            "imputed" : "",
+            "std_error" : "",
+            "derivation" : "Based on another form of the food or similar food; Concentration adjustment; Fat; Retention factors not used",
+            "sources" : [
+               "S2"
+            ],
+            "source_type" : "Calculated or imputed",
+            "rounded" : "3",
+            "mod_year" : "2003",
+            "conf" : "",
+            "lower_error" : "",
+            "is_add" : "",
+            "studies" : "",
+            "maxval" : ""
+         },
+         "abbr" : "F18D4",
+         "code" : "627",
+         "name" : "18:4",
+         "value" : "0.000",
+         "units" : "g"
+      },
+      {
+         "name" : "20:1",
+         "code" : "628",
+         "abbr" : "F20D1",
+         "meta" : {
+            "studies" : "",
+            "maxval" : "",
+            "lower_error" : "",
+            "is_add" : "",
+            "conf" : "",
+            "derivation" : "Based on another form of the food or similar food; Concentration adjustment; Fat; Retention factors not used",
+            "std_error" : "",
+            "upper_error" : "",
+            "imputed" : "",
+            "sources" : [
+               "S2"
+            ],
+            "source_type" : "Calculated or imputed",
+            "mod_year" : "2003",
+            "rounded" : "3",
+            "stat_comments" : "",
+            "degrees_of_freedom" : "",
+            "minval" : "",
+            "mod_month" : "04",
+            "data_points" : "0"
+         },
+         "units" : "g",
+         "value" : "0.032"
+      },
+      {
+         "units" : "g",
+         "value" : "0.000",
+         "meta" : {
+            "studies" : "",
+            "maxval" : "",
+            "lower_error" : "",
+            "conf" : "",
+            "is_add" : "",
+            "mod_year" : "2003",
+            "rounded" : "3",
+            "source_type" : "Calculated or imputed",
+            "sources" : [
+               "S2"
+            ],
+            "std_error" : "",
+            "derivation" : "Based on another form of the food or similar food; Concentration adjustment; Fat; Retention factors not used",
+            "imputed" : "",
+            "upper_error" : "",
+            "minval" : "",
+            "stat_comments" : "",
+            "degrees_of_freedom" : "",
+            "mod_month" : "04",
+            "data_points" : "0"
+         },
+         "abbr" : "F20D5",
+         "name" : "20:5 n-3 (EPA)",
+         "code" : "629"
+      },
+      {
+         "meta" : {
+            "mod_month" : "04",
+            "data_points" : "0",
+            "stat_comments" : "",
+            "degrees_of_freedom" : "",
+            "minval" : "",
+            "source_type" : "Calculated or imputed",
+            "mod_year" : "2003",
+            "rounded" : "3",
+            "std_error" : "",
+            "derivation" : "Based on another form of the food or similar food; Concentration adjustment; Fat; Retention factors not used",
+            "imputed" : "",
+            "upper_error" : "",
+            "sources" : [
+               "S2"
+            ],
+            "maxval" : "",
+            "studies" : "",
+            "lower_error" : "",
+            "conf" : "",
+            "is_add" : ""
+         },
+         "abbr" : "F22D1",
+         "code" : "630",
+         "name" : "22:1 undifferentiated",
+         "value" : "0.000",
+         "units" : "g"
+      },
+      {
+         "units" : "g",
+         "value" : "0.000",
+         "name" : "22:5 n-3 (DPA)",
+         "code" : "631",
+         "abbr" : "F22D5",
+         "meta" : {
+            "lower_error" : "",
+            "conf" : "",
+            "is_add" : "",
+            "studies" : "",
+            "maxval" : "",
+            "source_type" : "Calculated or imputed",
+            "rounded" : "3",
+            "mod_year" : "2003",
+            "imputed" : "",
+            "upper_error" : "",
+            "derivation" : "Based on another form of the food or similar food; Concentration adjustment; Fat; Retention factors not used",
+            "std_error" : "",
+            "sources" : [
+               "S2"
+            ],
+            "degrees_of_freedom" : "",
+            "stat_comments" : "",
+            "minval" : "",
+            "data_points" : "0",
+            "mod_month" : "04"
+         }
+      },
+      {
+         "value" : "9.498",
+         "units" : "g",
+         "abbr" : "FAMS",
+         "meta" : {
+            "source_type" : "Calculated or imputed",
+            "mod_year" : "2010",
+            "rounded" : "3",
+            "std_error" : "",
+            "derivation" : "Nutrient that is based on other nutrient/s; calculated rather than analyzed",
+            "imputed" : "",
+            "upper_error" : "",
+            "sources" : [],
+            "studies" : "",
+            "maxval" : "",
+            "conf" : "",
+            "lower_error" : "",
+            "is_add" : "",
+            "mod_month" : "07",
+            "data_points" : "0",
+            "stat_comments" : "",
+            "degrees_of_freedom" : "",
+            "minval" : ""
+         },
+         "code" : "645",
+         "name" : "Fatty acids, total monounsaturated"
+      },
+      {
+         "code" : "646",
+         "name" : "Fatty acids, total polyunsaturated",
+         "abbr" : "FAPU",
+         "meta" : {
+            "sources" : [],
+            "std_error" : "",
+            "derivation" : "Nutrient that is based on other nutrient/s; calculated rather than analyzed",
+            "imputed" : "",
+            "upper_error" : "",
+            "mod_year" : "2010",
+            "rounded" : "3",
+            "source_type" : "Calculated or imputed",
+            "studies" : "",
+            "maxval" : "",
+            "is_add" : "",
+            "lower_error" : "",
+            "conf" : "",
+            "mod_month" : "07",
+            "data_points" : "0",
+            "minval" : "",
+            "stat_comments" : "",
+            "degrees_of_freedom" : ""
+         },
+         "value" : "0.844",
+         "units" : "g"
+      }
+   ],
+   "manufacturer" : "",
+   "portions" : [
+      {
+         "amt" : "1",
+         "unit" : "steak",
+         "g" : "452"
+      },
+      {
+         "g" : "28.35",
+         "unit" : "oz",
+         "amt" : "1"
+      },
+      {
+         "amt" : "4",
+         "unit" : "oz",
+         "g" : "113"
+      }
+   ],
+   "name" : {
+      "long" : "Beef, brisket, flat half, separable lean and fat, trimmed to 1/8\" fat, all grades, raw",
+      "common" : [
+         "CATTLE"
+      ],
+      "sci" : ""
+   }
+}

@@ -1,0 +1,952 @@
+{
+   "portions" : [
+      {
+         "unit" : "pieces",
+         "g" : "72",
+         "amt" : "2"
+      }
+   ],
+   "nutrients" : [
+      {
+         "code" : "203",
+         "abbr" : "PROCNT",
+         "meta" : {
+            "std_error" : "",
+            "upper_error" : "",
+            "mod_year" : "2011",
+            "sources" : [
+               "S6941"
+            ],
+            "stat_comments" : "",
+            "is_add" : "",
+            "rounded" : "2",
+            "minval" : "",
+            "source_type" : "Calculated by manufacturer, not adjusted or rounded for NLEA",
+            "degrees_of_freedom" : "",
+            "imputed" : "",
+            "data_points" : "1",
+            "conf" : "",
+            "derivation" : "Manufacturer supplied; Calculated by manufacturer or unknown if analytical or calculated",
+            "studies" : "",
+            "mod_month" : "07",
+            "maxval" : "",
+            "lower_error" : ""
+         },
+         "units" : "g",
+         "value" : "6.00",
+         "name" : "Protein"
+      },
+      {
+         "code" : "204",
+         "meta" : {
+            "std_error" : "",
+            "mod_year" : "2011",
+            "sources" : [
+               "S6941"
+            ],
+            "upper_error" : "",
+            "stat_comments" : "",
+            "is_add" : "",
+            "minval" : "",
+            "rounded" : "2",
+            "source_type" : "Calculated by manufacturer, not adjusted or rounded for NLEA",
+            "degrees_of_freedom" : "",
+            "imputed" : "",
+            "derivation" : "Manufacturer supplied; Calculated by manufacturer or unknown if analytical or calculated",
+            "conf" : "",
+            "data_points" : "1",
+            "mod_month" : "07",
+            "studies" : "",
+            "lower_error" : "",
+            "maxval" : ""
+         },
+         "abbr" : "FAT",
+         "units" : "g",
+         "value" : "7.40",
+         "name" : "Total lipid (fat)"
+      },
+      {
+         "units" : "g",
+         "abbr" : "CHOCDF",
+         "meta" : {
+            "derivation" : "Manufacturer supplied; Calculated by manufacturer or unknown if analytical or calculated",
+            "data_points" : "1",
+            "conf" : "",
+            "imputed" : "",
+            "lower_error" : "",
+            "maxval" : "",
+            "mod_month" : "07",
+            "studies" : "",
+            "minval" : "",
+            "rounded" : "2",
+            "is_add" : "",
+            "degrees_of_freedom" : "",
+            "source_type" : "Calculated by manufacturer, not adjusted or rounded for NLEA",
+            "stat_comments" : "",
+            "std_error" : "",
+            "mod_year" : "2011",
+            "upper_error" : "",
+            "sources" : [
+               "S6941"
+            ]
+         },
+         "code" : "205",
+         "name" : "Carbohydrate, by difference",
+         "value" : "35.40"
+      },
+      {
+         "units" : "kcal",
+         "abbr" : "ENERC_KCAL",
+         "meta" : {
+            "mod_year" : "2011",
+            "upper_error" : "",
+            "sources" : [
+               "S6941"
+            ],
+            "std_error" : "",
+            "stat_comments" : "",
+            "degrees_of_freedom" : "",
+            "source_type" : "Calculated by manufacturer, not adjusted or rounded for NLEA",
+            "rounded" : "0",
+            "minval" : "",
+            "is_add" : "",
+            "maxval" : "",
+            "lower_error" : "",
+            "studies" : "",
+            "mod_month" : "07",
+            "data_points" : "1",
+            "conf" : "",
+            "derivation" : "Manufacturer supplied; Calculated by manufacturer or unknown if analytical or calculated",
+            "imputed" : ""
+         },
+         "code" : "208",
+         "name" : "Energy",
+         "value" : "197"
+      },
+      {
+         "name" : "Water",
+         "value" : "47.70",
+         "units" : "g",
+         "code" : "255",
+         "meta" : {
+            "stat_comments" : "",
+            "std_error" : "",
+            "sources" : [
+               "S6941"
+            ],
+            "mod_year" : "2011",
+            "upper_error" : "",
+            "data_points" : "1",
+            "conf" : "",
+            "derivation" : "Manufacturer supplied; Calculated by manufacturer or unknown if analytical or calculated",
+            "imputed" : "",
+            "lower_error" : "",
+            "maxval" : "",
+            "studies" : "",
+            "mod_month" : "07",
+            "rounded" : "2",
+            "minval" : "",
+            "is_add" : "",
+            "degrees_of_freedom" : "",
+            "source_type" : "Calculated by manufacturer, not adjusted or rounded for NLEA"
+         },
+         "abbr" : "WATER"
+      },
+      {
+         "units" : "kJ",
+         "code" : "268",
+         "abbr" : "ENERC_KJ",
+         "meta" : {
+            "studies" : "",
+            "mod_month" : "07",
+            "maxval" : "",
+            "lower_error" : "",
+            "imputed" : "",
+            "data_points" : "0",
+            "conf" : "",
+            "derivation" : "Manufacturer supplied; Calculated by manufacturer or unknown if analytical or calculated",
+            "source_type" : "Calculated by manufacturer, not adjusted or rounded for NLEA",
+            "degrees_of_freedom" : "",
+            "is_add" : "",
+            "rounded" : "0",
+            "minval" : "",
+            "stat_comments" : "",
+            "mod_year" : "2011",
+            "upper_error" : "",
+            "sources" : [],
+            "std_error" : ""
+         },
+         "name" : "Energy",
+         "value" : "824"
+      },
+      {
+         "name" : "Sugars, total",
+         "value" : "4.20",
+         "units" : "g",
+         "abbr" : "SUGAR",
+         "meta" : {
+            "imputed" : "",
+            "derivation" : "Manufacturer supplied; Calculated by manufacturer or unknown if analytical or calculated",
+            "data_points" : "1",
+            "conf" : "",
+            "mod_month" : "07",
+            "studies" : "",
+            "lower_error" : "",
+            "maxval" : "",
+            "is_add" : "",
+            "minval" : "",
+            "rounded" : "2",
+            "source_type" : "Calculated by manufacturer, not adjusted or rounded for NLEA",
+            "degrees_of_freedom" : "",
+            "stat_comments" : "",
+            "std_error" : "",
+            "mod_year" : "2011",
+            "upper_error" : "",
+            "sources" : [
+               "S6941"
+            ]
+         },
+         "code" : "269"
+      },
+      {
+         "units" : "g",
+         "code" : "291",
+         "meta" : {
+            "lower_error" : "",
+            "maxval" : "",
+            "mod_month" : "07",
+            "studies" : "",
+            "derivation" : "Manufacturer supplied; Calculated by manufacturer or unknown if analytical or calculated",
+            "data_points" : "1",
+            "conf" : "",
+            "imputed" : "",
+            "degrees_of_freedom" : "",
+            "source_type" : "Calculated by manufacturer, not adjusted or rounded for NLEA",
+            "minval" : "",
+            "rounded" : "1",
+            "is_add" : "",
+            "stat_comments" : "",
+            "mod_year" : "2011",
+            "upper_error" : "",
+            "sources" : [
+               "S6941"
+            ],
+            "std_error" : ""
+         },
+         "abbr" : "FIBTG",
+         "name" : "Fiber, total dietary",
+         "value" : "9.3"
+      },
+      {
+         "name" : "Calcium, Ca",
+         "value" : "53",
+         "units" : "mg",
+         "code" : "301",
+         "meta" : {
+            "conf" : "",
+            "data_points" : "1",
+            "derivation" : "Manufacturer supplied; Calculated by manufacturer or unknown if analytical or calculated",
+            "imputed" : "",
+            "lower_error" : "",
+            "maxval" : "",
+            "studies" : "",
+            "mod_month" : "07",
+            "rounded" : "0",
+            "minval" : "",
+            "is_add" : "",
+            "degrees_of_freedom" : "",
+            "source_type" : "Calculated by manufacturer, not adjusted or rounded for NLEA",
+            "stat_comments" : "",
+            "std_error" : "",
+            "mod_year" : "2011",
+            "upper_error" : "",
+            "sources" : [
+               "S6941"
+            ]
+         },
+         "abbr" : "CA"
+      },
+      {
+         "code" : "303",
+         "meta" : {
+            "studies" : "",
+            "mod_month" : "07",
+            "lower_error" : "",
+            "maxval" : "",
+            "imputed" : "",
+            "conf" : "",
+            "data_points" : "1",
+            "derivation" : "Manufacturer supplied; Calculated by manufacturer or unknown if analytical or calculated",
+            "source_type" : "Calculated by manufacturer, not adjusted or rounded for NLEA",
+            "degrees_of_freedom" : "",
+            "is_add" : "",
+            "rounded" : "2",
+            "minval" : "",
+            "stat_comments" : "",
+            "sources" : [
+               "S6941"
+            ],
+            "mod_year" : "2011",
+            "upper_error" : "",
+            "std_error" : ""
+         },
+         "abbr" : "FE",
+         "units" : "mg",
+         "value" : "2.00",
+         "name" : "Iron, Fe"
+      },
+      {
+         "value" : "39",
+         "name" : "Magnesium, Mg",
+         "code" : "304",
+         "meta" : {
+            "lower_error" : "",
+            "maxval" : "",
+            "studies" : "",
+            "mod_month" : "07",
+            "data_points" : "1",
+            "conf" : "",
+            "derivation" : "Manufacturer supplied; Calculated by manufacturer or unknown if analytical or calculated",
+            "imputed" : "",
+            "degrees_of_freedom" : "",
+            "source_type" : "Calculated by manufacturer, not adjusted or rounded for NLEA",
+            "rounded" : "0",
+            "minval" : "",
+            "is_add" : "",
+            "stat_comments" : "",
+            "upper_error" : "",
+            "mod_year" : "2011",
+            "sources" : [
+               "S6941"
+            ],
+            "std_error" : ""
+         },
+         "abbr" : "MG",
+         "units" : "mg"
+      },
+      {
+         "name" : "Phosphorus, P",
+         "value" : "381",
+         "units" : "mg",
+         "code" : "305",
+         "meta" : {
+            "lower_error" : "",
+            "maxval" : "",
+            "studies" : "",
+            "mod_month" : "07",
+            "conf" : "",
+            "data_points" : "1",
+            "derivation" : "Manufacturer supplied; Calculated by manufacturer or unknown if analytical or calculated",
+            "imputed" : "",
+            "degrees_of_freedom" : "",
+            "source_type" : "Calculated by manufacturer, not adjusted or rounded for NLEA",
+            "rounded" : "0",
+            "minval" : "",
+            "is_add" : "",
+            "stat_comments" : "",
+            "upper_error" : "",
+            "mod_year" : "2011",
+            "sources" : [
+               "S6941"
+            ],
+            "std_error" : ""
+         },
+         "abbr" : "P"
+      },
+      {
+         "units" : "mg",
+         "code" : "306",
+         "meta" : {
+            "std_error" : "",
+            "mod_year" : "2011",
+            "upper_error" : "",
+            "sources" : [
+               "S6941"
+            ],
+            "stat_comments" : "",
+            "minval" : "",
+            "rounded" : "0",
+            "is_add" : "",
+            "degrees_of_freedom" : "",
+            "source_type" : "Calculated by manufacturer, not adjusted or rounded for NLEA",
+            "derivation" : "Manufacturer supplied; Calculated by manufacturer or unknown if analytical or calculated",
+            "conf" : "",
+            "data_points" : "1",
+            "imputed" : "",
+            "maxval" : "",
+            "lower_error" : "",
+            "mod_month" : "07",
+            "studies" : ""
+         },
+         "abbr" : "K",
+         "name" : "Potassium, K",
+         "value" : "177"
+      },
+      {
+         "name" : "Sodium, Na",
+         "value" : "479",
+         "units" : "mg",
+         "code" : "307",
+         "abbr" : "NA",
+         "meta" : {
+            "stat_comments" : "",
+            "upper_error" : "",
+            "mod_year" : "2011",
+            "sources" : [
+               "S6941"
+            ],
+            "std_error" : "",
+            "lower_error" : "",
+            "maxval" : "",
+            "mod_month" : "07",
+            "studies" : "",
+            "derivation" : "Manufacturer supplied; Calculated by manufacturer or unknown if analytical or calculated",
+            "data_points" : "1",
+            "conf" : "",
+            "imputed" : "",
+            "degrees_of_freedom" : "",
+            "source_type" : "Calculated by manufacturer, not adjusted or rounded for NLEA",
+            "minval" : "",
+            "rounded" : "0",
+            "is_add" : ""
+         }
+      },
+      {
+         "name" : "Zinc, Zn",
+         "value" : "1.10",
+         "units" : "mg",
+         "code" : "309",
+         "abbr" : "ZN",
+         "meta" : {
+            "upper_error" : "",
+            "mod_year" : "2011",
+            "sources" : [
+               "S6941"
+            ],
+            "std_error" : "",
+            "stat_comments" : "",
+            "source_type" : "Calculated by manufacturer, not adjusted or rounded for NLEA",
+            "degrees_of_freedom" : "",
+            "is_add" : "",
+            "minval" : "",
+            "rounded" : "2",
+            "mod_month" : "07",
+            "studies" : "",
+            "lower_error" : "",
+            "maxval" : "",
+            "imputed" : "",
+            "derivation" : "Manufacturer supplied; Calculated by manufacturer or unknown if analytical or calculated",
+            "conf" : "",
+            "data_points" : "1"
+         }
+      },
+      {
+         "code" : "318",
+         "meta" : {
+            "stat_comments" : "",
+            "std_error" : "",
+            "upper_error" : "",
+            "mod_year" : "2011",
+            "sources" : [
+               "S6941"
+            ],
+            "imputed" : "",
+            "derivation" : "Manufacturer supplied; Calculated by manufacturer or unknown if analytical or calculated",
+            "conf" : "",
+            "data_points" : "1",
+            "mod_month" : "07",
+            "studies" : "",
+            "maxval" : "",
+            "lower_error" : "",
+            "is_add" : "",
+            "minval" : "",
+            "rounded" : "0",
+            "source_type" : "Calculated by manufacturer, not adjusted or rounded for NLEA",
+            "degrees_of_freedom" : ""
+         },
+         "abbr" : "VITA_IU",
+         "units" : "IU",
+         "value" : "5",
+         "name" : "Vitamin A, IU"
+      },
+      {
+         "code" : "320",
+         "abbr" : "VITA_RAE",
+         "meta" : {
+            "degrees_of_freedom" : "",
+            "source_type" : "Calculated or imputed",
+            "rounded" : "0",
+            "minval" : "",
+            "is_add" : "",
+            "lower_error" : "",
+            "maxval" : "",
+            "studies" : "",
+            "mod_month" : "07",
+            "data_points" : "0",
+            "conf" : "",
+            "derivation" : "Nutrient that is based on other nutrient/s; value used directly, ex. Nut.#204 from Nut.#298",
+            "imputed" : "",
+            "upper_error" : "",
+            "mod_year" : "2011",
+            "sources" : [],
+            "std_error" : "",
+            "stat_comments" : ""
+         },
+         "units" : "µg",
+         "value" : "0",
+         "name" : "Vitamin A, RAE"
+      },
+      {
+         "code" : "323",
+         "meta" : {
+            "stat_comments" : "",
+            "std_error" : "",
+            "upper_error" : "",
+            "mod_year" : "2011",
+            "sources" : [
+               "S6941"
+            ],
+            "derivation" : "Manufacturer supplied; Calculated by manufacturer or unknown if analytical or calculated",
+            "conf" : "",
+            "data_points" : "1",
+            "imputed" : "",
+            "lower_error" : "",
+            "maxval" : "",
+            "mod_month" : "07",
+            "studies" : "",
+            "minval" : "",
+            "rounded" : "2",
+            "is_add" : "",
+            "degrees_of_freedom" : "",
+            "source_type" : "Calculated by manufacturer, not adjusted or rounded for NLEA"
+         },
+         "abbr" : "TOCPHA",
+         "units" : "mg",
+         "value" : "0.00",
+         "name" : "Vitamin E (alpha-tocopherol)"
+      },
+      {
+         "name" : "Vitamin D",
+         "value" : "0",
+         "units" : "IU",
+         "code" : "324",
+         "meta" : {
+            "stat_comments" : "",
+            "std_error" : "",
+            "mod_year" : "2011",
+            "upper_error" : "",
+            "sources" : [
+               "S6941"
+            ],
+            "derivation" : "Manufacturer supplied; Calculated by manufacturer or unknown if analytical or calculated",
+            "data_points" : "1",
+            "conf" : "",
+            "imputed" : "",
+            "maxval" : "",
+            "lower_error" : "",
+            "mod_month" : "07",
+            "studies" : "",
+            "minval" : "",
+            "rounded" : "0",
+            "is_add" : "",
+            "degrees_of_freedom" : "",
+            "source_type" : "Calculated by manufacturer, not adjusted or rounded for NLEA"
+         },
+         "abbr" : "VITD"
+      },
+      {
+         "abbr" : "VITD",
+         "meta" : {
+            "imputed" : "",
+            "data_points" : "0",
+            "conf" : "",
+            "derivation" : "Nutrient that is based on other nutrient/s; value used directly, ex. Nut.#204 from Nut.#298",
+            "studies" : "",
+            "mod_month" : "08",
+            "maxval" : "",
+            "lower_error" : "",
+            "is_add" : "",
+            "rounded" : "1",
+            "minval" : "",
+            "source_type" : "Calculated or imputed",
+            "degrees_of_freedom" : "",
+            "stat_comments" : "",
+            "std_error" : "",
+            "sources" : [],
+            "mod_year" : "2012",
+            "upper_error" : ""
+         },
+         "code" : "328",
+         "units" : "µg",
+         "value" : "0.0",
+         "name" : "Vitamin D (D2 + D3)"
+      },
+      {
+         "code" : "401",
+         "abbr" : "VITC",
+         "meta" : {
+            "stat_comments" : "",
+            "mod_year" : "2011",
+            "upper_error" : "",
+            "sources" : [
+               "S6941"
+            ],
+            "std_error" : "",
+            "lower_error" : "",
+            "maxval" : "",
+            "mod_month" : "07",
+            "studies" : "",
+            "derivation" : "Manufacturer supplied; Calculated by manufacturer or unknown if analytical or calculated",
+            "data_points" : "1",
+            "conf" : "",
+            "imputed" : "",
+            "degrees_of_freedom" : "",
+            "source_type" : "Calculated by manufacturer, not adjusted or rounded for NLEA",
+            "minval" : "",
+            "rounded" : "1",
+            "is_add" : ""
+         },
+         "units" : "mg",
+         "value" : "0.0",
+         "name" : "Vitamin C, total ascorbic acid"
+      },
+      {
+         "code" : "404",
+         "meta" : {
+            "mod_month" : "07",
+            "studies" : "",
+            "lower_error" : "",
+            "maxval" : "",
+            "imputed" : "",
+            "derivation" : "Manufacturer supplied; Calculated by manufacturer or unknown if analytical or calculated",
+            "conf" : "",
+            "data_points" : "1",
+            "source_type" : "Calculated by manufacturer, not adjusted or rounded for NLEA",
+            "degrees_of_freedom" : "",
+            "is_add" : "",
+            "minval" : "",
+            "rounded" : "3",
+            "stat_comments" : "",
+            "upper_error" : "",
+            "mod_year" : "2011",
+            "sources" : [
+               "S6941"
+            ],
+            "std_error" : ""
+         },
+         "abbr" : "THIA",
+         "units" : "mg",
+         "value" : "0.160",
+         "name" : "Thiamin"
+      },
+      {
+         "code" : "405",
+         "abbr" : "RIBF",
+         "meta" : {
+            "stat_comments" : "",
+            "std_error" : "",
+            "sources" : [
+               "S6941"
+            ],
+            "mod_year" : "2011",
+            "upper_error" : "",
+            "imputed" : "",
+            "derivation" : "Manufacturer supplied; Calculated by manufacturer or unknown if analytical or calculated",
+            "data_points" : "1",
+            "conf" : "",
+            "mod_month" : "07",
+            "studies" : "",
+            "lower_error" : "",
+            "maxval" : "",
+            "is_add" : "",
+            "minval" : "",
+            "rounded" : "3",
+            "source_type" : "Calculated by manufacturer, not adjusted or rounded for NLEA",
+            "degrees_of_freedom" : ""
+         },
+         "units" : "mg",
+         "value" : "0.050",
+         "name" : "Riboflavin"
+      },
+      {
+         "value" : "1.700",
+         "name" : "Niacin",
+         "code" : "406",
+         "abbr" : "NIA",
+         "meta" : {
+            "stat_comments" : "",
+            "std_error" : "",
+            "upper_error" : "",
+            "mod_year" : "2011",
+            "sources" : [
+               "S6941"
+            ],
+            "derivation" : "Manufacturer supplied; Calculated by manufacturer or unknown if analytical or calculated",
+            "data_points" : "1",
+            "conf" : "",
+            "imputed" : "",
+            "maxval" : "",
+            "lower_error" : "",
+            "mod_month" : "07",
+            "studies" : "",
+            "minval" : "",
+            "rounded" : "3",
+            "is_add" : "",
+            "degrees_of_freedom" : "",
+            "source_type" : "Calculated by manufacturer, not adjusted or rounded for NLEA"
+         },
+         "units" : "mg"
+      },
+      {
+         "units" : "mg",
+         "abbr" : "VITB6A",
+         "meta" : {
+            "is_add" : "",
+            "minval" : "",
+            "rounded" : "3",
+            "source_type" : "Calculated by manufacturer, not adjusted or rounded for NLEA",
+            "degrees_of_freedom" : "",
+            "imputed" : "",
+            "derivation" : "Manufacturer supplied; Calculated by manufacturer or unknown if analytical or calculated",
+            "data_points" : "1",
+            "conf" : "",
+            "mod_month" : "07",
+            "studies" : "",
+            "maxval" : "",
+            "lower_error" : "",
+            "std_error" : "",
+            "mod_year" : "2011",
+            "upper_error" : "",
+            "sources" : [
+               "S6941"
+            ],
+            "stat_comments" : ""
+         },
+         "code" : "415",
+         "name" : "Vitamin B-6",
+         "value" : "0.030"
+      },
+      {
+         "units" : "µg",
+         "code" : "417",
+         "meta" : {
+            "stat_comments" : "",
+            "std_error" : "",
+            "upper_error" : "",
+            "mod_year" : "2011",
+            "sources" : [
+               "S6941"
+            ],
+            "imputed" : "",
+            "derivation" : "Manufacturer supplied; Calculated by manufacturer or unknown if analytical or calculated",
+            "data_points" : "1",
+            "conf" : "",
+            "mod_month" : "07",
+            "studies" : "",
+            "maxval" : "",
+            "lower_error" : "",
+            "is_add" : "",
+            "minval" : "",
+            "rounded" : "0",
+            "source_type" : "Calculated by manufacturer, not adjusted or rounded for NLEA",
+            "degrees_of_freedom" : ""
+         },
+         "abbr" : "FOL",
+         "name" : "Folate, total",
+         "value" : "16"
+      },
+      {
+         "units" : "µg",
+         "abbr" : "VITB12",
+         "meta" : {
+            "minval" : "",
+            "rounded" : "2",
+            "is_add" : "",
+            "degrees_of_freedom" : "",
+            "source_type" : "Calculated by manufacturer, not adjusted or rounded for NLEA",
+            "derivation" : "Manufacturer supplied; Calculated by manufacturer or unknown if analytical or calculated",
+            "data_points" : "1",
+            "conf" : "",
+            "imputed" : "",
+            "lower_error" : "",
+            "maxval" : "",
+            "mod_month" : "07",
+            "studies" : "",
+            "std_error" : "",
+            "sources" : [
+               "S6941"
+            ],
+            "mod_year" : "2011",
+            "upper_error" : "",
+            "stat_comments" : ""
+         },
+         "code" : "418",
+         "name" : "Vitamin B-12",
+         "value" : "0.00"
+      },
+      {
+         "units" : "mg",
+         "code" : "601",
+         "abbr" : "CHOLE",
+         "meta" : {
+            "stat_comments" : "",
+            "std_error" : "",
+            "upper_error" : "",
+            "mod_year" : "2011",
+            "sources" : [
+               "S6941"
+            ],
+            "imputed" : "",
+            "data_points" : "1",
+            "conf" : "",
+            "derivation" : "Manufacturer supplied; Calculated by manufacturer or unknown if analytical or calculated",
+            "studies" : "",
+            "mod_month" : "07",
+            "lower_error" : "",
+            "maxval" : "",
+            "is_add" : "",
+            "rounded" : "0",
+            "minval" : "",
+            "source_type" : "Calculated by manufacturer, not adjusted or rounded for NLEA",
+            "degrees_of_freedom" : ""
+         },
+         "name" : "Cholesterol",
+         "value" : "0"
+      },
+      {
+         "units" : "g",
+         "code" : "605",
+         "meta" : {
+            "mod_year" : "2011",
+            "sources" : [
+               "S6941"
+            ],
+            "upper_error" : "",
+            "std_error" : "",
+            "stat_comments" : "",
+            "degrees_of_freedom" : "",
+            "source_type" : "Calculated by manufacturer, not adjusted or rounded for NLEA",
+            "rounded" : "3",
+            "minval" : "",
+            "is_add" : "",
+            "lower_error" : "",
+            "maxval" : "",
+            "studies" : "",
+            "mod_month" : "07",
+            "conf" : "",
+            "data_points" : "1",
+            "derivation" : "Manufacturer supplied; Calculated by manufacturer or unknown if analytical or calculated",
+            "imputed" : ""
+         },
+         "abbr" : "FATRN",
+         "name" : "Fatty acids, total trans",
+         "value" : "0.100"
+      },
+      {
+         "value" : "0.700",
+         "name" : "Fatty acids, total saturated",
+         "code" : "606",
+         "abbr" : "FASAT",
+         "meta" : {
+            "stat_comments" : "",
+            "std_error" : "",
+            "sources" : [
+               "S6941"
+            ],
+            "mod_year" : "2011",
+            "upper_error" : "",
+            "derivation" : "Manufacturer supplied; Calculated by manufacturer or unknown if analytical or calculated",
+            "conf" : "",
+            "data_points" : "1",
+            "imputed" : "",
+            "maxval" : "",
+            "lower_error" : "",
+            "mod_month" : "07",
+            "studies" : "",
+            "minval" : "",
+            "rounded" : "3",
+            "is_add" : "",
+            "degrees_of_freedom" : "",
+            "source_type" : "Calculated by manufacturer, not adjusted or rounded for NLEA"
+         },
+         "units" : "g"
+      },
+      {
+         "name" : "Fatty acids, total monounsaturated",
+         "value" : "3.500",
+         "units" : "g",
+         "code" : "645",
+         "abbr" : "FAMS",
+         "meta" : {
+            "is_add" : "",
+            "rounded" : "3",
+            "minval" : "",
+            "source_type" : "Calculated by manufacturer, not adjusted or rounded for NLEA",
+            "degrees_of_freedom" : "",
+            "imputed" : "",
+            "conf" : "",
+            "data_points" : "1",
+            "derivation" : "Manufacturer supplied; Calculated by manufacturer or unknown if analytical or calculated",
+            "studies" : "",
+            "mod_month" : "07",
+            "maxval" : "",
+            "lower_error" : "",
+            "std_error" : "",
+            "mod_year" : "2011",
+            "upper_error" : "",
+            "sources" : [
+               "S6941"
+            ],
+            "stat_comments" : ""
+         }
+      },
+      {
+         "code" : "646",
+         "abbr" : "FAPU",
+         "meta" : {
+            "stat_comments" : "",
+            "mod_year" : "2011",
+            "upper_error" : "",
+            "sources" : [
+               "S6941"
+            ],
+            "std_error" : "",
+            "studies" : "",
+            "mod_month" : "07",
+            "lower_error" : "",
+            "maxval" : "",
+            "imputed" : "",
+            "data_points" : "1",
+            "conf" : "",
+            "derivation" : "Manufacturer supplied; Calculated by manufacturer or unknown if analytical or calculated",
+            "source_type" : "Calculated by manufacturer, not adjusted or rounded for NLEA",
+            "degrees_of_freedom" : "",
+            "is_add" : "",
+            "rounded" : "3",
+            "minval" : ""
+         },
+         "units" : "g",
+         "value" : "2.400",
+         "name" : "Fatty acids, total polyunsaturated"
+      }
+   ],
+   "name" : {
+      "long" : "Kashi Original Waffle",
+      "common" : [],
+      "sci" : ""
+   },
+   "group" : "Baked Products",
+   "meta" : {
+      "ref_desc" : "",
+      "fat_factor" : "",
+      "footnotes" : [],
+      "nitrogen_factor" : "6.25",
+      "ndb_no" : 18980,
+      "fndds_survey" : "",
+      "carb_factor" : "",
+      "protein_factor" : "",
+      "langual" : [],
+      "ref_per" : "0"
+   },
+   "manufacturer" : "Kellogg, Co."
+}

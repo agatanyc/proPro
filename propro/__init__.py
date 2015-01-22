@@ -22,5 +22,7 @@ def usda_source():
     Return a source of data from the USDA.
     """
     here = os.path.dirname(os.path.realpath(__file__)) # propro
-    path = os.path.join(here, 'nice')
+    path = os.path.join(here, 'nice') 
+    """`path` is a directory of JSON files of exported USDA data."""
+
     return usda.Source(path)

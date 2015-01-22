@@ -11,31 +11,28 @@ from propro import mock
 class TestMockSource(unittest.TestCase):
 
     def setUp(self):
-        self.source = mock.Source()
-        self.chicken = 'Chicken'
+        self.foods = mock.Source().all_foods()
 
     def test_all_foods_returns_list(self):
-        foods = self.source.all_foods()
-        self.assertEqual(list, type(foods))
+        self.assertEqual(list, type(self.foods))
 
     def test_all_foods_returns_non_empty(self):
-        foods = self.source.all_foods()
-        self.assertTrue(foods)
+        self.assertTrue(self.foods)
 
     def test_all_foods_returns_unique_values(self):
-        foods = self.source.all_foods()
-        self.assertEqual(len(foods), len(set(foods)))
+        self.assertEqual(len(self.foods), len(set(self.foods)))
 
     def test_calories_per_oz(self):
-        cal = self.source.calories_per_oz(self.chicken)
-        self.assertGreaterEqual(cal, 0)
+        for food in self.foods:
+            self.assertGreaterEqual(food.calories_per_oz(), 0)
 
     def test_oz_per_serving(self):
-        self.assertGreater(self.source.oz_per_serving(self.chicken), 0)
+        for food in self.foods:
+            self.assertGreaterEqual(food.oz_per_serving(), 0)
 
     def test_protein_grams_per_oz(self):
-        g = self.source.protein_grams_per_oz(self.chicken)
-        self.assertGreaterEqual(g, 0)
+        for food in self.foods:
+            self.assertGreaterEqual(food.protein_grams_per_oz(), 0)
 
 if __name__ == '__main__':
     unittest.main()

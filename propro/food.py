@@ -15,6 +15,9 @@ class Food:
         self._oz_per_serving       = oz_per_serving
         self._protein_grams_per_oz = protein_grams_per_oz
 
+    def __repr__(self):
+        return self.names()[0]
+
     def names(self):
         """(Food) -> list of str
 

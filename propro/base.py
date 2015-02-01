@@ -6,7 +6,7 @@ class Source:
     # Abstract methods to be overridden by subclasses
 
     def all_foods(self):
-        """(Source) -> list of Food
+        """(Source) -> list of Food objects
 
         Return the names of all foods for which data are available from this
         source.
@@ -16,7 +16,7 @@ class Source:
     # Utility methods
 
     def foods_by_protein_content(self, protein_content):
-        """(Source, float) -> list of Food
+        """(Source, float) -> list of Food objects
 
         Return a list of foods having at least the specified `protein_content`
         (i.e., fraction of calories from protein). The content should be a

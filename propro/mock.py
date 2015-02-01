@@ -10,7 +10,7 @@ _data = { 'Chicken':          ( 30,  6,    6),
           'Greek Yogurt':     ( 16,  8, 2.75),
           'Candy':            ( 60,  1,    0) }
 
-class Source(base.Source):
+class MockSource(base.Source):
     """Protein data source returning only dummy data"""
 
     # Overrides of base Source

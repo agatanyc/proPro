@@ -11,7 +11,7 @@ from propro import mock
 class TestMockSource(unittest.TestCase):
 
     def setUp(self):
-        self.foods = mock.Source().all_foods()
+        self.foods = mock.MockSource().all_foods()
 
     def test_all_foods_returns_list(self):
         self.assertEqual(list, type(self.foods))
